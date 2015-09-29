@@ -8,14 +8,14 @@ ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
 Aegisub Scroll Position: 12
-Aegisub Active Line: 24
+Aegisub Active Line: 34
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/CppCon 2015 Bjarne Stroustrup “Writing Good C++  14”.mp4
 Video File: ../../../Videos/CppCon2015/CppCon 2015 Bjarne Stroustrup “Writing Good C++  14”.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 5837
+Aegisub Video Position: 6434
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -54,4 +54,8 @@ Dialogue: 0,0:02:53.67,0:02:57.47,Default,,0,0,0,,Maybe you know a thousand peop
 Dialogue: 0,0:02:57.74,0:03:02.86,Default,,0,0,0,,Maybe you know 10 thousand people, but that's only very tiny small fraction of the community.
 Dialogue: 0,0:03:02.86,0:03:04.35,Default,,0,0,0,,We have to do something better.
 Dialogue: 0,0:03:04.35,0:03:10.78,Default,,0,0,0,,People are writting c++ in really archaic and foreign styles
-Dialogue: 0,0:03:11.28,0:03:20.40,Default,,0,0,0,,
+Dialogue: 0,0:03:11.23,0:03:16.20,Default,,0,0,0,,Also you going to web and you'll see every little so-and-so trying to be language expert.
+Dialogue: 0,0:03:16.20,0:03:20.40,Default,,0,0,0,,And discussing the sanitates of rvalue references.
+Dialogue: 0,0:03:20.40,0:03:27.65,Default,,0,0,0,,Which does actually matter in most code unless you are writting a high performence library for use of others.
+Dialogue: 0,0:03:27.65,0:03:34.68,Default,,0,0,0,,So, they are all trying to be language lawyers and getting lost in technical details.
+Dialogue: 0,0:03:34.68,0:03:36.68,Default,,0,0,0,,

@@ -5,12 +5,17 @@ Title: Default Aegisub file
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-YCbCr Matrix: None
+YCbCr Matrix: TV.601
 Last Style Storage: Default
 Aegisub Scroll Position: 0
-Aegisub Active Line: 6
+Aegisub Active Line: 22
 Aegisub Video Zoom Percent: 1.000000
 Audio URI: ../../../Videos/CppCon2014/CPPBasicsSutter_high.mp4
+PlayResX: 1280
+PlayResY: 720
+Video File: ../../../Videos/CppCon2014/CPPBasicsSutter_high.mp4
+Aegisub Video Aspect Ratio: c1.777778
+Aegisub Video Position: 3798
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -21,8 +26,24 @@ Style: 居中标题,文泉驿正黑,150,&H0097108D,&H000000FF,&H00000000,&H00F7A
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:05.00,居中标题,,0,0,0,,avplayer.org\n社区出品
 Dialogue: 0,0:00:00.50,0:00:04.57,Default,,0,0,0,,Hey, Have you enjouy the week so far?
-Dialogue: 0,0:00:06.88,0:00:12.70,Default,,0,0,0,,I am not sure if are working right TODO, 
+Dialogue: 0,0:00:06.88,0:00:12.70,Default,,0,0,0,,I am not sure if both of your ears are working right, this half room, have you enjoy the cppcon so far? 
 Dialogue: 0,0:00:17.20,0:00:18.55,Default,,0,0,0,,you guys what do you think?
-Dialogue: 0,0:00:21.47,0:00:25.84,Default,,0,0,0,,TODO, one more time
+Dialogue: 0,0:00:21.47,0:00:25.84,Default,,0,0,0,,I don't know they might . TODO, lets hear you one more time~~~
 Dialogue: 0,0:00:29.06,0:00:29.75,Default,,0,0,0,,Thank you
-Dialogue: 0,0:00:29.75,0:00:35.38,Default,,0,0,0,,This has been such ason
+Dialogue: 0,0:00:29.75,0:00:35.38,Default,,0,0,0,,This has been such an awsome week for c++ and also really feasible atmosphere here.
+Dialogue: 0,0:00:35.38,0:00:40.48,Default,,0,0,0,,we want to thank you all very much for coming. and its been a blast.
+Dialogue: 0,0:00:40.88,0:00:49.39,Default,,0,0,0,,we are now at our final plan resession so I like to intruduce a speaker whose name happens to also be Herb.
+Dialogue: 0,0:01:00.70,0:01:02.36,Default,,0,0,0,,Hi, my name is Herb.
+Dialogue: 0,0:01:06.03,0:01:08.67,Default,,0,0,0,,You supose to say hi Herb.
+Dialogue: 0,0:01:10.44,0:01:16.45,Default,,0,0,0,,It is been one year three months and 18 days since my last template metaprogram
+Dialogue: 0,0:01:18.33,0:01:21.74,Default,,0,0,0,,Today I want to talk about the importance of resisting complexcity.
+Dialogue: 0,0:01:21.74,0:01:23.68,Default,,0,0,0,,I never thought
+Dialogue: 0,0:01:24.05,0:01:28.88,Default,,0,0,0,,I was intruduced to complexity by a friend, at least I thought he was a friend
+Dialogue: 0,0:01:28.95,0:01:36.88,Default,,0,0,0,,He showed me a cool programming trick on his computer at home in private, and it really worked on his compiler.
+Dialogue: 0,0:01:38.54,0:01:43.36,Default,,0,0,0,,So I started using a little complexity but just a little, not only at home
+Dialogue: 0,0:01:44.23,0:01:49.46,Default,,0,0,0,,but after a while as I got used to using complexity, something strange happend to me.
+Dialogue: 0,0:01:49.46,0:01:53.23,Default,,0,0,0,, 
+Dialogue: 0,0:01:53.23,0:01:57.52,Default,,0,0,0,,It seems simple - even no other people around me told me that was still too complex.
+Dialogue: 0,0:01:57.78,0:02:02.05,Default,,0,0,0,,So I started hanging out with people after work for social complexity
+Dialogue: 0,0:02:02.19,0:02:03.42,Default,,0,0,0,,on bar napkins.
+Dialogue: 0,0:02:03.70,0:02:09.03,Default,,0,0,0,,but then I started eating at work time
