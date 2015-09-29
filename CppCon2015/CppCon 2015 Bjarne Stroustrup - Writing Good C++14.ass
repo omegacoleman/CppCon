@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 12
-Aegisub Active Line: 34
+Aegisub Scroll Position: 68
+Aegisub Active Line: 90
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
-Audio URI: ../../../Videos/CppCon2015/CppCon 2015 Bjarne Stroustrup “Writing Good C++  14”.mp4
-Video File: ../../../Videos/CppCon2015/CppCon 2015 Bjarne Stroustrup “Writing Good C++  14”.mp4
+Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
+Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 6434
+Aegisub Video Position: 15837
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -58,4 +58,60 @@ Dialogue: 0,0:03:11.23,0:03:16.20,Default,,0,0,0,,Also you going to web and you'
 Dialogue: 0,0:03:16.20,0:03:20.40,Default,,0,0,0,,And discussing the sanitates of rvalue references.
 Dialogue: 0,0:03:20.40,0:03:27.65,Default,,0,0,0,,Which does actually matter in most code unless you are writting a high performence library for use of others.
 Dialogue: 0,0:03:27.65,0:03:34.68,Default,,0,0,0,,So, they are all trying to be language lawyers and getting lost in technical details.
-Dialogue: 0,0:03:34.68,0:03:36.68,Default,,0,0,0,,
+Dialogue: 0,0:03:35.11,0:03:43.55,Default,,0,0,0,,so basicly idea is "Doctor, docker, it hurts when I hit myself on the head with a hammer". The obvious answer is "so don't do it!"
+Dialogue: 0,0:03:43.81,0:03:45.81,Default,,0,0,0,,And that's what we are trying to do.
+Dialogue: 0,0:03:46.93,0:03:49.05,Default,,0,0,0,,There is a quote by me --
+Dialogue: 0,0:03:52.45,0:03:56.77,Default,,0,0,0,,Within c++ language there is a smaller simplier safer language struggling to get out.
+Dialogue: 0,0:03:56.77,0:04:02.50,Default,,0,0,0,,I think I said that in 94, 92... It a long time ago.
+Dialogue: 0,0:04:02.75,0:04:05.78,Default,,0,0,0,,it is even more true today that was there.
+Dialogue: 0,0:04:05.93,0:04:12.63,Default,,0,0,0,,You can simplify the code\n you can maintain the efficiency\nand we don't limit what you can say.
+Dialogue: 0,0:04:12.63,0:04:14.24,Default,,0,0,0,,these are important things.
+Dialogue: 0,0:04:14.24,0:04:16.24,Default,,0,0,0,,This is C++!
+Dialogue: 0,0:04:16.24,0:04:21.11,Default,,0,0,0,,It's not a so specialize language for a paticular application.
+Dialogue: 0,0:04:21.73,0:04:25.34,Default,,0,0,0,,So, lets get it out! lets get it out now!
+Dialogue: 0,0:04:25.57,0:04:30.84,Default,,0,0,0,,Lot of people solution to getting things better and simpler it to invent new languages.
+Dialogue: 0,0:04:30.84,0:04:32.84,Default,,0,0,0,,but that not now.
+Dialogue: 0,0:04:32.84,0:04:42.18,Default,,0,0,0,,If you invent a really good new language now,  large number of people will be able to use it, in 10 years, if you succeed.
+Dialogue: 0,0:04:42.36,0:04:48.97,Default,,0,0,0,,The succee rate for new languages especially general purpose programming languages is very close to zero.
+Dialogue: 0,0:04:48.97,0:04:50.97,Default,,0,0,0,,so, lets do it now!
+Dialogue: 0,0:04:51.20,0:04:53.91,Default,,0,0,0,,And I want to use those compilers.
+Dialogue: 0,0:04:53.91,0:04:59.92,Default,,0,0,0,,I mean, have you seen what compilers can do with your code interms of optimizing it?
+Dialogue: 0,0:04:59.92,0:05:08.69,Default,,0,0,0,,doesn't matter which compiler you are using for a modern compiler and sort of standard hardware. it's amazing.
+Dialogue: 0,0:05:08.90,0:05:15.69,Default,,0,0,0,,I mean, I am not sure what I could have done it if I had 10 years. but they did. this is going on for a long time.
+Dialogue: 0,0:05:15.69,0:05:23.70,Default,,0,0,0,,this doesn't just happen for a new language unless you can hijack the c++ code generation phase. which is a fair gain.
+Dialogue: 0,0:05:23.94,0:05:32.82,Default,,0,0,0,,So, I'm going to look for coding guidelines, provide guidence to people who wants to write modern c++ what ever that means.
+Dialogue: 0,0:05:33.01,0:05:40.04,Default,,0,0,0,,And, I know that just telling people what to do doesn't quite work.
+Dialogue: 0,0:05:40.04,0:05:43.04,Default,,0,0,0,,so you need support by tools and libraries.
+Dialogue: 0,0:05:43.18,0:05:50.25,Default,,0,0,0,,and again, we want generality, we want performence, we want simple code, and we want portibility.
+Dialogue: 0,0:05:50.25,0:05:54.77,Default,,0,0,0,,I dont want to be tight down by paticular hardware, paticular operation system.
+Dialogue: 0,0:05:55.05,0:05:56.52,Default,,0,0,0,,those all the gameness.
+Dialogue: 0,0:05:56.52,0:06:02.78,Default,,0,0,0,,I think we can do it. And I think we can do it, I know that I can't do it alone.
+Dialogue: 0,0:06:02.78,0:06:06.50,Default,,0,0,0,,I know that well that might be a genius somewhere.
+Dialogue: 0,0:06:06.50,0:06:08.99,Default,,0,0,0,,But I think I know that no individual can do it.
+Dialogue: 0,0:06:09.14,0:06:11.97,Default,,0,0,0,,And, no single company can
+Dialogue: 0,0:06:12.11,0:06:17.39,Default,,0,0,0,,It will be cature
+Dialogue: 0,0:06:17.39,0:06:19.15,Default,,0,0,0,,and you couldn't trust it all time.
+Dialogue: 0,0:06:19.15,0:06:27.14,Default,,0,0,0,,people explained that to me a long time ago to ensure that I took part in the (c++) standardization, so please help. 
+Dialogue: 0,0:06:27.14,0:06:33.16,Default,,0,0,0,,I'm going to say a little bit about what help we would like and who we are and things like that.
+Dialogue: 0,0:06:33.16,0:06:36.05,Default,,0,0,0,,so the initial work started
+Dialogue: 0,0:06:36.05,0:06:39.39,Default,,0,0,0,,there was a project out of microsoft by Herb Sutter and friends
+Dialogue: 0,0:06:39.39,0:06:42.01,Default,,0,0,0,,I started something at Morgan Stanley
+Dialogue: 0,0:06:42.01,0:06:45.98,Default,,0,0,0,,CERN has joined and contributed.
+Dialogue: 0,0:06:45.98,0:06:47.98,Default,,0,0,0,,And things are available.
+Dialogue: 0,0:06:47.98,0:06:49.98,Default,,0,0,0,,its there.
+Dialogue: 0,0:06:49.98,0:06:55.06,Default,,0,0,0,,you can find it on github, give you the urls towards the end.
+Dialogue: 0,0:06:55.06,0:06:58.29,Default,,0,0,0,,there is guide lines. a lot of them.
+Dialogue: 0,0:06:58.49,0:07:00.64,Default,,0,0,0,,there is little support library.
+Dialogue: 0,0:07:00.64,0:07:11.48,Default,,0,0,0,,which is some very simple classes that mostly mapping into standard library stuff if not  map straghtly into portable c++.
+Dialogue: 0,0:07:11.48,0:07:16.44,Default,,0,0,0,,portable meaning microsoft, gcc, clang; Windows, Linux, Mac
+Dialogue: 0,0:07:16.53,0:07:17.64,Default,,0,0,0,,and mac yeah.
+Dialogue: 0,0:07:17.97,0:07:25.52,Default,,0,0,0,,there is analyze tool that will be ship by the guy at microsoft that wrote it next month 
+Dialogue: 0,0:07:25.53,0:07:38.24,Default,,0,0,0,,and we hope to have port available later. maybe November? I don't know. I mean, you know, software project some time suffer delays.
+Dialogue: 0,0:07:38.42,0:07:41.09,Default,,0,0,0,,but we are planning for it.
+Dialogue: 0,0:07:43.13,0:07:46.58,Default,,0,0,0,,it exists. so I am saying anything in this talk that are science fictions.
+Dialogue: 0,0:07:46.93,0:07:50.52,Default,,0,0,0,,and its MIT licensed, so its open and free.
+Dialogue: 0,0:07:50.52,0:07:51.44,Default,,0,0,0,,so you can get it.
+Dialogue: 0,0:07:51.88,0:07:54.10,Default,,0,0,0,,and there's more talk about this.
+Dialogue: 0,0:07:55.02,0:08:01.92,Default,,0,0,0,,I am going to explain what we are trying to do with higher level terms with some examples
+Dialogue: 0,0:08:02.17,0:08:04.88,Default,,0,0,0,,Herb Sutter is going to talk more about it.
+Dialogue: 0,0:08:05.23,0:08:13.32,Default,,0,0,0,,Gabriel Dos Reis are going to talk how
