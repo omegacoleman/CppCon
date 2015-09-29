@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 7
-Aegisub Active Line: 29
+Aegisub Scroll Position: 0
+Aegisub Active Line: 8
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/CppCon 2015 Bjarne Stroustrup “Writing Good C++  14”.mp4
 Video File: ../../../Videos/CppCon2015/CppCon 2015 Bjarne Stroustrup “Writing Good C++  14”.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 6003
+Aegisub Video Position: 1698
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -32,6 +32,7 @@ Dialogue: 0,0:00:10.75,0:00:19.76,Default,,0,0,0,,And especially happy to see a 
 Dialogue: 0,0:00:20.19,0:00:27.90,Default,,0,0,0,,Anyway, I'm going to talk about how to write code
 Dialogue: 0,0:00:28.23,0:00:39.16,Default,,0,0,0,,and in particular \n-- a question has been boggle for a while, and I know it has boggle for a lot of new people -- is \n "What is good modern C++" ?
 Dialogue: 0,0:00:39.45,0:00:46.18,Default,,0,0,0,,We've done lots to the the languages over the last five years
+Dialogue: 0,0:00:46.37,0:00:52.47,Default,,0,0,0,,And lot of people have ideas about what it is to write good c++
 Dialogue: 0,0:00:52.74,0:00:55.74,Default,,0,0,0,,and , lots of people ask about it.
 Dialogue: 0,0:00:55.74,0:01:04.02,Default,,0,0,0,,so, this spring, I started a project trying to make some guidelines to how to write this
 Dialogue: 0,0:01:04.05,0:01:09.46,Default,,0,0,0,,turned out that other people were on the same kind of idea.
