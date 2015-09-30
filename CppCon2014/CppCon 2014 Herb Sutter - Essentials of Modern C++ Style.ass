@@ -8,14 +8,14 @@ ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
 Aegisub Scroll Position: 0
-Aegisub Active Line: 9
+Aegisub Active Line: 25
 Aegisub Video Zoom Percent: 1.000000
 Audio URI: ../../../Videos/CppCon2014/CPPBasicsSutter_high.mp4
 PlayResX: 1280
 PlayResY: 720
 Video File: ../../../Videos/CppCon2014/CPPBasicsSutter_high.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 1226
+Aegisub Video Position: 3941
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -48,4 +48,5 @@ Dialogue: 0,0:01:49.46,0:01:53.23,Default,,0,0,0,,
 Dialogue: 0,0:01:53.23,0:01:57.52,Default,,0,0,0,,It seems simple - even no other people around me told me that was still too complex.
 Dialogue: 0,0:01:57.78,0:02:02.05,Default,,0,0,0,,So I started hanging out with people after work for social complexity
 Dialogue: 0,0:02:02.19,0:02:03.42,Default,,0,0,0,,on bar napkins.
-Dialogue: 0,0:02:03.70,0:02:09.03,Default,,0,0,0,,but then I started eating at work time
+Dialogue: 0,0:02:03.70,0:02:09.03,Default,,0,0,0,,but then I started eating at work time, we started bringing it into office,  checking it in.
+Dialogue: 0,0:02:11.49,0:02:16.22,Default,,0,0,0,,some of you were at the template meta programming hacker fun last night. here's the picture
