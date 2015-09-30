@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 229
-Aegisub Active Line: 245
+Aegisub Scroll Position: 240
+Aegisub Active Line: 255
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 36155
+Aegisub Video Position: 37877
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -269,4 +269,14 @@ Dialogue: 0,0:19:46.91,0:19:50.84,Default,,0,0,0,,standart library class like ve
 Dialogue: 0,0:19:50.84,0:19:59.13,Default,,0,0,0,,and some guideline things array_view -  this is when you have a begining of a sequence and end
 Dialogue: 0,0:20:01.08,0:20:05.42,Default,,0,0,0,,not_null - you can say that a pointer shouldn't be null
 Dialogue: 0,0:20:05.42,0:20:06.36,Default,,0,0,0,,now get back to that
-Dialogue: 0,0:20:06.51,0:20:10.57,Default,,0,0,0,,so there's rules for using the GSL
+Dialogue: 0,0:20:06.49,0:20:10.64,Default,,0,0,0,,so there's rules for using the GSL
+Dialogue: 0,0:20:10.64,0:20:13.53,Default,,0,0,0,,Never transfer ownership by raw pointer
+Dialogue: 0,0:20:14.06,0:20:18.11,Default,,0,0,0,,the idea is if you see a T*, it points to an element.
+Dialogue: 0,0:20:18.32,0:20:23.80,Default,,0,0,0,,you are not suppose to delete it, because it just points to an element, somebody ownes it. that's it.
+Dialogue: 0,0:20:23.90,0:20:33.00,Default,,0,0,0,,and if you want to have something that can not ever be null and you still want a pointer, you can use not_null of that pointer type.
+Dialogue: 0,0:20:33.00,0:20:36.94,Default,,0,0,0,,now, there's rules that encourage you to use higher level abstractions
+Dialogue: 0,0:20:37.05,0:20:46.00,Default,,0,0,0,,but these here are choose to show how you can deal with traditional old style code and improve it : don't pass an array as a ingle pointer.
+Dialogue: 0,0:20:46.22,0:20:51.29,Default,,0,0,0,,so basically, guess what this could do'
+Dialogue: 0,0:20:51.69,0:20:58.28,Default,,0,0,0,,I don't actually think that we can do less than can say double our productivity
+Dialogue: 0,0:20:58.28,0:21:03.82,Default,,0,0,0,,this is big claim but I think it can be done 
+Dialogue: 0,0:21:03.82,0:21:05.82,Default,,0,0,0,,look at a good programmer
