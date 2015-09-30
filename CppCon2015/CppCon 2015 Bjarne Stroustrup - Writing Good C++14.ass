@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 284
-Aegisub Active Line: 292
+Aegisub Scroll Position: 302
+Aegisub Active Line: 318
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 43328
+Aegisub Video Position: 46778
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -316,4 +316,30 @@ Dialogue: 0,0:23:49.45,0:23:57.36,Default,,0,0,0,,you check for a paticular kind
 Dialogue: 0,0:23:57.42,0:24:00.30,Default,,0,0,0,,you get very tired and your concentration wavers.
 Dialogue: 0,0:24:00.38,0:24:01.40,Default,,0,0,0,,we neeeed tools
 Dialogue: 0,0:24:02.14,0:24:05.71,Default,,0,0,0,,the support library helps by simplify the rules
-Dialogue: 0,0:24:05.72,0:24:09.47,Default,,0,0,0,,
+Dialogue: 0,0:24:05.72,0:24:09.47,Default,,0,0,0,,and a lot of it has to do is reinforcing the type system.
+Dialogue: 0,0:24:09.52,0:24:16.73,Default,,0,0,0,,we can do better than we did it in 1978 and 1985
+Dialogue: 0,0:24:16.73,0:24:19.76,Default,,0,0,0,,so let's look at the core, the core rules.
+Dialogue: 0,0:24:21.10,0:24:29.00,Default,,0,0,0,,we have to start somewhere, so gradual adaption will be the way most of us will go on.
+Dialogue: 0,0:24:29.00,0:24:36.76,Default,,0,0,0,,if we write some brand new code from scratch, not using anybody else's libraries. then you can probably follow all the rules today.
+Dialogue: 0,0:24:37.08,0:24:39.32,Default,,0,0,0,,that doesn't happen very often.
+Dialogue: 0,0:24:39.52,0:24:42.46,Default,,0,0,0,,so I see gradual adaption be necessary.
+Dialogue: 0,0:24:42.91,0:24:47.05,Default,,0,0,0,,and therefore core of the core rules
+Dialogue: 0,0:24:47.08,0:24:52.09,Default,,0,0,0,,No leaks, No dangling pointers, No type violations through pointers at all!
+Dialogue: 0,0:24:52.46,0:24:55.72,Default,,0,0,0,,we know how to avoid leaks.
+Dialogue: 0,0:24:55.88,0:25:00.99,Default,,0,0,0,,we just root every object in a scope
+Dialogue: 0,0:25:00.99,0:25:04.48,Default,,0,0,0,,RAII kind of standard containers
+Dialogue: 0,0:25:04.48,0:25:09.60,Default,,0,0,0,,new and delete disappear into the abstractions
+Dialogue: 0,0:25:09.60,0:25:14.49,Default,,0,0,0,,this is nice. when I see "delete" in application code, there must be bugs somewhere.
+Dialogue: 0,0:25:15.04,0:25:15.69,Default,,0,0,0,,why?
+Dialogue: 0,0:25:15.69,0:25:19.96,Default,,0,0,0,,because if there is one delete, there probably should be more.
+Dialogue: 0,0:25:19.96,0:25:23.58,Default,,0,0,0,,and there are probably been too many.
+Dialogue: 0,0:25:23.58,0:25:29.42,Default,,0,0,0,,so new/delete disappear into classes
+Dialogue: 0,0:25:29.95,0:25:35.74,Default,,0,0,0,,when you see a "new" in application code, you think there must be a problem here. 
+Dialogue: 0,0:25:35.88,0:25:41.76,Default,,0,0,0,,because if there's a new there should be a delete somewhere, and if there's delete somewhere and we know from experience we made mistakes.
+Dialogue: 0,0:25:42.11,0:25:44.48,Default,,0,0,0,,so we don't do that.
+Dialogue: 0,0:25:44.62,0:25:48.76,Default,,0,0,0,,this leads us to what I think is a worse nightmare problem.
+Dialogue: 0,0:25:49.60,0:25:50.99,Default,,0,0,0,,dangling pointers
+Dialogue: 0,0:25:51.13,0:25:52.80,Default,,0,0,0,,and this are so easy to get to.
+Dialogue: 0,0:25:52.86,0:25:58.73,Default,,0,0,0,,here we have a function "f" that you give it a pointer and it deletes.
+Dialogue: 0,0:25:58.94,0:26:00.81,Default,,0,0,0,,so you deleted that pointer.
+Dialogue: 0,0:26:02.04,0:26:04.24,Default,,0,0,0,,that might be right or might be wrong.
