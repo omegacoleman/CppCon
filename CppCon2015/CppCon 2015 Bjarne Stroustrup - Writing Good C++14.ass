@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 258
-Aegisub Active Line: 274
+Aegisub Scroll Position: 264
+Aegisub Active Line: 276
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 40759
+Aegisub Video Position: 41219
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -298,4 +298,6 @@ Dialogue: 0,0:22:19.42,0:22:30.12,Default,,0,0,0,,My guess is every large organi
 Dialogue: 0,0:22:30.27,0:22:33.13,Default,,0,0,0,,so I'm talking about what I called the "core guidelines"
 Dialogue: 0,0:22:33.13,0:22:35.52,Default,,0,0,0,,things that pretentiously help everybody
 Dialogue: 0,0:22:35.52,0:22:39.96,Default,,0,0,0,,And I think most of you will want extensions in places.
-Dialogue: 0,0:22:39.96,0:22:45.08,Default,,0,0,0,,
+Dialogue: 0,0:22:40.09,0:22:53.04,Default,,0,0,0,,and some of you will want restructuring tool because there is some one recommended us that it doesn't quite fit in your world or maybe doesn't fit there for the next couple of years till you upgrade your codebase.
+Dialogue: 0,0:22:53.04,0:22:55.31,Default,,0,0,0,,and don't compromise performance
+Dialogue: 0,0:22:55.31,0:22:58.00,Default,,0,0,0,,performance is a really important aspect
