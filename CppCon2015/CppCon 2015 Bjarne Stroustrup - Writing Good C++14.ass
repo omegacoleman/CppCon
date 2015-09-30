@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 302
-Aegisub Active Line: 318
+Aegisub Scroll Position: 311
+Aegisub Active Line: 324
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 46778
+Aegisub Video Position: 47556
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -343,3 +343,9 @@ Dialogue: 0,0:25:51.13,0:25:52.80,Default,,0,0,0,,and this are so easy to get to
 Dialogue: 0,0:25:52.86,0:25:58.73,Default,,0,0,0,,here we have a function "f" that you give it a pointer and it deletes.
 Dialogue: 0,0:25:58.94,0:26:00.81,Default,,0,0,0,,so you deleted that pointer.
 Dialogue: 0,0:26:02.04,0:26:04.24,Default,,0,0,0,,that might be right or might be wrong.
+Dialogue: 0,0:26:04.51,0:26:08.76,Default,,0,0,0,,my rulers on it, it's very suspect because it is deleting application code.
+Dialogue: 0,0:26:09.18,0:26:12.46,Default,,0,0,0,,here is "g" makes an object, calls f.
+Dialogue: 0,0:26:12.76,0:26:20.62,Default,,0,0,0,,and then it uses q which happens to be the pointing the the object that was deleted in f.
+Dialogue: 0,0:26:20.80,0:26:23.23,Default,,0,0,0,,this is how you scram your memory
+Dialogue: 0,0:26:23.44,0:26:26.78,Default,,0,0,0,,the rules will make sure that you don't do this.
+Dialogue: 0,0:26:26.78,0:26:29.76,Default,,0,0,0,,
