@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 194
-Aegisub Active Line: 210
+Aegisub Scroll Position: 204
+Aegisub Active Line: 220
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 30739
+Aegisub Video Position: 32450
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -229,9 +229,19 @@ Dialogue: 0,0:16:27.26,0:16:31.62,Default,,0,0,0,,I mean you can refer to them i
 Dialogue: 0,0:16:32.01,0:16:38.49,Default,,0,0,0,,and NEVER NEVER tell people what not to do without giving a reason or what to do without giving a reason
 Dialogue: 0,0:16:38.53,0:16:44.15,Default,,0,0,0,,so every rule with the first thing that comes up with the rule itself is that rational a reason.
 Dialogue: 0,0:16:44.50,0:16:46.32,Default,,0,0,0,,and then it comes with an example.
-Dialogue: 0,0:16:46.40,0:16:53.05,Default,,0,0,0,, because buy and large we don't understand abstract text, we need a concrete example or more
+Dialogue: 0,0:16:46.40,0:16:53.05,Default,,0,0,0,,because by and large we don't understand abstract text, we need a concrete example or more
 Dialogue: 0,0:16:53.38,0:16:57.70,Default,,0,0,0,,if it's a "don't do this" rule, there should be alternatives.
 Dialogue: 0,0:16:57.81,0:17:01.12,Default,,0,0,0,,never tell people what not to do unless you give them alternatives.
 Dialogue: 0,0:17:01.84,0:17:03.54,Default,,0,0,0,,fairly simple to say.
 Dialogue: 0,0:17:03.79,0:17:05.64,Default,,0,0,0,,little bit hard to do sometimes.
-Dialogue: 0,0:17:05.64,0:17:07.64,Default,,0,0,0,,these rules are
+Dialogue: 0,0:17:05.70,0:17:10.83,Default,,0,0,0,,these rules are variable and value for a long time.
+Dialogue: 0,0:17:11.23,0:17:13.55,Default,,0,0,0,,There's references to other things.
+Dialogue: 0,0:17:13.55,0:17:18.34,Default,,0,0,0,,There's notes, things that we just felt was useful to say
+Dialogue: 0,0:17:18.44,0:17:26.99,Default,,0,0,0,,and then, there suppose to be long discussion at the end where you discuss a set of rules, set of reasons as such.
+Dialogue: 0,0:17:27.12,0:17:28.84,Default,,0,0,0,,it's bit weak just now.
+Dialogue: 0,0:17:28.91,0:17:30.62,Default,,0,0,0,,but that's the idea.
+Dialogue: 0,0:17:30.73,0:17:40.05,Default,,0,0,0,,some time you need more. as an explanation,  that what fits on above this many lines, fit right on your screen when you look at them.
+Dialogue: 0,0:17:40.30,0:17:42.53,Default,,0,0,0,,so that's structure.
+Dialogue: 0,0:17:42.87,0:17:52.28,Default,,0,0,0,,the general idea is that people who have tryed to subset language have by and large failed.
+Dialogue: 0,0:17:52.81,0:18:02.73,Default,,0,0,0,,the thing that you really want to get rid of, like bad uses of pointers, bad interactions between inheritance and arrays and things like that
+Dialogue: 0,0:18:02.73,0:18:04.73,Default,,0,0,0,,
