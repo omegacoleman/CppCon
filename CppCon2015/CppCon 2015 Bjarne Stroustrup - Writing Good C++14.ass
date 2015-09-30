@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 131
-Aegisub Active Line: 157
+Aegisub Scroll Position: 149
+Aegisub Active Line: 176
 Aegisub Video Zoom Percent: 0.875000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 24009
+Aegisub Video Position: 25719
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -182,3 +182,22 @@ Dialogue: 0,0:12:53.20,0:12:59.06,Default,,0,0,0,,and then we'll deal with how t
 Dialogue: 0,0:13:00.36,0:13:03.16,Default,,0,0,0,,gradual adaption is essential.
 Dialogue: 0,0:13:03.41,0:13:05.26,Default,,0,0,0,,prescriptive teachable
 Dialogue: 0,0:13:05.29,0:13:11.46,Default,,0,0,0,,one of the things that hold c++ back is that there are really a lot of bad teaching materials out there.
+Dialogue: 0,0:13:11.46,0:13:14.22,Default,,0,0,0,,some of it is very old, some of it is backwards-looking
+Dialogue: 0,0:13:14.29,0:13:19.57,Default,,0,0,0,,some of it try to maximize the pill by domain it down
+Dialogue: 0,0:13:19.57,0:13:21.03,Default,,0,0,0,,and things like that.
+Dialogue: 0,0:13:21.18,0:13:26.34,Default,,0,0,0,,so a setup guidelines can also guide teachers to how to teaching.
+Dialogue: 0,0:13:26.54,0:13:29.47,Default,,0,0,0,,Flexiable of course. Because the huge community.
+Dialogue: 0,0:13:29.64,0:13:30.08,Default,,0,0,0,,I mean
+Dialogue: 0,0:13:30.19,0:13:33.98,Default,,0,0,0,,we recover just about everything that's been done on computing
+Dialogue: 0,0:13:34.12,0:13:36.07,Default,,0,0,0,,And of course Non-proprietary.
+Dialogue: 0,0:13:36.07,0:13:39.68,Default,,0,0,0,,We couldn't possibly do this with limits.
+Dialogue: 0,0:13:43.28,0:13:46.51,Default,,0,0,0,,There are some high level rules and there are some low-level rules.
+Dialogue: 0,0:13:46.59,0:13:50.57,Default,,0,0,0,,the high-level rules are there to provide a conceptual framework for everything
+Dialogue: 0,0:13:50.68,0:13:53.48,Default,,0,0,0,,that sort of philosophical on nature.
+Dialogue: 0,0:13:53.60,0:13:54.79,Default,,0,0,0,,and they are very useful.
+Dialogue: 0,0:13:54.79,0:14:00.43,Default,,0,0,0,,like, you have to expre4ss ideas in code - compilers don't read the comments.
+Dialogue: 0,0:14:00.52,0:14:08.12,Default,,0,0,0,,and you use ISO standard c++, yes there are reasons to use extensions as such
+Dialogue: 0,0:14:08.12,0:14:13.54,Default,,0,0,0,,but we are not going to deal with that, that will be for paticular restrictions
+Dialogue: 0,0:14:13.72,0:14:16.36,Default,,0,0,0,,And we want static type safety
+Dialogue: 0,0:14:17.10,0:14:18.14,Default,,0,0,0,,etc.etc
+Dialogue: 0,0:14:18.32,0:14:21.17,Default,,0,0,0,,
