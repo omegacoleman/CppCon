@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 168
-Aegisub Active Line: 185
+Aegisub Scroll Position: 194
+Aegisub Active Line: 210
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 27099
+Aegisub Video Position: 30739
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -24,7 +24,7 @@ Style: 居中标题,文泉驿正黑,150,&H0097108D,&H000000FF,&H00000000,&H00F7A
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:05.00,居中标题,,0,0,0,,avplayer.org\n社区出品
+Dialogue: 0,0:00:00.00,0:00:07.10,居中标题,,0,0,0,,avplayer.org\n社区出品
 Comment: 0,0:00:05.00,0:00:07.00,Default,,0,0,0,,视频文件请到 http://pan.baidu.com/s/1pJquXBl 下载，提取码 2in6
 Dialogue: 0,0:00:00.00,0:00:02.04,Default,,0,0,0,,Yes, Now we can go
 Dialogue: 0,0:00:05.41,0:00:10.45,Default,,0,0,0,,Welcome~\n\nIt's very nice and a little bit scary to see you all again
@@ -209,4 +209,29 @@ Dialogue: 0,0:14:46.26,0:14:52.70,Default,,0,0,0,,the low-level rules, things li
 Dialogue: 0,0:14:52.90,0:14:57.58,Default,,0,0,0,,and prefer initialization to assignment in constructors
 Dialogue: 0,0:14:57.71,0:15:01.08,Default,,0,0,0,,these are easily checkable.
 Dialogue: 0,0:15:01.08,0:15:04.18,Default,,0,0,0,,we have a tool that tells you when you violate it.
-Dialogue: 0,0:15:04.18,0:15:11.77,Default,,0,0,0,,
+Dialogue: 0,0:15:04.24,0:15:06.00,Default,,0,0,0,,Always initialize an object
+Dialogue: 0,0:15:06.04,0:15:11.96,Default,,0,0,0,,compilers these days do. but it's a good rule and we can do even better with external tools that we have them.
+Dialogue: 0,0:15:12.01,0:15:15.29,Default,,0,0,0,,so basically that sort of shows the way through the world dominance
+Dialogue: 0,0:15:15.66,0:15:22.27,Default,,0,0,0,,and the tools provide feedback for programers, it also helps unify styles.
+Dialogue: 0,0:15:22.58,0:15:27.34,Default,,0,0,0,,if I look at a piece of code and I see a string,
+Dialogue: 0,0:15:27.34,0:15:30.20,Default,,0,0,0,,if I know it's std::string, I know a lot.
+Dialogue: 0,0:15:30.37,0:15:34.28,Default,,0,0,0,,and it helped me, and I don't have to go back and read the manual again.
+Dialogue: 0,0:15:35.51,0:15:47.51,Default,,0,0,0,,so a more unify style helps getting code written quickly, helps me read the code, understand the code
+Dialogue: 0,0:15:47.70,0:15:53.94,Default,,0,0,0,,and one thing you should understand is that the rules and not mean to be minimal or orthogonal.
+Dialogue: 0,0:15:54.23,0:16:01.74,Default,,0,0,0,,text book writters spend a lot of time trying to make sure that fix minimal amount of paper.
+Dialogue: 0,0:16:02.54,0:16:03.79,Default,,0,0,0,,this is not we are up to
+Dialogue: 0,0:16:04.06,0:16:12.33,Default,,0,0,0,,we try to have the most helpful, and have a large set tool to tell you when you fall over the edge.
+Dialogue: 0,0:16:12.88,0:16:16.58,Default,,0,0,0,,so the structure of a rule is simple and structured.
+Dialogue: 0,0:16:18.24,0:16:21.46,Default,,0,0,0,,"No naked new" for instance, it's a rule.
+Dialogue: 0,0:16:21.46,0:16:24.65,Default,,0,0,0,,and Reference numbers - people love reference numbers
+Dialogue: 0,0:16:24.65,0:16:27.15,Default,,0,0,0,,It also means that you can search for them.
+Dialogue: 0,0:16:27.26,0:16:31.62,Default,,0,0,0,,I mean you can refer to them in error messages. things like that.
+Dialogue: 0,0:16:32.01,0:16:38.49,Default,,0,0,0,,and NEVER NEVER tell people what not to do without giving a reason or what to do without giving a reason
+Dialogue: 0,0:16:38.53,0:16:44.15,Default,,0,0,0,,so every rule with the first thing that comes up with the rule itself is that rational a reason.
+Dialogue: 0,0:16:44.50,0:16:46.32,Default,,0,0,0,,and then it comes with an example.
+Dialogue: 0,0:16:46.40,0:16:53.05,Default,,0,0,0,, because buy and large we don't understand abstract text, we need a concrete example or more
+Dialogue: 0,0:16:53.38,0:16:57.70,Default,,0,0,0,,if it's a "don't do this" rule, there should be alternatives.
+Dialogue: 0,0:16:57.81,0:17:01.12,Default,,0,0,0,,never tell people what not to do unless you give them alternatives.
+Dialogue: 0,0:17:01.84,0:17:03.54,Default,,0,0,0,,fairly simple to say.
+Dialogue: 0,0:17:03.79,0:17:05.64,Default,,0,0,0,,little bit hard to do sometimes.
+Dialogue: 0,0:17:05.64,0:17:07.64,Default,,0,0,0,,these rules are
