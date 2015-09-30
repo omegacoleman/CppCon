@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 103
-Aegisub Active Line: 130
+Aegisub Scroll Position: 112
+Aegisub Active Line: 134
 Aegisub Video Zoom Percent: 0.875000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 20104
+Aegisub Video Position: 20947
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -154,4 +154,8 @@ Dialogue: 0,0:10:46.80,0:10:50.35,Default,,0,0,0,,really dumb idea in my opinion
 Dialogue: 0,0:10:50.35,0:10:53.87,Default,,0,0,0,,also, coding rules get outdated.
 Dialogue: 0,0:10:53.87,0:11:08.32,Default,,0,0,0,,I saw a recent year recommendation to use a  coding guideline , a really good guidelines, it describe how to write good code in about 198s. it hasn't been updated, that's a long time ago.
 Dialogue: 0,0:11:08.45,0:11:10.78,Default,,0,0,0,,and so they became a drag.
-Dialogue: 0,0:11:10.78,0:11:17.65,Default,,0,0,0,,
+Dialogue: 0,0:11:10.78,0:11:23.66,Default,,0,0,0,,a lot of code are specialized for particular application areas like I helped to write a set of guidelines for hard-realtime softwares or flight controlls 
+Dialogue: 0,0:11:24.02,0:11:27.25,Default,,0,0,0,,these are very nice guidelines for that.
+Dialogue: 0,0:11:27.25,0:11:30.21,Default,,0,0,0,,but then people try use it in some other areas.
+Dialogue: 0,0:11:30.21,0:11:38.90,Default,,0,0,0,,and you know, one of the guide rules for flight is that you don't use "new" after you take off.
+Dialogue: 0,0:11:38.90,0:11:41.04,Default,,0,0,0,,and you never use "delete"
