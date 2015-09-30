@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 122
-Aegisub Active Line: 149
+Aegisub Scroll Position: 131
+Aegisub Active Line: 157
 Aegisub Video Zoom Percent: 0.875000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 22256
+Aegisub Video Position: 24009
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -174,3 +174,11 @@ Dialogue: 0,0:12:21.80,0:12:21.93,Default,,0,0,0,,{\pos(483,425)}da
 Dialogue: 0,0:12:21.93,0:12:22.05,Default,,0,0,0,,{\pos(301,424)}da
 Dialogue: 0,0:12:22.07,0:12:22.59,Default,,0,0,0,,{\pos(373,400)}da~
 Dialogue: 0,0:12:22.77,0:12:24.50,Default,,0,0,0,,and the don't produce guidance.
+Dialogue: 0,0:12:24.70,0:12:33.68,Default,,0,0,0,,I really like to emphasize that telling people what not to do is less helpfull than telling what to do.
+Dialogue: 0,0:12:33.79,0:12:36.30,Default,,0,0,0,,so let's do those good guidelines
+Dialogue: 0,0:12:36.30,0:12:40.49,Default,,0,0,0,,comprehensive, browserable, for modern c++, for the moment
+Dialogue: 0,0:12:40.49,0:12:53.04,Default,,0,0,0,,first of all, let's ignore legacy code, let's ignore old stuff. let's write the rules for what we would like our code to look like in 5 to 10 years
+Dialogue: 0,0:12:53.20,0:12:59.06,Default,,0,0,0,,and then we'll deal with how to do the transition, how to do with  in compatibility when we have to.
+Dialogue: 0,0:13:00.36,0:13:03.16,Default,,0,0,0,,gradual adaption is essential.
+Dialogue: 0,0:13:03.41,0:13:05.26,Default,,0,0,0,,prescriptive teachable
+Dialogue: 0,0:13:05.29,0:13:11.46,Default,,0,0,0,,one of the things that hold c++ back is that there are really a lot of bad teaching materials out there.
