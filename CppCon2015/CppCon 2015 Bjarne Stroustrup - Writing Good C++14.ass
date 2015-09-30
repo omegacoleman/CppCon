@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 151
-Aegisub Active Line: 178
-Aegisub Video Zoom Percent: 0.875000
+Aegisub Scroll Position: 168
+Aegisub Active Line: 185
+Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 26327
+Aegisub Video Position: 27099
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -202,4 +202,11 @@ Dialogue: 0,0:14:13.72,0:14:16.36,Default,,0,0,0,,And we want static type safety
 Dialogue: 0,0:14:17.10,0:14:18.14,Default,,0,0,0,,etc.etc
 Dialogue: 0,0:14:18.32,0:14:21.17,Default,,0,0,0,,so there a philosophical framework here 
 Dialogue: 0,0:14:21.31,0:14:26.70,Default,,0,0,0,,the problem is that again compilers and programmers don't really get philosophy.
-Dialogue: 0,0:14:26.90,0:14:38.64,Default,,0,0,0,, it means that you have to transfer into something that can be understood in detail
+Dialogue: 0,0:14:26.90,0:14:35.84,Default,,0,0,0,, it means that you have to transfer into something that can be understood in detail in context of a piece of program and use.
+Dialogue: 0,0:14:35.84,0:14:38.54,Default,,0,0,0,,so for that reason there is a whole bunch of low-level rules.
+Dialogue: 0,0:14:38.79,0:14:43.65,Default,,0,0,0,,that basically you guys should threw the massive alternatives and features
+Dialogue: 0,0:14:46.26,0:14:52.70,Default,,0,0,0,,the low-level rules, things like, use T* to designate a single object, not array.
+Dialogue: 0,0:14:52.90,0:14:57.58,Default,,0,0,0,,and prefer initialization to assignment in constructors
+Dialogue: 0,0:14:57.71,0:15:01.08,Default,,0,0,0,,these are easily checkable.
+Dialogue: 0,0:15:01.08,0:15:04.18,Default,,0,0,0,,we have a tool that tells you when you violate it.
+Dialogue: 0,0:15:04.18,0:15:11.77,Default,,0,0,0,,
