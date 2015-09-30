@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 264
-Aegisub Active Line: 276
+Aegisub Scroll Position: 284
+Aegisub Active Line: 292
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 41219
+Aegisub Video Position: 43328
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -252,7 +252,7 @@ Dialogue: 0,0:18:24.22,0:18:27.55,Default,,0,0,0,,So, the general idea is not ju
 Dialogue: 0,0:18:27.55,0:18:30.20,Default,,0,0,0,,First, we provide a superset.
 Dialogue: 0,0:18:30.20,0:18:33.52,Default,,0,0,0,,we have ISO standard C++
 Dialogue: 0,0:18:33.60,0:18:38.99,Default,,0,0,0,,we have parts of the standard library that we recommend and that's you can use when you want to.
-Dialogue: 0,0:18:39.18,0:18:52.81,Default,,0,0,0,,and we have something called the guidelines port libraries which is small set - small as less than 2 dozen little classes and really that smaill - that's added.
+Dialogue: 0,0:18:39.18,0:18:52.81,Default,,0,0,0,,and we have something called the guidelines support libraries which is small set - small as less than 2 dozen little classes and really that smaill - that's added.
 Dialogue: 0,0:18:53.04,0:18:54.76,Default,,0,0,0,,And that way, we can say:
 Dialogue: 0,0:18:54.76,0:18:57.52,Default,,0,0,0,,the messy dangerous bits, don't use them.
 Dialogue: 0,0:18:57.71,0:19:08.54,Default,,0,0,0,,we have provided abstractions that are elegent and efficient to allow you to not go there most of the time, for most people, all of the time.
@@ -301,3 +301,19 @@ Dialogue: 0,0:22:35.52,0:22:39.96,Default,,0,0,0,,And I think most of you will w
 Dialogue: 0,0:22:40.09,0:22:53.04,Default,,0,0,0,,and some of you will want restructuring tool because there is some one recommended us that it doesn't quite fit in your world or maybe doesn't fit there for the next couple of years till you upgrade your codebase.
 Dialogue: 0,0:22:53.04,0:22:55.31,Default,,0,0,0,,and don't compromise performance
 Dialogue: 0,0:22:55.31,0:22:58.00,Default,,0,0,0,,performance is a really important aspect
+Dialogue: 0,0:22:58.00,0:23:00.06,Default,,0,0,0,,so I don't think I've gone mad
+Dialogue: 0,0:23:00.16,0:23:05.56,Default,,0,0,0,,I think we are actually attacking what we known to be the common most serious sources of errors
+Dialogue: 0,0:23:05.56,0:23:09.02,Default,,0,0,0,,and get rid of errors
+Dialogue: 0,0:23:10.25,0:23:15.44,Default,,0,0,0,,no resource leaks! that's good, we know how to do that!
+Dialogue: 0,0:23:15.48,0:23:21.61,Default,,0,0,0,,eliminate dangling pointer - that suppose to be very hard. I'll show you how to do that
+Dialogue: 0,0:23:21.90,0:23:28.48,Default,,0,0,0,,eliminate out-of-range access - that can not be done without a few runtime checks
+Dialogue: 0,0:23:28.91,0:23:32.12,Default,,0,0,0,,a few!! if you just check everything you are deracinate
+Dialogue: 0,0:23:32.12,0:23:37.53,Default,,0,0,0,,but a few can be done and we have some suggestions about that
+Dialogue: 0,0:23:37.79,0:23:39.96,Default,,0,0,0,,and Tool support is essential
+Dialogue: 0,0:23:39.96,0:23:43.88,Default,,0,0,0,,a lot of this, humans are not very actually good at it
+Dialogue: 0,0:23:46.67,0:23:49.23,Default,,0,0,0,,you look at a million lines of code and your eyes glares over.
+Dialogue: 0,0:23:49.45,0:23:57.36,Default,,0,0,0,,you check for a paticular kind of error and mistake in a million lines of code, 100 lines of code 10000 lines of code
+Dialogue: 0,0:23:57.42,0:24:00.30,Default,,0,0,0,,you get very tired and your concentration wavers.
+Dialogue: 0,0:24:00.38,0:24:01.40,Default,,0,0,0,,we neeeed tools
+Dialogue: 0,0:24:02.14,0:24:05.71,Default,,0,0,0,,the support library helps by simplify the rules
+Dialogue: 0,0:24:05.72,0:24:09.47,Default,,0,0,0,,
