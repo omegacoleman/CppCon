@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 76
-Aegisub Active Line: 90
+Aegisub Scroll Position: 86
+Aegisub Active Line: 108
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 14706
+Aegisub Video Position: 17456
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -114,7 +114,7 @@ Dialogue: 0,0:07:50.52,0:07:51.44,Default,,0,0,0,,so you can get it.
 Dialogue: 0,0:07:51.88,0:07:54.10,Default,,0,0,0,,and there's more talk about this.
 Dialogue: 0,0:07:55.02,0:08:01.92,Default,,0,0,0,,I am going to explain what we are trying to do with higher level terms with some examples
 Dialogue: 0,0:08:02.17,0:08:04.88,Default,,0,0,0,,Herb Sutter is going to talk more about it.
-Dialogue: 0,0:08:05.23,0:08:13.32,Default,,0,0,0,,Gabriel Dos Reis are going to talk how, er, ties into
+Dialogue: 0,0:08:05.23,0:08:13.32,Default,,0,0,0,,Gabriel Dos Reis are going to talk how, er, ties into some of the work been done in the standard commitee for writting better code.
 Dialogue: 0,0:08:13.32,0:08:21.84,Default,,0,0,0,,Neil Macintosh who wrote the tool that we work with, are going to talk about static analysis and some of the classes.
 Dialogue: 0,0:08:21.95,0:08:23.12,Default,,0,0,0,,This is all this weak.
 Dialogue: 0,0:08:23.83,0:08:29.08,Default,,0,0,0,,This is a problem with coding rules, with guide lines.
@@ -122,4 +122,14 @@ Dialogue: 0,0:08:29.33,0:08:30.44,Default,,0,0,0,,which is...
 Dialogue: 0,0:08:30.45,0:08:32.65,Default,,0,0,0,,have you even seen one you really liked?
 Dialogue: 0,0:08:32.92,0:08:37.18,Default,,0,0,0,,that might be necessary. but it's like medicine, doesn't taste good.
 Dialogue: 0,0:08:37.77,0:08:39.63,Default,,0,0,0,,we all hate coding rules.
-Dialogue: 0,0:08:39.79,0:08:43.55,Default,,0,0,0,,Usual caveats and make sure people don't make
+Dialogue: 0,0:08:39.79,0:08:44.83,Default,,0,0,0,,Usual caveats and thanks to the people who was made the less usual and paticular cases.
+Dialogue: 0,0:08:44.92,0:08:46.31,Default,,0,0,0,,but basicly we don't like it.
+Dialogue: 0,0:08:46.60,0:08:48.76,Default,,0,0,0,,and one of the reasons is that
+Dialogue: 0,0:08:48.97,0:08:53.48,Default,,0,0,0,,coding guidelines tend to be written to prevent accident
+Dialogue: 0,0:08:53.77,0:08:59.96,Default,,0,0,0,,so to keep novices that are not as smart as us from doing stupid things
+Dialogue: 0,0:09:00.01,0:09:02.87,Default,,0,0,0,, so it's long lists of don't do this and don't do that.
+Dialogue: 0,0:09:02.96,0:09:03.49,Default,,0,0,0,,and
+Dialogue: 0,0:09:03.68,0:09:07.03,Default,,0,0,0,,I don't like such lists and I know most of you don't like neither.
+Dialogue: 0,0:09:07.18,0:09:12.34,Default,,0,0,0,,and it's very often written at the start of an organization
+Dialogue: 0,0:09:12.40,0:09:18.41,Default,,0,0,0,, when people is little bit uncertain about what they want to do and they want to avoid problems.
+Dialogue: 0,0:09:18.41,0:09:23.03,Default,,0,0,0,, and rules tend to focus on low-level details
