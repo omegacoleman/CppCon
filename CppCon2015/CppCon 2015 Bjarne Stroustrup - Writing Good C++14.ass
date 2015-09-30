@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 240
-Aegisub Active Line: 255
+Aegisub Scroll Position: 258
+Aegisub Active Line: 274
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 37877
+Aegisub Video Position: 40759
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -279,4 +279,23 @@ Dialogue: 0,0:20:37.05,0:20:46.00,Default,,0,0,0,,but these here are choose to s
 Dialogue: 0,0:20:46.22,0:20:51.29,Default,,0,0,0,,so basically, guess what this could do'
 Dialogue: 0,0:20:51.69,0:20:58.28,Default,,0,0,0,,I don't actually think that we can do less than can say double our productivity
 Dialogue: 0,0:20:58.28,0:21:03.82,Default,,0,0,0,,this is big claim but I think it can be done 
-Dialogue: 0,0:21:03.82,0:21:05.82,Default,,0,0,0,,look at a good programmer
+Dialogue: 0,0:21:03.85,0:21:16.11,Default,,0,0,0,,look at a good programmer working on a modern codebase and looking at same programmer working on a 20year old codebase or 10 year old codebase
+Dialogue: 0,0:21:16.27,0:21:22.56,Default,,0,0,0,,also look at a median kind of programmer
+Dialogue: 0,0:21:22.56,0:21:25.32,Default,,0,0,0,,and see what it taks to become a greate programmer.
+Dialogue: 0,0:21:25.37,0:21:27.23,Default,,0,0,0,,you need support you need time
+Dialogue: 0,0:21:27.23,0:21:28.59,Default,,0,0,0,,we can lower that time
+Dialogue: 0,0:21:28.84,0:21:37.87,Default,,0,0,0,,so, I think we can imitate experienced programers form rule sets that we trying to enforce.
+Dialogue: 0,0:21:38.09,0:21:42.38,Default,,0,0,0,,and so we can eliminate huge classes of errors.
+Dialogue: 0,0:21:42.38,0:21:45.08,Default,,0,0,0,,so simplification is important
+Dialogue: 0,0:21:45.21,0:21:48.22,Default,,0,0,0,,if we can have simpler code, maintance improves.
+Dialogue: 0,0:21:48.22,0:21:50.88,Default,,0,0,0,,consistent style speed up learning
+Dialogue: 0,0:21:50.99,0:21:57.52,Default,,0,0,0,,and guide people away from the deep dark corners of the law so much
+Dialogue: 0,0:21:58.88,0:22:06.70,Default,,0,0,0,,so much programers spend so much of their time looking on the most complicated code and the most complicated rules of the standard
+Dialogue: 0,0:22:06.96,0:22:10.30,Default,,0,0,0,,I'm shaking my head, I mean, this hurts!
+Dialogue: 0,0:22:10.49,0:22:11.96,Default,,0,0,0,,why do you do it ?!
+Dialogue: 0,0:22:12.46,0:22:19.29,Default,,0,0,0,,so I'm emphasis on avoiding waste, that can improve importance
+Dialogue: 0,0:22:19.42,0:22:30.12,Default,,0,0,0,,My guess is every large organization/community that's doing this will need to have some special rules for what they are doing
+Dialogue: 0,0:22:30.27,0:22:33.13,Default,,0,0,0,,so I'm talking about what I called the "core guidelines"
+Dialogue: 0,0:22:33.13,0:22:35.52,Default,,0,0,0,,things that pretentiously help everybody
+Dialogue: 0,0:22:35.52,0:22:39.96,Default,,0,0,0,,And I think most of you will want extensions in places.
+Dialogue: 0,0:22:39.96,0:22:45.08,Default,,0,0,0,,
