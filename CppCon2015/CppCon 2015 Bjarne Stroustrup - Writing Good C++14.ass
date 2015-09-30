@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 112
-Aegisub Active Line: 139
+Aegisub Scroll Position: 122
+Aegisub Active Line: 149
 Aegisub Video Zoom Percent: 0.875000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 21571
+Aegisub Video Position: 22256
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -163,4 +163,14 @@ Dialogue: 0,0:11:41.30,0:11:45.94,Default,,0,0,0,,maybe these are not the most a
 Dialogue: 0,0:11:46.19,0:11:51.40,Default,,0,0,0,,other guidelines have similar kind of bias and constraint, and people tend to forget them.
 Dialogue: 0,0:11:51.78,0:11:55.37,Default,,0,0,0,,and a lot of them are very long winded.
 Dialogue: 0,0:11:55.37,0:11:59.73,Default,,0,0,0,,you really need to be a language lawyer to understand them.
-Dialogue: 0,0:11:59.73,0:12:10.41,Default,,0,0,0,,
+Dialogue: 0,0:11:59.73,0:12:04.41,Default,,0,0,0,,I looked at the rules for how to use pointers in c++
+Dialogue: 0,0:12:04.41,0:12:10.36,Default,,0,0,0,,I mean, I was miserable, I couldn't understand all those rules.
+Dialogue: 0,0:12:10.66,0:12:13.00,Default,,0,0,0,,and you can't follow them, really.
+Dialogue: 0,0:12:13.00,0:12:18.81,Default,,0,0,0,,and a lot of guidelines don't have very good tools
+Dialogue: 0,0:12:19.15,0:12:21.38,Default,,0,0,0,,and they have platform dependencies
+Dialogue: 0,0:12:21.38,0:12:21.63,Default,,0,0,0,,{\pos(357,499)}da
+Dialogue: 0,0:12:21.63,0:12:21.81,Default,,0,0,0,,{\pos(276,477)}da
+Dialogue: 0,0:12:21.80,0:12:21.93,Default,,0,0,0,,{\pos(483,425)}da
+Dialogue: 0,0:12:21.93,0:12:22.05,Default,,0,0,0,,{\pos(301,424)}da
+Dialogue: 0,0:12:22.07,0:12:22.59,Default,,0,0,0,,{\pos(373,400)}da~
+Dialogue: 0,0:12:22.77,0:12:24.50,Default,,0,0,0,,and the don't produce guidance.
