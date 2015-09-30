@@ -15,7 +15,7 @@ PlayResX: 1280
 PlayResY: 720
 Video File: ../../../Videos/CppCon2014/CPPBasicsSutter_high.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 295
+Aegisub Video Position: 399
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -26,8 +26,8 @@ Style: 居中标题,文泉驿正黑,150,&H0097108D,&H000000FF,&H00000000,&H00F7A
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:05.00,居中标题,,0,0,0,,avplayer.org\n社区出品
 Dialogue: 0,0:00:00.50,0:00:04.57,Default,,0,0,0,,Hey, Have you enjouy the week so far?
-Dialogue: 0,0:00:06.88,0:00:12.70,Default,,0,0,0,,I am not sure if both my ears are working right, this half room, have you enjoy CppCon so far?
-Dialogue: 0,0:00:17.20,0:00:18.55,Default,,0,0,0,,you guys what do you think?
+Dialogue: 0,0:00:06.88,0:00:12.70,Default,,0,0,0,,I am not sure if both my ears are working right, this half of room, have you enjoy CppCon so far?
+Dialogue: 0,0:00:17.20,0:00:18.55,Default,,0,0,0,,you guys, what do you think?
 Dialogue: 0,0:00:21.47,0:00:25.84,Default,,0,0,0,,I don't know they might . TODO, lets hear you one more time~~~
 Dialogue: 0,0:00:29.06,0:00:29.75,Default,,0,0,0,,Thank you
 Dialogue: 0,0:00:29.75,0:00:35.38,Default,,0,0,0,,This has been such an awsome week for c++ and also really feasible atmosphere here.
