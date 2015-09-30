@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 99
-Aegisub Active Line: 123
+Aegisub Scroll Position: 103
+Aegisub Active Line: 130
 Aegisub Video Zoom Percent: 0.875000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 19311
+Aegisub Video Position: 20104
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -148,3 +148,10 @@ Dialogue: 0,0:10:12.90,0:10:18.36,Default,,0,0,0,,don't try to stop c++ programm
 Dialogue: 0,0:10:18.36,0:10:22.91,Default,,0,0,0,,And "C with classes"? It was really cool in 1986
 Dialogue: 0,0:10:23.04,0:10:25.84,Default,,0,0,0,,that a long time ago. a lot of you weren't born then.
 Dialogue: 0,0:10:25.84,0:10:36.41,Default,,0,0,0,,and there are people think that really the world came to an end in 1978 when K&R came out.
+Dialogue: 0,0:10:36.41,0:10:42.09,Default,,0,0,0,,and they might accept a few things they got from c++ like function prototype and const
+Dialogue: 0,0:10:42.09,0:10:46.50,Default,,0,0,0,,but basically you really should write code as if we do it in C.
+Dialogue: 0,0:10:46.80,0:10:50.35,Default,,0,0,0,,really dumb idea in my opinion, but we'll get to that.
+Dialogue: 0,0:10:50.35,0:10:53.87,Default,,0,0,0,,also, coding rules get outdated.
+Dialogue: 0,0:10:53.87,0:11:08.32,Default,,0,0,0,,I saw a recent year recommendation to use a  coding guideline , a really good guidelines, it describe how to write good code in about 198s. it hasn't been updated, that's a long time ago.
+Dialogue: 0,0:11:08.45,0:11:10.78,Default,,0,0,0,,and so they became a drag.
+Dialogue: 0,0:11:10.78,0:11:17.65,Default,,0,0,0,,
