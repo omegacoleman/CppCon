@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 86
-Aegisub Active Line: 108
+Aegisub Scroll Position: 99
+Aegisub Active Line: 119
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 17456
+Aegisub Video Position: 18275
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -127,9 +127,20 @@ Dialogue: 0,0:08:44.92,0:08:46.31,Default,,0,0,0,,but basicly we don't like it.
 Dialogue: 0,0:08:46.60,0:08:48.76,Default,,0,0,0,,and one of the reasons is that
 Dialogue: 0,0:08:48.97,0:08:53.48,Default,,0,0,0,,coding guidelines tend to be written to prevent accident
 Dialogue: 0,0:08:53.77,0:08:59.96,Default,,0,0,0,,so to keep novices that are not as smart as us from doing stupid things
-Dialogue: 0,0:09:00.01,0:09:02.87,Default,,0,0,0,, so it's long lists of don't do this and don't do that.
+Dialogue: 0,0:09:00.01,0:09:02.87,Default,,0,0,0,,so it's long lists of don't do this and don't do that.
 Dialogue: 0,0:09:02.96,0:09:03.49,Default,,0,0,0,,and
 Dialogue: 0,0:09:03.68,0:09:07.03,Default,,0,0,0,,I don't like such lists and I know most of you don't like neither.
 Dialogue: 0,0:09:07.18,0:09:12.34,Default,,0,0,0,,and it's very often written at the start of an organization
-Dialogue: 0,0:09:12.40,0:09:18.41,Default,,0,0,0,, when people is little bit uncertain about what they want to do and they want to avoid problems.
-Dialogue: 0,0:09:18.41,0:09:23.03,Default,,0,0,0,, and rules tend to focus on low-level details
+Dialogue: 0,0:09:12.40,0:09:18.41,Default,,0,0,0,,when people is little bit uncertain about what they want to do and they want to avoid problems.
+Dialogue: 0,0:09:18.41,0:09:21.54,Default,,0,0,0,,and rules tend to focus on low-level things
+Dialogue: 0,0:09:21.54,0:09:22.99,Default,,0,0,0,,I mean, eh
+Dialogue: 0,0:09:23.07,0:09:25.20,Default,,0,0,0,,do use camel case underscores
+Dialogue: 0,0:09:25.20,0:09:27.90,Default,,0,0,0,,how many yea spaces to use to indent
+Dialogue: 0,0:09:28.24,0:09:32.08,Default,,0,0,0,,these are all very interesting, could be in the essential for our organization 
+Dialogue: 0,0:09:32.15,0:09:37.34,Default,,0,0,0,,but it has nothing much to do with how you get quality software at the higher level.
+Dialogue: 0,0:09:37.41,0:09:41.36,Default,,0,0,0,,how do you actually recognize a good piece of code when you came to see it?
+Dialogue: 0,0:09:41.76,0:09:46.23,Default,,0,0,0,,a lot of them simply sets restrictions.
+Dialogue: 0,0:09:47.44,0:09:55.96,Default,,0,0,0,,don't use overloading; don't use exceptions; don't use multiple-inheritance; don't use casts.... all kinds of rules like that
+Dialogue: 0,0:09:56.11,0:10:04.36,Default,,0,0,0,,some are good. some are bad. some are good in some paticular environment. some are not.\nAnd really, there is lot of bad advice out there.
+Dialogue: 0,0:10:04.61,0:10:09.77,Default,,0,0,0,,there are guidelines that tell you that you really should trying write java.
+Dialogue: 0,0:10:09.77,0:10:11.77,Default,,0,0,0,,d 
