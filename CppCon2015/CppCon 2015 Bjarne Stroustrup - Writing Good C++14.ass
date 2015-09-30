@@ -8,14 +8,14 @@ ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
 Aegisub Scroll Position: 99
-Aegisub Active Line: 119
-Aegisub Video Zoom Percent: 1.000000
+Aegisub Active Line: 123
+Aegisub Video Zoom Percent: 0.875000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 18275
+Aegisub Video Position: 19311
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -143,4 +143,8 @@ Dialogue: 0,0:09:41.76,0:09:46.23,Default,,0,0,0,,a lot of them simply sets rest
 Dialogue: 0,0:09:47.44,0:09:55.96,Default,,0,0,0,,don't use overloading; don't use exceptions; don't use multiple-inheritance; don't use casts.... all kinds of rules like that
 Dialogue: 0,0:09:56.11,0:10:04.36,Default,,0,0,0,,some are good. some are bad. some are good in some paticular environment. some are not.\nAnd really, there is lot of bad advice out there.
 Dialogue: 0,0:10:04.61,0:10:09.77,Default,,0,0,0,,there are guidelines that tell you that you really should trying write java.
-Dialogue: 0,0:10:09.77,0:10:11.77,Default,,0,0,0,,d 
+Dialogue: 0,0:10:09.84,0:10:12.90,Default,,0,0,0,,when if you want to write java and you how to do which?
+Dialogue: 0,0:10:12.90,0:10:18.36,Default,,0,0,0,,don't try to stop c++ programmer from writting good c++.
+Dialogue: 0,0:10:18.36,0:10:22.91,Default,,0,0,0,,And "C with classes"? It was really cool in 1986
+Dialogue: 0,0:10:23.04,0:10:25.84,Default,,0,0,0,,that a long time ago. a lot of you weren't born then.
+Dialogue: 0,0:10:25.84,0:10:36.41,Default,,0,0,0,,and there are people think that really the world came to an end in 1978 when K&R came out.
