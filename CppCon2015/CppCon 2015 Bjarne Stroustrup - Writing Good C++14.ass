@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 219
-Aegisub Active Line: 235
+Aegisub Scroll Position: 229
+Aegisub Active Line: 245
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 34825
+Aegisub Video Position: 36155
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -259,4 +259,14 @@ Dialogue: 0,0:18:57.71,0:19:08.54,Default,,0,0,0,,we have provided abstractions 
 Dialogue: 0,0:19:08.54,0:19:13.36,Default,,0,0,0,,once you build that superset - the language + libraries.
 Dialogue: 0,0:19:13.52,0:19:17.04,Default,,0,0,0,,the you subset, and you can get rid of a lot of the crack.
 Dialogue: 0,0:19:17.18,0:19:24.43,Default,,0,0,0,,this is not a brand new idea I wrote a paper about it sometime more than ten years ago.
-Dialogue: 0,0:19:25.85,0:19:32.17,Default,,0,0,0,,
+Dialogue: 0,0:19:24.60,0:19:32.12,Default,,0,0,0,,so, really what we want is not neutered subset of c++ which is a lot of people that tryed.
+Dialogue: 0,0:19:32.12,0:19:35.16,Default,,0,0,0,,we want c++ on steroids on the other hand.
+Dialogue: 0,0:19:35.16,0:19:36.97,Default,,0,0,0,,so more of a good stuff.
+Dialogue: 0,0:19:37.21,0:19:40.78,Default,,0,0,0,,so the rules rely on the libraries.
+Dialogue: 0,0:19:40.88,0:19:43.52,Default,,0,0,0,,you can use any standard libraries of course.
+Dialogue: 0,0:19:43.69,0:19:46.91,Default,,0,0,0,,but once we rely on it, things like
+Dialogue: 0,0:19:46.91,0:19:50.84,Default,,0,0,0,,standart library class like vector or unique_ptr
+Dialogue: 0,0:19:50.84,0:19:59.13,Default,,0,0,0,,and some guideline things array_view -  this is when you have a begining of a sequence and end
+Dialogue: 0,0:20:01.08,0:20:05.42,Default,,0,0,0,,not_null - you can say that a pointer shouldn't be null
+Dialogue: 0,0:20:05.42,0:20:06.36,Default,,0,0,0,,now get back to that
+Dialogue: 0,0:20:06.51,0:20:10.57,Default,,0,0,0,,so there's rules for using the GSL
