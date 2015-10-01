@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 365
-Aegisub Active Line: 381
+Aegisub Scroll Position: 396
+Aegisub Active Line: 412
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 56200
+Aegisub Video Position: 61422
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -405,4 +405,35 @@ Dialogue: 0,0:30:52.28,0:30:53.64,Default,,0,0,0,,that's not acceptable
 Dialogue: 0,0:30:53.96,0:30:56.50,Default,,0,0,0,,and we have to rewrite our own code for it
 Dialogue: 0,0:30:56.53,0:31:10.50,Default,,0,0,0,,so the idea is that you just have a type system owner that static analysis tools can use.
 Dialogue: 0,0:31:10.59,0:31:15.20,Default,,0,0,0,,when I talk about pointers I mean anything that can point to an object.
-Dialogue: 0,0:31:15.20,0:31:17.20,Default,,0,0,0,,
+Dialogue: 0,0:31:15.25,0:31:23.52,Default,,0,0,0,,if we can handle it for pointers, we can handle it for everything, references, containers, smart pointers and things like that.
+Dialogue: 0,0:31:27.39,0:31:30.26,Default,,0,0,0,,we are going to eliminate all dangling pointers.
+Dialogue: 0,0:31:34.32,0:31:37.35,Default,,0,0,0,,oh yeah, down on the broader you can see the definition of an owner.
+Dialogue: 0,0:31:37.39,0:31:40.06,Default,,0,0,0,,just as alien, we mark it as an owner
+Dialogue: 0,0:31:40.43,0:31:44.00,Default,,0,0,0,,humans can read it, tools can read it
+Dialogue: 0,0:31:44.45,0:31:46.06,Default,,0,0,0,,but your linker doesn't care.
+Dialogue: 0,0:31:46.19,0:31:49.28,Default,,0,0,0,,so everything is working as before.
+Dialogue: 0,0:31:49.39,0:31:51.00,Default,,0,0,0,,so here is how we can use it.
+Dialogue: 0,0:31:51.00,0:32:02.10,Default,,0,0,0,,we can use an owner to improve our implementations of higher level abstractions, we want to use high level abstractions like vector and static array. 
+Dialogue: 0,0:32:02.22,0:32:12.55,Default,,0,0,0,,and we just mark that, in paticuler cases one of the 3 pointers inside the implementation of the vector is an ower and the other two aren't.
+Dialogue: 0,0:32:12.80,0:32:16.76,Default,,0,0,0,,that's the owner, keep it alive, the others just pointing to it
+Dialogue: 0,0:32:16.82,0:32:19.63,Default,,0,0,0,,that sort of the general you should see a lot.
+Dialogue: 0,0:32:19.85,0:32:26.45,Default,,0,0,0,,and only if we are dealing with pointers directly do we use owners
+Dialogue: 0,0:32:26.46,0:32:45.31,Default,,0,0,0,,so there's "f()" that taks an owner, and then trying to call it. I call it with an owner, that'll transfer ownership; I call it with non-owner,that's bad. I delete one of the owners, that's good; delete something that's not an owner, that't bad, we can catch.
+Dialogue: 0,0:32:45.56,0:32:54.34,Default,,0,0,0,,and this is just marking, the static analysis tool will tell you when you did something that wasn't good. 
+Dialogue: 0,0:32:54.34,0:32:58.59,Default,,0,0,0,,an owner has to transfer to someone else or delete it.
+Dialogue: 0,0:32:59.69,0:33:04.03,Default,,0,0,0,,the code will check whether you do it (or not) that's it.
+Dialogue: 0,0:33:04.82,0:33:06.73,Default,,0,0,0,,and owners are low-leve mechanism.
+Dialogue: 0,0:33:06.73,0:33:09.40,Default,,0,0,0,,you don't want to feddle with that all the time.
+Dialogue: 0,0:33:09.56,0:33:12.22,Default,,0,0,0,,but having owner allows you to do two things
+Dialogue: 0,0:33:12.30,0:33:19.29,Default,,0,0,0,,it provides the support for the implemention of high level abstrastions
+Dialogue: 0,0:33:12.30,0:33:19.29,Default,,0,0,0,,it allows you to implement high level abstrastions
+Dialogue: 0,0:33:19.29,0:33:25.47,Default,,0,0,0,,c++ are a language where you can design your own container, you can design your own smart pointers, etc
+Dialogue: 0,0:33:25.70,0:33:30.33,Default,,0,0,0,,now you get a little bit support in how to express this.
+Dialogue: 0,0:33:30.33,0:33:32.70,Default,,0,0,0,,and not make so many mistakes when you do it.
+Dialogue: 0,0:33:32.83,0:33:35.53,Default,,0,0,0,,and further more as ABIs
+Dialogue: 0,0:33:35.56,0:33:44.88,Default,,0,0,0,,somebody really says that they want any *, er, you don't have to give up all your checking to be able to use that ABI.
+Dialogue: 0,0:33:49.41,0:33:51.60,Default,,0,0,0,,What else do we have to do?
+Dialogue: 0,0:33:51.61,0:33:54.90,Default,,0,0,0,,we can handle owner ship now we have to handle dangling
+Dialogue: 0,0:34:00.49,0:34:05.50,Default,,0,0,0,,Don't transfer to pointer to a local to where it could be accessed by a caller.
+Dialogue: 0,0:34:07.31,0:34:09.42,Default,,0,0,0,,ok, let's look at the example there.
+Dialogue: 0,0:34:09.42,0:34:11.42,Default,,0,0,0,,
