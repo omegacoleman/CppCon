@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 570
-Aegisub Active Line: 586
+Aegisub Scroll Position: 591
+Aegisub Active Line: 607
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 84586
+Aegisub Video Position: 86343
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -610,4 +610,25 @@ Dialogue: 0,0:46:55.98,0:46:57.36,Default,,0,0,0,,but we are not going to wait
 Dialogue: 0,0:46:57.46,0:46:58.90,Default,,0,0,0,,this is too simple
 Dialogue: 0,0:46:58.96,0:47:01.35,Default,,0,0,0,,too easy, let's get going.
 Dialogue: 0,0:47:01.35,0:47:02.33,Default,,0,0,0,,it's on github.
-Dialogue: 0,0:47:02.33,0:47:04.33,Default,,0,0,0,,
+Dialogue: 0,0:47:02.33,0:47:05.88,Default,,0,0,0,,some of you've accessed yesterday or the day before.
+Dialogue: 0,0:47:06.22,0:47:08.93,Default,,0,0,0,,and we use standard library
+Dialogue: 0,0:47:09.52,0:47:21.63,Default,,0,0,0,,one of the things that you find with reasonably comprehensive or reasonably good old rules  set is that there's too many rules.
+Dialogue: 0,0:47:22.02,0:47:27.64,Default,,0,0,0,,we need to help novices, experts, people with infrastructures, applicaions,
+Dialogue: 0,0:47:27.64,0:47:27.80,Default,,0,0,0,,{\pos(287,363)}da
+Dialogue: 0,0:47:27.80,0:47:28.01,Default,,0,0,0,,{\pos(273,367)}da
+Dialogue: 0,0:47:28.01,0:47:28.13,Default,,0,0,0,,{\pos(241,360)}da
+Dialogue: 0,0:47:28.13,0:47:28.33,Default,,0,0,0,,{\pos(215,349)}da
+Dialogue: 0,0:47:28.33,0:47:28.47,Default,,0,0,0,,{\pos(157,361)}da
+Dialogue: 0,0:47:28.47,0:47:28.84,Default,,0,0,0,,{\pos(128,374)}da
+Dialogue: 0,0:47:29.10,0:47:33.08,Default,,0,0,0,,there are no way you can remember all of those rules
+Dialogue: 0,0:47:33.26,0:47:34.60,Default,,0,0,0,,further more
+Dialogue: 0,0:47:34.91,0:47:38.78,Default,,0,0,0,,I think I have 350 by now for this and no at the end.
+Dialogue: 0,0:47:38.99,0:47:41.34,Default,,0,0,0,,these's too many and you won't even need to go and read them.
+Dialogue: 0,0:47:41.45,0:47:47.44,Default,,0,0,0,,and, or,  more interstingly, you don't need all those rules
+Dialogue: 0,0:47:48.67,0:47:51.76,Default,,0,0,0,,Most of you do it anyway, we don't make that mistakes
+Dialogue: 0,0:47:51.87,0:47:53.52,Default,,0,0,0,,that we relearned that 10 years ago
+Dialogue: 0,0:47:53.52,0:47:55.15,Default,,0,0,0,,so that all exist
+Dialogue: 0,0:47:54.79,0:47:56.81,Default,,0,0,0,,every body knows it.
+Dialogue: 0,0:47:57.02,0:47:57.89,Default,,0,0,0,,on the other hand
+Dialogue: 0,0:47:57.89,0:48:00.97,Default,,0,0,0,,the rules are for the people that don't know it
+Dialogue: 0,0:48:00.97,0:48:02.97,Default,,0,0,0,,
