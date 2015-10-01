@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 352
-Aegisub Active Line: 368
+Aegisub Scroll Position: 365
+Aegisub Active Line: 381
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 53849
+Aegisub Video Position: 56200
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -392,4 +392,17 @@ Dialogue: 0,0:29:29.14,0:29:32.09,Default,,0,0,0,,because this could lead to a l
 Dialogue: 0,0:29:32.31,0:29:39.62,Default,,0,0,0,,if fact it is also .. if do that will lead you to problems with exceptions, is another matter.
 Dialogue: 0,0:29:39.78,0:29:48.57,Default,,0,0,0,,we'll never get down to the problem because you are already been traped by those simple rules twice.
 Dialogue: 0,0:29:49.64,0:29:56.73,Default,,0,0,0,,so we can look at how we represent the ownership.
-Dialogue: 0,0:29:57.05,0:30:01.01,Default,,0,0,0,,you can pass a
+Dialogue: 0,0:29:57.12,0:30:05.50,Default,,0,0,0,,you can mark every owning pointer as owner
+Dialogue: 0,0:30:05.92,0:30:09.15,Default,,0,0,0,,for a long time I think we need a bit to do that
+Dialogue: 0,0:30:09.52,0:30:16.06,Default,,0,0,0,,that sort of dynamic module that took every pointer and mark it if owner or not.
+Dialogue: 0,0:30:16.45,0:30:22.78,Default,,0,0,0,,I had modules like that before I put and saying whether it's a const or not , things like that
+Dialogue: 0,0:30:22.88,0:30:24.64,Default,,0,0,0,,the point is it's useless!
+Dialogue: 0,0:30:24.76,0:30:30.41,Default,,0,0,0,,It is very good for thinking about problems but it is useless for actually doing it
+Dialogue: 0,0:30:30.41,0:30:36.89,Default,,0,0,0,,because, well, it cost time|space to have that extra bit, or time&space. 
+Dialogue: 0,0:30:37.07,0:30:47.47,Default,,0,0,0,,It means that the code that uses such smart pointers flat pointers as such are no longer ABI compatible with the existing code.
+Dialogue: 0,0:30:47.66,0:30:52.16,Default,,0,0,0,,it runs slower than ordinary C or C++.
+Dialogue: 0,0:30:52.28,0:30:53.64,Default,,0,0,0,,that's not acceptable
+Dialogue: 0,0:30:53.96,0:30:56.50,Default,,0,0,0,,and we have to rewrite our own code for it
+Dialogue: 0,0:30:56.53,0:31:10.50,Default,,0,0,0,,so the idea is that you just have a type system owner that static analysis tools can use.
+Dialogue: 0,0:31:10.59,0:31:15.20,Default,,0,0,0,,when I talk about pointers I mean anything that can point to an object.
+Dialogue: 0,0:31:15.20,0:31:17.20,Default,,0,0,0,,
