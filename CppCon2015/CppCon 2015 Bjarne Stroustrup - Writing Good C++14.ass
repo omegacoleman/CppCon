@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 458
-Aegisub Active Line: 474
+Aegisub Scroll Position: 471
+Aegisub Active Line: 487
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 70289
+Aegisub Video Position: 72222
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -498,4 +498,17 @@ Dialogue: 0,0:38:51.15,0:38:54.28,Default,,0,0,0,,and so we can look at some cal
 Dialogue: 0,0:38:54.51,0:38:57.79,Default,,0,0,0,,I call it for a[100]
 Dialogue: 0,0:38:57.86,0:39:00.28,Default,,0,0,0,,I have to say a and 100.
 Dialogue: 0,0:39:00.28,0:39:05.30,Default,,0,0,0,,even though I have told there are 100 elements in a.
-Dialogue: 0,0:39:05.61,0:39:11.09,Default,,0,0,0,,
+Dialogue: 0,0:39:05.60,0:39:13.29,Default,,0,0,0,,and if I finger flipson the keyborad and I write a 1000,  all kinds of bad things will happen
+Dialogue: 0,0:39:14.39,0:39:17.09,Default,,0,0,0,,if it's a variable it gets more interesting
+Dialogue: 0,0:39:17.19,0:39:18.84,Default,,0,0,0,,for array_view
+Dialogue: 0,0:39:20.02,0:39:20.64,Default,,0,0,0,,well
+Dialogue: 0,0:39:20.80,0:39:25.92,Default,,0,0,0,,you can just say it was an array_view or you can rely on the conversion  of an array to an array_view
+Dialogue: 0,0:39:26.14,0:39:32.40,Default,,0,0,0,,it just socks on that array, makes it into array_view, having the size deduced
+Dialogue: 0,0:39:32.88,0:39:36.85,Default,,0,0,0,,if you are going to call it on a value.
+Dialogue: 0,0:39:37.12,0:39:45.99,Default,,0,0,0,,it's fairly easy to check agains the array of values there, if not you are on errors as often,
+Dialogue: 0,0:39:46.15,0:39:50.80,Default,,0,0,0,,so this follows the idea of make simple things simple
+Dialogue: 0,0:39:51.09,0:39:55.83,Default,,0,0,0,,and array_view is roughly the same as  (int*p,int n);
+Dialogue: 0,0:39:56.13,0:39:59.91,Default,,0,0,0,,but we can use it easier and make few mistakes.
+Dialogue: 0,0:40:00.84,0:40:06.49,Default,,0,0,0,,nullptr. deal with it simply by saying what we mean.
+Dialogue: 0,0:40:06.61,0:40:09.78,Default,,0,0,0,,the problem is , today , we don't say what we mean.
+Dialogue: 0,0:40:09.78,0:40:11.78,Default,,0,0,0,,
