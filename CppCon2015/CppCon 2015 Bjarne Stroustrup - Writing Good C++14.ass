@@ -8,14 +8,14 @@ ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
 Aegisub Scroll Position: 774
-Aegisub Active Line: 789
+Aegisub Active Line: 790
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 112835
+Aegisub Video Position: 113465
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -816,3 +816,4 @@ Dialogue: 0,1:00:58.95,1:01:01.54,演讲回答,,0,0,0,,he made some improvements
 Dialogue: 0,1:01:01.61,1:01:05.82,演讲回答,,0,0,0,,but basically, no, you can not violate not_null that easy
 Dialogue: 0,1:01:13.67,1:01:18.52,观众提问,,0,0,0,,I'm guessing
 Dialogue: 0,1:02:44.90,1:03:03.57,观众提问,,0,0,0,,总结起来就一句话： do you have guidelines for makeing C api safer in c++?
+Dialogue: 0,1:03:04.37,1:03:10.58,演讲回答,,0,0,0,,I have no plans of dealing with foreign systems.
