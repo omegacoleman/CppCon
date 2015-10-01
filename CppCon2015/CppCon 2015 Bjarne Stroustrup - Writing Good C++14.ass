@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 396
-Aegisub Active Line: 412
+Aegisub Scroll Position: 426
+Aegisub Active Line: 442
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 61422
+Aegisub Video Position: 66291
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -436,4 +436,34 @@ Dialogue: 0,0:33:49.41,0:33:51.60,Default,,0,0,0,,What else do we have to do?
 Dialogue: 0,0:33:51.61,0:33:54.90,Default,,0,0,0,,we can handle owner ship now we have to handle dangling
 Dialogue: 0,0:34:00.49,0:34:05.50,Default,,0,0,0,,Don't transfer to pointer to a local to where it could be accessed by a caller.
 Dialogue: 0,0:34:07.31,0:34:09.42,Default,,0,0,0,,ok, let's look at the example there.
-Dialogue: 0,0:34:09.42,0:34:11.42,Default,,0,0,0,,
+Dialogue: 0,0:34:09.54,0:34:12.24,Default,,0,0,0,,I am returning something.
+Dialogue: 0,0:34:12.28,0:34:14.78,Default,,0,0,0,,I neither return a pointer to a local.
+Dialogue: 0,0:34:14.99,0:34:17.25,Default,,0,0,0,,not a good idea, we all know that.
+Dialogue: 0,0:34:17.25,0:34:22.74,Default,,0,0,0,,compiler are able to catch it more or less consistently for the last 20 years.
+Dialogue: 0,0:34:23.01,0:34:28.98,Default,,0,0,0,,then I'm returnning a pointer to something I just created on the free-store.
+Dialogue: 0,0:34:28.98,0:34:30.26,Default,,0,0,0,,that's fine.
+Dialogue: 0,0:34:30.26,0:34:33.46,Default,,0,0,0,,at least it's sortof fine becauseIt didn't mark it as owner.
+Dialogue: 0,0:34:33.47,0:34:37.41,Default,,0,0,0,,but as far as dangling pointers,it's not going to dangle.
+Dialogue: 0,0:34:37.41,0:34:41.41,Default,,0,0,0,,and finnaly, there's a pointer that is given to me
+Dialogue: 0,0:34:41.41,0:34:44.84,Default,,0,0,0,,then obviously I can give it back because it came from my caller.
+Dialogue: 0,0:34:45.14,0:34:48.89,Default,,0,0,0,,those are roughly only 3 cases we can handle that.
+Dialogue: 0,0:34:49.18,0:34:56.46,Default,,0,0,0,,we can stop pointers from escaping down to the bottom of the stack and out live the owner.
+Dialogue: 0,0:34:56.99,0:35:06.44,Default,,0,0,0,,so catches all kinds of the things , pointers references etc and that's so fine
+Dialogue: 0,0:35:06.49,0:35:13.69,Default,,0,0,0,,so, we need to classify acording to owner ship to work here. 
+Dialogue: 0,0:35:13.76,0:35:17.21,Default,,0,0,0,,because, look at the f() there.
+Dialogue: 0,0:35:17.52,0:35:21.30,Default,,0,0,0,,it returns a vector of integers
+Dialogue: 0,0:35:21.53,0:35:35.44,Default,,0,0,0,,and inside that vector of integers we put something that's an owner, something that's a pointer to a local and something we got from our caller
+Dialogue: 0,0:35:35.92,0:35:41.82,Default,,0,0,0,,this... we can't handle the ownership, it just mixed.
+Dialogue: 0,0:35:42.44,0:35:45.02,Default,,0,0,0,,that's bad code.
+Dialogue: 0,0:35:45.08,0:35:46.88,Default,,0,0,0,,it's asking for touble.
+Dialogue: 0,0:35:46.97,0:35:49.30,Default,,0,0,0,,it'll be rejected for mixing it.
+Dialogue: 0,0:35:49.89,0:36:00.76,Default,,0,0,0,,in code we would have to try and deal with it and we can't
+Dialogue: 0,0:36:00.76,0:36:03.45,Default,,0,0,0,,because clearly the ownership became mixed.
+Dialogue: 0,0:36:03.54,0:36:07.60,Default,,0,0,0,,and when we passed it out, all the information about who shoud delete what has gone
+Dialogue: 0,0:36:07.64,0:36:29.17,Default,,0,0,0,,the only way of doing that is actually to hav something like big vector of (what) that should tell you which should be deleted or you can sort of hope you can change into unique_ptr so that preseve the ownership.
+Dialogue: 0,0:36:29.17,0:36:34.42,Default,,0,0,0,,don't mix ownership in containers!
+Dialogue: 0,0:36:34.52,0:36:38.70,Default,,0,0,0,,bacause in corrent code it doesn't work too well.
+Dialogue: 0,0:36:40.85,0:36:42.84,Default,,0,0,0,,in this code it'll be caught.
+Dialogue: 0,0:36:43.55,0:36:48.26,Default,,0,0,0,,so let's course many other ways of mis-using pointers and such.
+Dialogue: 0,0:36:48.26,0:36:51.38,Default,,0,0,0,,range errors, dereferencing nullptr
+Dialogue: 0,0:36:51.88,0:36:57.22,Default,,0,0,0,,
