@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 441
-Aegisub Active Line: 457
+Aegisub Scroll Position: 458
+Aegisub Active Line: 474
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 68278
+Aegisub Video Position: 70289
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -482,3 +482,20 @@ Dialogue: 0,0:37:50.05,0:37:53.32,Default,,0,0,0,,least favorite, because it is 
 Dialogue: 0,0:37:53.32,0:37:56.20,Default,,0,0,0,,and least favorite because it is so common.
 Dialogue: 0,0:37:56.44,0:37:58.19,Default,,0,0,0,,so a lot of errors there.
 Dialogue: 0,0:37:58.27,0:38:01.25,Default,,0,0,0,,so I assign 9 to a[7].
+Dialogue: 0,0:38:01.57,0:38:02.73,Default,,0,0,0,,it that ok?
+Dialogue: 0,0:38:02.99,0:38:04.56,Default,,0,0,0,,we have no ways of knowing!
+Dialogue: 0,0:38:04.56,0:38:06.56,Default,,0,0,0,,the information is not there
+Dialogue: 0,0:38:06.99,0:38:13.80,Default,,0,0,0,,and I can make a loop,  let's hope a really was the count
+Dialogue: 0,0:38:13.96,0:38:16.49,Default,,0,0,0,,and we hope the count was right, that's fine.
+Dialogue: 0,0:38:16.73,0:38:19.96,Default,,0,0,0,,so instead, we provide you an abstraction that's array_view.
+Dialogue: 0,0:38:20.14,0:38:23.94,Default,,0,0,0,,a begining that can browse integers, doesn't matter
+Dialogue: 0,0:38:24.09,0:38:31.52,Default,,0,0,0,,there. you could check the runtime if you wanted to that a[7] is valid
+Dialogue: 0,0:38:31.77,0:38:35.32,Default,,0,0,0,,and if you don't want the checks. we can only have it on debug mode
+Dialogue: 0,0:38:35.50,0:38:41.64,Default,,0,0,0,,we can now write range-for loop that will work.
+Dialogue: 0,0:38:41.90,0:38:48.01,Default,,0,0,0,,notice that there is not int n to get wrong and the code get simplified and is become more checkable
+Dialogue: 0,0:38:48.01,0:38:50.97,Default,,0,0,0,,we are lifting the abstraction just a little bit.
+Dialogue: 0,0:38:51.15,0:38:54.28,Default,,0,0,0,,and so we can look at some calls there.
+Dialogue: 0,0:38:54.51,0:38:57.79,Default,,0,0,0,,I call it for a[100]
+Dialogue: 0,0:38:57.86,0:39:00.28,Default,,0,0,0,,I have to say a and 100.
+Dialogue: 0,0:39:00.28,0:39:05.30,Default,,0,0,0,,even though I have told there are 100 elements in a.
+Dialogue: 0,0:39:05.61,0:39:11.09,Default,,0,0,0,,
