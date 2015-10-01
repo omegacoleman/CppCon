@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 663
-Aegisub Active Line: 676
+Aegisub Scroll Position: 738
+Aegisub Active Line: 746
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 93728
+Aegisub Video Position: 102934
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -700,4 +700,75 @@ Dialogue: 0,0:51:46.61,0:51:51.03,Default,,0,0,0,,we actually aim to change the 
 Dialogue: 0,0:51:51.52,0:51:53.52,Default,,0,0,0,,and that means {\b1}YOU{\b0}.
 Dialogue: 0,0:51:54.96,0:52:00.20,Default,,0,0,0,,what would you like your code to look like in 5 or 10 years?
 Dialogue: 0,0:52:01.30,0:52:07.01,Default,,0,0,0,,and really honestly if the answer is {\i1}just like what I wrote yesterday{\i0}
-Dialogue: 0,0:52:07.48,0:52:09.98,Default,,0,0,0,,
+Dialogue: 0,0:52:07.51,0:52:10.13,Default,,0,0,0,,there are some failling imagination here.
+Dialogue: 0,0:52:10.45,0:52:12.69,Default,,0,0,0,,we really want to make change
+Dialogue: 0,0:52:12.69,0:52:14.00,Default,,0,0,0,,that can be painful
+Dialogue: 0,0:52:14.53,0:52:21.01,Default,,0,0,0,,it's not easy to modernize code, it's not easy to modernize a large codebase, it is painful
+Dialogue: 0,0:52:21.57,0:52:27.11,Default,,0,0,0,,but, you know, if you don't do it. you have the same pain from your existing code
+Dialogue: 0,0:52:27.47,0:52:30.94,Default,,0,0,0,,that now 10 years old code in 5 years will be 15 years old!]
+Dialogue: 0,0:52:30.94,0:52:32.94,Default,,0,0,0,, and it is not going to feel any better!
+Dialogue: 0,0:52:33.87,0:52:40.11,Default,,0,0,0,,and gradual adaption, of course is nessesary for this.
+Dialogue: 0,0:52:40.34,0:52:52.24,Default,,0,0,0,,the idea of taking 5 million lines of codebase and saying, ok we just change this, and after the weekend we'll use the new version
+Dialogue: 0,0:52:52.26,0:52:53.56,Default,,0,0,0,,hmmm...
+Dialogue: 0,0:52:53.81,0:52:55.93,Default,,0,0,0,,probably not.
+Dialogue: 0,0:52:56.18,0:53:01.12,Default,,0,0,0,,we will not agree what the code should look like so there'll be some discussions.
+Dialogue: 0,0:53:01.55,0:53:04.70,Default,,0,0,0,,part of it will be, that not all code should look the same
+Dialogue: 0,0:53:05.15,0:53:15.01,Default,,0,0,0,,I really don't want work under constraints from my flight control software when I'm writting ordinary applications, it just too painful
+Dialogue: 0,0:53:15.19,0:53:19.16,Default,,0,0,0,,on the other hand there'll be discussion about what is common and what isn't.
+Dialogue: 0,0:53:19.28,0:53:24.69,Default,,0,0,0,,if you look at the rules you'll find that some of them are some what controversial.
+Dialogue: 0,0:53:24.95,0:53:26.56,Default,,0,0,0,,and that's fine.
+Dialogue: 0,0:53:27.66,0:53:29.22,Default,,0,0,0,,I just choose what I'm presume right answer. 
+Dialogue: 0,0:53:29.36,0:53:32.38,Default,,0,0,0,,if you don't agree, I'll willing to argue with you.
+Dialogue: 0,0:53:32.53,0:53:34.54,Default,,0,0,0,,so that's going to be fun!
+Dialogue: 0,0:53:34.91,0:53:36.85,Default,,0,0,0,,and help wanted
+Dialogue: 0,0:53:36.97,0:53:39.94,Default,,0,0,0,,look at the rules, help reviewing them
+Dialogue: 0,0:53:40.26,0:53:42.34,Default,,0,0,0,,help man suggest new rules
+Dialogue: 0,0:53:42.34,0:53:45.15,Default,,0,0,0,,help suggest better explanation of the rules
+Dialogue: 0,0:53:46.03,0:53:49.42,Default,,0,0,0,,currently there's only two editors of this, me and Herb Sutter.
+Dialogue: 0,0:53:49.69,0:53:52.23,Default,,0,0,0,,that is too lower number.
+Dialogue: 0,0:53:52.23,0:53:54.11,Default,,0,0,0,,so we need more editors
+Dialogue: 0,0:53:54.19,0:53:57.08,Default,,0,0,0,,but you have to earn your right to be an editor
+Dialogue: 0,0:53:57.08,0:54:01.76,Default,,0,0,0,,that's a crucial positon in the community
+Dialogue: 0,0:54:01.97,0:54:05.58,Default,,0,0,0,,so the current status, about 350 rules.
+Dialogue: 0,0:54:05.92,0:54:07.88,Default,,0,0,0,,and there's a github for it
+Dialogue: 0,0:54:08.80,0:54:12.30,Default,,0,0,0,,we put it live I think friday
+Dialogue: 0,0:54:12.92,0:54:16.55,Default,,0,0,0,,and we already getting pull requests.
+Dialogue: 0,0:54:16.80,0:54:20.79,Default,,0,0,0,,and thers's guidelines support library.
+Dialogue: 0,0:54:20.90,0:54:28.56,Default,,0,0,0,,tested on clang, gcc, microsoft on windows, linux and mac
+Dialogue: 0,0:54:28.68,0:54:30.80,Default,,0,0,0,,it's avaliable now
+Dialogue: 0,0:54:30.90,0:54:32.84,Default,,0,0,0,,the first tool should come
+Dialogue: 0,0:54:32.86,0:54:35.68,Default,,0,0,0,,microsoft is shipping something I think next month
+Dialogue: 0,0:54:35.81,0:54:38.72,Default,,0,0,0,,I don't know their shipping schedules so it can't be percise.
+Dialogue: 0,0:54:38.90,0:54:44.92,Default,,0,0,0,,and we hope ports to the other systems comming right after.
+Dialogue: 0,0:54:45.09,0:54:54.66,Default,,0,0,0,,it's written as fairly intentive portable iso c++, so that should work.
+Dialogue: 0,0:54:55.02,0:54:57.10,Default,,0,0,0,,and we need help
+Dialogue: 0,0:54:57.79,0:54:59.06,Default,,0,0,0,,and
+Dialogue: 0,0:54:59.43,0:55:05.03,Default,,0,0,0,,this paper, from my perspective means, that the basic c++ model is actually complete
+Dialogue: 0,0:55:05.54,0:55:22.90,Default,,0,0,0,,hours going for the idea that you could get perfect resource safety and type safety now have been trying to get there for many many years, it was the idea from day 1 and I knew we couldn't get there in any time soon, I think we are there (now)
+Dialogue: 0,0:55:24.87,0:55:25.86,Default,,0,0,0,,BTW
+Dialogue: 0,0:55:25.86,0:55:28.35,Default,,0,0,0,,if you look at my definition of resource safety
+Dialogue: 0,0:55:28.58,0:55:32.61,Default,,0,0,0,,you'll see that it's really not very many languages that can claim that.
+Dialogue: 0,0:55:33.04,0:55:38.84,Default,,0,0,0,,and for static type safety, not very many languages can claim that.
+Dialogue: 0,0:55:39.26,0:55:46.91,Default,,0,0,0,,no range errors and dereference errors without serious overhead, more language can cliam that but it's still hard.
+Dialogue: 0,0:55:47.40,0:55:50.11,Default,,0,0,0,,this is not unambitious as I said
+Dialogue: 0,0:55:50.24,0:55:55.98,Default,,0,0,0,,we now have concepts so we can deal templates in a more resonable way
+Dialogue: 0,0:55:56.41,0:56:00.78,Default,,0,0,0,,so, with all of the problems solved from the resource point of view
+Dialogue: 0,0:56:01.04,0:56:04.13,Default,,0,0,0,,why didn't I just go back to academia and design a new language?
+Dialogue: 0,0:56:04.13,0:56:06.36,Default,,0,0,0,,That's after all what most people do right?
+Dialogue: 0,0:56:06.36,0:56:07.86,Default,,0,0,0,,it's a cool thing to do
+Dialogue: 0,0:56:08.07,0:56:09.27,Default,,0,0,0,,etc
+Dialogue: 0,0:56:09.25,0:56:11.66,Default,,0,0,0,,competing wieh c++ is hard
+Dialogue: 0,0:56:11.90,0:56:19.97,Default,,0,0,0,,I put these toolchains up there to show what anybody with a new languages are up against.
+Dialogue: 0,0:56:21.06,0:56:26.32,Default,,0,0,0,,competing with c++ has over the years not been the winning strategy
+Dialogue: 0,0:56:26.60,0:56:28.24,Default,,0,0,0,,and
+Dialogue: 0,0:56:28.45,0:56:30.33,Default,,0,0,0,,it'll take, take time
+Dialogue: 0,0:56:30.50,0:56:38.21,Default,,0,0,0,,and further more, certainly going into a new language could fracture the c++ community which is among the last thing I want to do.
+Dialogue: 0,0:56:38.98,0:56:41.37,Default,,0,0,0,,so, we're going for something that can work now!
+Dialogue: 0,0:56:41.92,0:56:46.06,Default,,0,0,0,,guidelines and tools, hope to get there.
+Dialogue: 0,0:56:46.41,0:56:59.04,Default,,0,0,0,,so, with that, I'll switch to questions and I left the outline of the guidelines up there.
+Dialogue: 0,0:56:59.14,0:57:00.48,Default,,0,0,0,,by the way
+Dialogue: 0,0:57:00.74,0:57:06.69,Default,,0,0,0,,what we called guide there is Helios, Hercules fighting the Hydra.
+Dialogue: 0,0:57:06.93,0:57:09.45,Default,,0,0,0,,this is a bit like what I feels like
+Dialogue: 0,0:57:09.62,0:57:14.39,Default,,0,0,0,,we have many-headed monster we have to fight.
+Dialogue: 0,0:57:14.56,0:57:19.20,Default,,0,0,0,,and there's a nasty tendency of getting more heads as we make progress
+Dialogue: 0,0:57:19.46,0:57:20.43,Default,,0,0,0,,so, thank you!
