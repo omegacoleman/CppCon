@@ -7,20 +7,22 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 738
-Aegisub Active Line: 746
+Aegisub Scroll Position: 759
+Aegisub Active Line: 775
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 102934
+Aegisub Video Position: 107761
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Courier New,55,&H00FF00FF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,3,2,10,10,20,1
 Style: 居中标题,文泉驿正黑,150,&H0097108D,&H000000FF,&H00000000,&H00F7A350,0,0,0,0,100,100,0,0,1,3,6,8,10,10,10,1
+Style: 观众提问,Arial,55,&H00FFFF00,&H000000FF,&H0000FFFF,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: 演讲回答,Arial,55,&H000000FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -772,3 +774,31 @@ Dialogue: 0,0:57:06.93,0:57:09.45,Default,,0,0,0,,this is a bit like what I feel
 Dialogue: 0,0:57:09.62,0:57:14.39,Default,,0,0,0,,we have many-headed monster we have to fight.
 Dialogue: 0,0:57:14.56,0:57:19.20,Default,,0,0,0,,and there's a nasty tendency of getting more heads as we make progress
 Dialogue: 0,0:57:19.46,0:57:20.43,Default,,0,0,0,,so, thank you!
+Dialogue: 0,0:57:21.29,0:57:31.37,居中标题,,0,0,0,,～感谢 avplayer.org 制作英文字幕～
+Dialogue: 0,0:57:33.10,0:57:36.61,Default,,0,0,0,,is there mic-phone somewhere?
+Dialogue: 0,0:57:37.81,0:57:43.87,演讲回答,,0,0,0,,OK, I am back. so the questions is "why do I mark the owner rather than non-owner?"
+Dialogue: 0,0:57:44.50,0:57:46.35,演讲回答,,0,0,0,,yes we discussed that
+Dialogue: 0,0:57:47.70,0:57:56.00,演讲回答,,0,0,0,,My conjecture is that there are too many hundreds of millions lines of code that uses T* to mean non-owner.
+Dialogue: 0,0:57:58.02,0:58:01.12,演讲回答,,0,0,0,,and I really don't want people to write very many owners.
+Dialogue: 0,0:58:01.21,0:58:04.03,演讲回答,,0,0,0,,I want the owers to disapper into abstractions
+Dialogue: 0,0:58:05.11,0:58:09.73,演讲回答,,0,0,0,,as for now, there are many more non-owners and owners
+Dialogue: 0,0:58:19.68,0:58:22.13,演讲回答,,0,0,0,,in the future, I expect there to be a thousand or more than a thousand times as many non-owners as owners in code
+Dialogue: 0,0:58:19.78,0:58:25.38,演讲回答,,0,0,0,,because pointers are now getting safer and you can use them more freely
+Dialogue: 0,0:58:25.54,0:58:30.40,演讲回答,,0,0,0,,so I think a got the owner/non-owner default correct.
+Dialogue: 0,0:58:30.50,0:58:37.33,演讲回答,,0,0,0,,maybe the first time in history of c++ we got default right. but I'm pretty sure this one is right!
+Dialogue: 0,0:58:39.46,0:58:40.64,Default,主持人,0,0,0,,{\pos(1673,414)}Question here
+Dialogue: 0,0:58:41.25,0:58:41.78,Default,,0,0,0,,{\pos(1702,218)}there
+Dialogue: 0,0:58:42.77,0:58:43.17,观众提问,,0,0,0,,Hi!
+Dialogue: 0,0:58:43.92,0:59:00.53,观众提问,,0,0,0,,I had a question about owner T. and one thing I was confused about is that, is owner T is just something that is used at compile time or does it use any sort of like runtime overhead or ?
+Dialogue: 0,0:59:00.53,0:59:05.44,演讲回答,,0,0,0,,it's something that used only at compile time and it does absolutely nothing (at runtime)
+Dialogue: 0,0:59:06.05,0:59:15.33,演讲回答,,0,0,0,,it is something that guides or an enforcement tool to see what you suppose to do with it.
+Dialogue: 0,0:59:15.49,0:59:18.79,演讲回答,,0,0,0,,in paticular, if you're not an owner, you're not suppose to delete it
+Dialogue: 0,0:59:19.02,0:59:21.01,演讲回答,,0,0,0,,you're not going to pass it to an owner.
+Dialogue: 0,0:59:21.33,0:59:23.41,演讲回答,,0,0,0,,if you are an owner.
+Dialogue: 0,0:59:23.44,0:59:28.93,演讲回答,,0,0,0,,you have better either give it to somebody else who is also an owner or delete it
+Dialogue: 0,0:59:29.62,0:59:33.38,演讲回答,,0,0,0,,a tool can verify that, it doesn't do anything.
+Dialogue: 0,0:59:33.73,0:59:37.84,演讲回答,,0,0,0,,you can encapsulated an owner into a, say,  unique pointer.
+Dialogue: 0,0:59:38.05,0:59:42.67,演讲回答,,0,0,0,,and then just use it because it does the delete and has the right semantics
+Dialogue: 0,0:59:42.67,0:59:46.21,演讲回答,,0,0,0,,the owner is a low-level marker to help static analysis
+Dialogue: 0,0:59:46.44,0:59:55.62,演讲回答,,0,0,0,,I didn't mention but I sure static analysis is local, static analysis using very few rules, it's going to be fast
+Dialogue: 0,0:59:56.92,0:59:58.66,演讲回答,,0,0,0,,it's not one of these  going to be
