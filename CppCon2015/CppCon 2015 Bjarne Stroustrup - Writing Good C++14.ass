@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 759
-Aegisub Active Line: 775
+Aegisub Scroll Position: 774
+Aegisub Active Line: 789
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 107761
+Aegisub Video Position: 112835
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -801,4 +801,18 @@ Dialogue: 0,0:59:33.73,0:59:37.84,演讲回答,,0,0,0,,you can encapsulated an o
 Dialogue: 0,0:59:38.05,0:59:42.67,演讲回答,,0,0,0,,and then just use it because it does the delete and has the right semantics
 Dialogue: 0,0:59:42.67,0:59:46.21,演讲回答,,0,0,0,,the owner is a low-level marker to help static analysis
 Dialogue: 0,0:59:46.44,0:59:55.62,演讲回答,,0,0,0,,I didn't mention but I sure static analysis is local, static analysis using very few rules, it's going to be fast
-Dialogue: 0,0:59:56.92,0:59:58.66,演讲回答,,0,0,0,,it's not one of these  going to be
+Dialogue: 0,0:59:55.65,1:00:00.02,演讲回答,,0,0,0,,it's not one of these  going to be in cute algorithm over all of your code
+Dialogue: 0,1:00:00.17,1:00:03.38,演讲回答,,0,0,0,,it is local rules
+Dialogue: 0,1:00:04.95,1:00:10.02,观众提问,,0,0,0,,What happens when you move from not null?
+Dialogue: 0,1:00:10.84,1:00:13.87,演讲回答,,0,0,0,,What happens when I move from not null?
+Dialogue: 0,1:00:14.52,1:00:15.50,演讲回答,,0,0,0,,into what?
+Dialogue: 0,1:00:15.70,1:00:25.94,观众提问,,0,0,0,,you moved and the remaining status becomes null, right?
+Dialogue: 0,1:00:26.21,1:00:27.45,演讲回答,,0,0,0,,emmm
+Dialogue: 0,1:00:31.26,1:00:38.13,演讲回答,,0,0,0,,if you move from a pointer. it's just a copy. so it doesn't become null
+Dialogue: 0,1:00:38.50,1:00:44.16,演讲回答,,0,0,0,,if you generalized it to smart pointers and such
+Dialogue: 0,1:00:44.27,1:00:53.00,演讲回答,,0,0,0,,it will have to have the appropriate semantics, I don't know the implementations there, you should ask Neil Macintosh on Wednesday
+Dialogue: 0,1:00:53.01,1:00:58.84,演讲回答,,0,0,0,,he is one of the editor of the last version of the implementation which I haven't read yet
+Dialogue: 0,1:00:58.95,1:01:01.54,演讲回答,,0,0,0,,he made some improvements last week
+Dialogue: 0,1:01:01.61,1:01:05.82,演讲回答,,0,0,0,,but basically, no, you can not violate not_null that easy
+Dialogue: 0,1:01:13.67,1:01:18.52,观众提问,,0,0,0,,I'm guessing
+Dialogue: 0,1:02:44.90,1:03:03.57,观众提问,,0,0,0,,总结起来就一句话： do you have guidelines for makeing C api safer in c++?
