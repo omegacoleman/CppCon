@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 774
-Aegisub Active Line: 790
+Aegisub Scroll Position: 787
+Aegisub Active Line: 795
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 113465
+Aegisub Video Position: 114709
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -817,3 +817,8 @@ Dialogue: 0,1:01:01.61,1:01:05.82,演讲回答,,0,0,0,,but basically, no, you ca
 Dialogue: 0,1:01:13.67,1:01:18.52,观众提问,,0,0,0,,I'm guessing
 Dialogue: 0,1:02:44.90,1:03:03.57,观众提问,,0,0,0,,总结起来就一句话： do you have guidelines for makeing C api safer in c++?
 Dialogue: 0,1:03:04.37,1:03:10.58,演讲回答,,0,0,0,,I have no plans of dealing with foreign systems.
+Dialogue: 0,1:03:10.67,1:03:14.77,演讲回答,,0,0,0,,that will not be in the core guidelines
+Dialogue: 0,1:03:15.17,1:03:34.76,演讲回答,,0,0,0,,but I wouldn't be at all surprised and I'll be very happy if somebody would write a section asist how to interact with *, how to interact java, how to interact with python, I really hope to see somebody write those sections. 
+Dialogue: 0,1:03:34.87,1:03:41.56,演讲回答,,0,0,0,,quiet likely they will be of the form that you can do this the static analysis to make it simpler
+Dialogue: 0,1:03:41.67,1:03:47.44,演讲回答,,0,0,0,,you can have this tiny tiny little setup classes for doing the transmission
+Dialogue: 0,1:03:47.61,1:03:49.84,演讲回答,,0,0,0,,
