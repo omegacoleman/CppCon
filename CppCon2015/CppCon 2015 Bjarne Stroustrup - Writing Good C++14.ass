@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 607
-Aegisub Active Line: 623
+Aegisub Scroll Position: 633
+Aegisub Active Line: 649
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 88337
+Aegisub Video Position: 90261
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -648,3 +648,29 @@ Dialogue: 0,0:48:59.28,0:49:00.96,Default,,0,0,0,,where was it violated?
 Dialogue: 0,0:49:00.96,0:49:02.91,Default,,0,0,0,,what's the rational for the rule?
 Dialogue: 0,0:49:02.91,0:49:07.48,Default,,0,0,0,,what's the example of how bad it can get from problems like that?
 Dialogue: 0,0:49:07.54,0:49:09.31,Default,,0,0,0,,and here is what you should do instead.
+Dialogue: 0,0:49:09.39,0:49:10.93,Default,,0,0,0,,That's what I would like to see.
+Dialogue: 0,0:49:12.75,0:49:15.32,Default,,0,0,0,,so thers is too many rules that doesn't worry me.
+Dialogue: 0,0:49:15.40,0:49:16.96,Default,,0,0,0,,I want lots of rules.
+Dialogue: 0,0:49:17.47,0:49:21.45,Default,,0,0,0,,here is a set of classification
+Dialogue: 0,0:49:21.62,0:49:23.66,Default,,0,0,0,,there is philosophical rules
+Dialogue: 0,0:49:23.80,0:49:26.33,Default,,0,0,0,,basically the conceptual framework
+Dialogue: 0,0:49:26.59,0:49:28.66,Default,,0,0,0,,that cannot be validated
+Dialogue: 0,0:49:28.70,0:49:32.73,Default,,0,0,0,,but it's really good if you understood what been said there.
+Dialogue: 0,0:49:33.33,0:49:36.98,Default,,0,0,0,,if nothing else you'll know what we were thinking when we wrote them
+Dialogue: 0,0:49:37.61,0:49:43.04,Default,,0,0,0,,and then there's all kinds of things, interfaces, functions, classes, class hierarchies
+Dialogue: 0,0:49:43.04,0:49:43.19,Default,,0,0,0,,{\pos(48,248)}da
+Dialogue: 0,0:49:43.19,0:49:43.42,Default,,0,0,0,,{\pos(39,269)}da
+Dialogue: 0,0:49:43.42,0:49:43.55,Default,,0,0,0,,{\pos(66,314)}da
+Dialogue: 0,0:49:43.56,0:49:43.77,Default,,0,0,0,,{\pos(24,408)}da
+Dialogue: 0,0:49:43.75,0:49:43.90,Default,,0,0,0,,{\pos(69,423)}da
+Dialogue: 0,0:49:43.90,0:49:44.16,Default,,0,0,0,,{\pos(100,437)}da
+Dialogue: 0,0:49:45.27,0:49:48.50,Default,,0,0,0,, there's supporting sections, naming and layout
+Dialogue: 0,0:49:48.50,0:49:53.89,Default,,0,0,0,,that's where every body goes and they say they don't like the rules we wrote that's fine.
+Dialogue: 0,0:49:53.89,0:49:57.44,Default,,0,0,0,,never made anybody that the whole set of rules 
+Dialogue: 0,0:49:57.56,0:49:59.66,Default,,0,0,0,,people say that they want camel case.
+Dialogue: 0,0:49:59.82,0:50:01.95,Default,,0,0,0,,sure, I hate camel case
+Dialogue: 0,0:50:02.07,0:50:03.17,Default,,0,0,0,,apart from that.
+Dialogue: 0,0:50:03.26,0:50:06.96,Default,,0,0,0,,what that c# camel case or java camel case ?
+Dialogue: 0,0:50:08.45,0:50:09.94,Default,,0,0,0,,there's just too much of it
+Dialogue: 0,0:50:09.99,0:50:11.68,Default,,0,0,0,,there's rules for performence.
+Dialogue: 0,0:50:11.68,0:50:13.68,Default,,0,0,0,,
