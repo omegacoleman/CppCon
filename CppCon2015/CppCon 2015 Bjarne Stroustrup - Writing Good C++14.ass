@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 311
-Aegisub Active Line: 324
+Aegisub Scroll Position: 352
+Aegisub Active Line: 368
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 47556
+Aegisub Video Position: 53849
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -136,7 +136,7 @@ Dialogue: 0,0:09:18.41,0:09:21.54,Default,,0,0,0,,and rules tend to focus on low
 Dialogue: 0,0:09:21.54,0:09:22.99,Default,,0,0,0,,I mean, eh
 Dialogue: 0,0:09:23.07,0:09:25.20,Default,,0,0,0,,do use camel case underscores
 Dialogue: 0,0:09:25.20,0:09:27.90,Default,,0,0,0,,how many yea spaces to use to indent
-Dialogue: 0,0:09:28.24,0:09:32.08,Default,,0,0,0,,these are all very interesting, could be in the essential for our organization 
+Dialogue: 0,0:09:28.24,0:09:32.08,Default,,0,0,0,,these are all very interesting, could be in the essential for our organization
 Dialogue: 0,0:09:32.15,0:09:37.34,Default,,0,0,0,,but it has nothing much to do with how you get quality software at the higher level.
 Dialogue: 0,0:09:37.41,0:09:41.36,Default,,0,0,0,,how do you actually recognize a good piece of code when you came to see it?
 Dialogue: 0,0:09:41.76,0:09:46.23,Default,,0,0,0,,a lot of them simply sets restrictions.
@@ -154,7 +154,7 @@ Dialogue: 0,0:10:46.80,0:10:50.35,Default,,0,0,0,,really dumb idea in my opinion
 Dialogue: 0,0:10:50.35,0:10:53.87,Default,,0,0,0,,also, coding rules get outdated.
 Dialogue: 0,0:10:53.87,0:11:08.32,Default,,0,0,0,,I saw a recent year recommendation to use a  coding guideline , a really good guidelines, it describe how to write good code in about 198s. it hasn't been updated, that's a long time ago.
 Dialogue: 0,0:11:08.45,0:11:10.78,Default,,0,0,0,,and so they became a drag.
-Dialogue: 0,0:11:10.78,0:11:23.66,Default,,0,0,0,,a lot of code are specialized for particular application areas like I helped to write a set of guidelines for hard-realtime softwares or flight controlls 
+Dialogue: 0,0:11:10.78,0:11:23.66,Default,,0,0,0,,a lot of code are specialized for particular application areas like I helped to write a set of guidelines for hard-realtime softwares or flight controlls
 Dialogue: 0,0:11:24.02,0:11:27.25,Default,,0,0,0,,these are very nice guidelines for that.
 Dialogue: 0,0:11:27.25,0:11:30.21,Default,,0,0,0,,but then people try use it in some other areas.
 Dialogue: 0,0:11:30.21,0:11:38.90,Default,,0,0,0,,and you know, one of the guide rules for flight is that you don't use "new" after you take off.
@@ -200,7 +200,7 @@ Dialogue: 0,0:14:00.52,0:14:08.12,Default,,0,0,0,,and you use ISO standard c++, 
 Dialogue: 0,0:14:08.12,0:14:13.54,Default,,0,0,0,,but we are not going to deal with that, that will be for paticular restrictions
 Dialogue: 0,0:14:13.72,0:14:16.36,Default,,0,0,0,,And we want static type safety
 Dialogue: 0,0:14:17.10,0:14:18.14,Default,,0,0,0,,etc.etc
-Dialogue: 0,0:14:18.32,0:14:21.17,Default,,0,0,0,,so there a philosophical framework here 
+Dialogue: 0,0:14:18.32,0:14:21.17,Default,,0,0,0,,so there a philosophical framework here
 Dialogue: 0,0:14:21.31,0:14:26.70,Default,,0,0,0,,the problem is that again compilers and programmers don't really get philosophy.
 Dialogue: 0,0:14:26.90,0:14:35.84,Default,,0,0,0,, it means that you have to transfer into something that can be understood in detail in context of a piece of program and use.
 Dialogue: 0,0:14:35.84,0:14:38.54,Default,,0,0,0,,so for that reason there is a whole bunch of low-level rules.
@@ -278,7 +278,7 @@ Dialogue: 0,0:20:33.00,0:20:36.94,Default,,0,0,0,,now, there's rules that encour
 Dialogue: 0,0:20:37.05,0:20:46.00,Default,,0,0,0,,but these here are choose to show how you can deal with traditional old style code and improve it : don't pass an array as a ingle pointer.
 Dialogue: 0,0:20:46.22,0:20:51.29,Default,,0,0,0,,so basically, guess what this could do'
 Dialogue: 0,0:20:51.69,0:20:58.28,Default,,0,0,0,,I don't actually think that we can do less than can say double our productivity
-Dialogue: 0,0:20:58.28,0:21:03.82,Default,,0,0,0,,this is big claim but I think it can be done 
+Dialogue: 0,0:20:58.28,0:21:03.82,Default,,0,0,0,,this is big claim but I think it can be done
 Dialogue: 0,0:21:03.85,0:21:16.11,Default,,0,0,0,,look at a good programmer working on a modern codebase and looking at same programmer working on a 20year old codebase or 10 year old codebase
 Dialogue: 0,0:21:16.27,0:21:22.56,Default,,0,0,0,,also look at a median kind of programmer
 Dialogue: 0,0:21:22.56,0:21:25.32,Default,,0,0,0,,and see what it taks to become a greate programmer.
@@ -334,7 +334,7 @@ Dialogue: 0,0:25:15.04,0:25:15.69,Default,,0,0,0,,why?
 Dialogue: 0,0:25:15.69,0:25:19.96,Default,,0,0,0,,because if there is one delete, there probably should be more.
 Dialogue: 0,0:25:19.96,0:25:23.58,Default,,0,0,0,,and there are probably been too many.
 Dialogue: 0,0:25:23.58,0:25:29.42,Default,,0,0,0,,so new/delete disappear into classes
-Dialogue: 0,0:25:29.95,0:25:35.74,Default,,0,0,0,,when you see a "new" in application code, you think there must be a problem here. 
+Dialogue: 0,0:25:29.95,0:25:35.74,Default,,0,0,0,,when you see a "new" in application code, you think there must be a problem here.
 Dialogue: 0,0:25:35.88,0:25:41.76,Default,,0,0,0,,because if there's a new there should be a delete somewhere, and if there's delete somewhere and we know from experience we made mistakes.
 Dialogue: 0,0:25:42.11,0:25:44.48,Default,,0,0,0,,so we don't do that.
 Dialogue: 0,0:25:44.62,0:25:48.76,Default,,0,0,0,,this leads us to what I think is a worse nightmare problem.
@@ -348,4 +348,48 @@ Dialogue: 0,0:26:09.18,0:26:12.46,Default,,0,0,0,,here is "g" makes an object, c
 Dialogue: 0,0:26:12.76,0:26:20.62,Default,,0,0,0,,and then it uses q which happens to be the pointing the the object that was deleted in f.
 Dialogue: 0,0:26:20.80,0:26:23.23,Default,,0,0,0,,this is how you scram your memory
 Dialogue: 0,0:26:23.44,0:26:26.78,Default,,0,0,0,,the rules will make sure that you don't do this.
-Dialogue: 0,0:26:26.78,0:26:29.76,Default,,0,0,0,,
+Dialogue: 0,0:26:26.88,0:26:31.65,Default,,0,0,0,,and it'll take care of some of the most shroud and difficult find bugs 
+Dialogue: 0,0:26:32.18,0:26:39.16,Default,,0,0,0,,and we have to do this because if we don't we can damage type safety.
+Dialogue: 0,0:26:39.33,0:26:41.54,Default,,0,0,0,,I say this object is an integer
+Dialogue: 0,0:26:42.29,0:26:44.16,Default,,0,0,0,,you do this example
+Dialogue: 0,0:26:44.29,0:26:49.33,Default,,0,0,0,,and the object might integer are laies at place where your object wasn't, you scramble it.
+Dialogue: 0,0:26:49.76,0:26:52.14,Default,,0,0,0,,Memory safety of course.
+Dialogue: 0,0:26:52.15,0:26:55.14,Default,,0,0,0,,because we are not using memory as if it is clear
+Dialogue: 0,0:26:55.36,0:27:03.35,Default,,0,0,0,,and Resource safety is compromise because you can destory things that are laying around there.
+Dialogue: 0,0:27:03.94,0:27:06.48,Default,,0,0,0,,double delete and no deletes
+Dialogue: 0,0:27:06.54,0:27:13.33,Default,,0,0,0,,we have to solve this problem to get type safety to get resource safety.
+Dialogue: 0,0:27:13.78,0:27:18.88,Default,,0,0,0,,we're going to eliminate this by combination of rules
+Dialogue: 0,0:27:19.01,0:27:20.04,Default,,0,0,0,,I mean eliminated
+Dialogue: 0,0:27:20.08,0:27:20.92,Default,,0,0,0,,get rid of it
+Dialogue: 0,0:27:21.05,0:27:22.40,Default,,0,0,0,,
+Dialogue: 0,0:27:22.87,0:27:26.26,Default,,0,0,0,,we distinguish owners from non-owners
+Dialogue: 0,0:27:26.27,0:27:30.78,Default,,0,0,0,,if I have a pointer, am I suppose to delete it or not? NO!
+Dialogue: 0,0:27:31.30,0:27:34.27,Default,,0,0,0,,asure raw pointers to be non-owners!
+Dialogue: 0,0:27:34.27,0:27:45.28,Default,,0,0,0,,we have many pointers in our programs, far too many, but let's asure they are all innocent, they just point to an object, they are not suppose to be a ownership
+Dialogue: 0,0:27:45.60,0:27:55.60,Default,,0,0,0,,Catch all attempts for a pointer to "escape" into a scope that is outside a scope of what it points to.
+Dialogue: 0,0:27:55.62,0:27:57.13,Default,,0,0,0,,fairly simple
+Dialogue: 0,0:27:57.39,0:28:01.32,Default,,0,0,0,,anything that holds an owner is consider an owner
+Dialogue: 0,0:28:01.42,0:28:03.53,Default,,0,0,0,,so all of this works recursively
+Dialogue: 0,0:28:03.69,0:28:05.89,Default,,0,0,0,,so this is simple rule.
+Dialogue: 0,0:28:05.98,0:28:09.24,Default,,0,0,0,,we have some pointers, they point to an object
+Dialogue: 0,0:28:10.32,0:28:13.36,Default,,0,0,0,,that object is held alive by an owner
+Dialogue: 0,0:28:13.83,0:28:15.30,Default,,0,0,0,,this works recursively
+Dialogue: 0,0:28:15.30,0:28:18.32,Default,,0,0,0,,the object happens to have an owner pointer inside it
+Dialogue: 0,0:28:18.54,0:28:24.38,Default,,0,0,0,,thus we have constructors and distructors. constructors to construct, distructors to clean up.
+Dialogue: 0,0:28:24.61,0:28:37.43,Default,,0,0,0,,what we really have to avoid is that pointer there. that has been passed below the object owner in the stack so when we delete the owner the object is not there and people are still refering to it.
+Dialogue: 0,0:28:37.52,0:28:44.90,Default,,0,0,0,,this must never happen so we can asure that. so long long way to eliminate (dangling) pointers.
+Dialogue: 0,0:28:45.03,0:28:46.42,Default,,0,0,0,,this is not new rule
+Dialogue: 0,0:28:46.63,0:28:50.85,Default,,0,0,0,,if you look at the standard it suggest you should not do that because it's undefined behavior
+Dialogue: 0,0:28:51.07,0:28:53.35,Default,,0,0,0,,the point is how do we actully get there.
+Dialogue: 0,0:28:53.90,0:28:58.41,Default,,0,0,0,,so here is dangling pointers thing again
+Dialogue: 0,0:28:58.99,0:29:01.83,Default,,0,0,0,,first of all the rule will catch the delete p.
+Dialogue: 0,0:29:02.12,0:29:10.42,Default,,0,0,0,,you had a innocent looking pointer X* that is not an owner. so the rules will tell you not to do that.
+Dialogue: 0,0:29:10.88,0:29:14.45,Default,,0,0,0,,tools that enforce the rules will tell you that is bad
+Dialogue: 0,0:29:14.71,0:29:17.26,Default,,0,0,0,,you go back to the "g"
+Dialogue: 0,0:29:17.58,0:29:22.35,Default,,0,0,0,,it says, well, "new X" obviously produces an owner.
+Dialogue: 0,0:29:22.44,0:29:29.14,Default,,0,0,0,,so assigning it to a plain old pointer is going to be wrong.
+Dialogue: 0,0:29:29.14,0:29:32.09,Default,,0,0,0,,because this could lead to a leak
+Dialogue: 0,0:29:32.31,0:29:39.62,Default,,0,0,0,,if fact it is also .. if do that will lead you to problems with exceptions, is another matter.
+Dialogue: 0,0:29:39.78,0:29:48.57,Default,,0,0,0,,we'll never get down to the problem because you are already been traped by those simple rules twice.
+Dialogue: 0,0:29:49.64,0:29:56.73,Default,,0,0,0,,so we can look at how we represent the ownership.
+Dialogue: 0,0:29:57.05,0:30:01.01,Default,,0,0,0,,you can pass a
