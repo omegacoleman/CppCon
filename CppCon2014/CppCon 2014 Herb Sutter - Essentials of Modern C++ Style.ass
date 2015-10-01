@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 0
-Aegisub Active Line: 25
+Aegisub Scroll Position: 76
+Aegisub Active Line: 102
 Aegisub Video Zoom Percent: 1.000000
 Audio URI: ../../../Videos/CppCon2014/CPPBasicsSutter_high.mp4
 PlayResX: 1280
 PlayResY: 720
 Video File: ../../../Videos/CppCon2014/CPPBasicsSutter_high.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 3941
+Aegisub Video Position: 13048
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -44,9 +44,86 @@ Dialogue: 0,0:01:24.05,0:01:28.88,Default,,0,0,0,,I was intruduced to complexity
 Dialogue: 0,0:01:28.95,0:01:36.88,Default,,0,0,0,,He showed me a cool programming trick on his computer at home in private, and it really worked on his compiler.
 Dialogue: 0,0:01:38.54,0:01:43.36,Default,,0,0,0,,So I started using a little complexity but just a little, not only at home
 Dialogue: 0,0:01:44.23,0:01:49.46,Default,,0,0,0,,but after a while as I got used to using complexity, something strange happend to me.
-Dialogue: 0,0:01:49.46,0:01:53.23,Default,,0,0,0,,
+Dialogue: 0,0:01:49.50,0:01:53.02,Default,,0,0,0,,the thrill sort of faded didn't seem as complex anymore
 Dialogue: 0,0:01:53.23,0:01:57.52,Default,,0,0,0,,It seems simple - even no other people around me told me that was still too complex.
 Dialogue: 0,0:01:57.78,0:02:02.05,Default,,0,0,0,,So I started hanging out with people after work for social complexity
 Dialogue: 0,0:02:02.19,0:02:03.42,Default,,0,0,0,,on bar napkins.
 Dialogue: 0,0:02:03.70,0:02:09.03,Default,,0,0,0,,but then I started eating at work time, we started bringing it into office,  checking it in.
 Dialogue: 0,0:02:11.49,0:02:16.22,Default,,0,0,0,,some of you were at the template meta programming hacker fun last night. here's the picture
+Dialogue: 0,0:02:19.21,0:02:22.53,Default,,0,0,0,,seriously the reason that I want to talk about complexity is
+Dialogue: 0,0:02:22.52,0:02:28.74,Default,,0,0,0,,people under the influence of the complexity often think that they are thinking more loosely
+Dialogue: 0,0:02:28.92,0:02:31.64,Default,,0,0,0,,and really that's not true.
+Dialogue: 0,0:02:31.64,0:02:38.68,Default,,0,0,0,,but we get so used to complexity that we should remember that it's fine in moderation
+Dialogue: 0,0:02:40.41,0:02:47.19,Default,,0,0,0,,once you know a lot about anything including c++ it's really hard to forget that you're an expert
+Dialogue: 0,0:02:47.50,0:02:49.14,Default,,0,0,0,,so there's roughly give a take
+Dialogue: 0,0:02:49.14,0:02:50.44,Default,,0,0,0,,it's hard to get a number
+Dialogue: 0,0:02:50.60,0:02:53.40,Default,,0,0,0,,people who include use c++ on their daily jobs
+Dialogue: 0,0:02:53.40,0:02:56.17,Default,,0,0,0,,is roughly around 3 millon for sometime.
+Dialogue: 0,0:02:56.46,0:03:01.67,Default,,0,0,0,,and it's gradually little pretty flat in 2000s it's increasing a bit now.
+Dialogue: 0,0:03:02.02,0:03:04.74,Default,,0,0,0,,but compare that to many of the experts that you've heard of
+Dialogue: 0,0:03:05.06,0:03:07.92,Default,,0,0,0,,how many of you uses GNU GCC ?
+Dialogue: 0,0:03:09.44,0:03:10.45,Default,,0,0,0,,lots! great!
+Dialogue: 0,0:03:10.77,0:03:14.59,Default,,0,0,0,,so you're using the standrad implementation libstdc++
+Dialogue: 0,0:03:14.47,0:03:16.13,Default,,0,0,0,,which has been around for quiet a while.
+Dialogue: 0,0:03:16.26,0:03:19.52,Default,,0,0,0,,and just over the last almost 20 years, I ask some of the maintainers:
+Dialogue: 0,0:03:19.65,0:03:33.23,Default,,0,0,0,,"you know, how many people have contributed to the well-know open-source project everybody knows that everybody contributes to opensource project? how many people really have contributed to it? say more than just a few lines, like contributed something significant to it?"
+Dialogue: 0,0:03:34.02,0:03:35.48,Default,,0,0,0,,answer seam to be about 30 :(
+Dialogue: 0,0:03:36.55,0:03:38.93,Default,,0,0,0,,gnu world in the last roughly 20 years
+Dialogue: 0,0:03:40.02,0:03:41.38,Default,,0,0,0,,How many of you use clang?
+Dialogue: 0,0:03:42.62,0:03:45.65,Default,,0,0,0,, if you're using XCode, that's also clang, so put up your hand
+Dialogue: 0,0:03:46.42,0:03:47.09,Default,,0,0,0,,ok
+Dialogue: 0,0:03:48.51,0:03:54.21,Default,,0,0,0,,you know how many people are developers of the standard c++ library that shipes with clang - libc++ 
+Dialogue: 0,0:03:54.82,0:03:56.70,Default,,0,0,0,,the answer till 20 month ago is two.
+Dialogue: 0,0:03:58.09,0:03:59.82,Default,,0,0,0,,they are both here at this week
+Dialogue: 0,0:03:59.82,0:04:02.58,Default,,0,0,0,,one is now getting on a plane, the others still here in the audience
+Dialogue: 0,0:04:02.58,0:04:05.33,Default,,0,0,0,,the answer is now about 5-7 that contributed more than just few lines
+Dialogue: 0,0:04:05.33,0:04:08.56,Default,,0,0,0,,you contribute something more significant
+Dialogue: 0,0:04:08.75,0:04:11.32,Default,,0,0,0,,I was not able to get the number of boost developers
+Dialogue: 0,0:04:11.85,0:04:14.60,Default,,0,0,0,,that's been going on for almost 20 years now
+Dialogue: 0,0:04:14.98,0:04:19.52,Default,,0,0,0,,I figure some where in the order of 300 people, maybe that's high, I don't know.
+Dialogue: 0,0:04:19.52,0:04:20.74,Default,,0,0,0,,but must be generous
+Dialogue: 0,0:04:20.74,0:04:23.66,Default,,0,0,0,,and ISO WG21 meeting attenders?
+Dialogue: 0,0:04:24.14,0:04:30.68,Default,,0,0,0,,who like ever attended more than one c++ meeting, I didn't actually go through all minutes and count, but I'd be surpurized there's more than 300 people.
+Dialogue: 0,0:04:31.50,0:04:33.02,Default,,0,0,0,,so here is a diagram
+Dialogue: 0,0:04:33.02,0:04:35.16,Default,,0,0,0,,all the c++ developers in the world
+Dialogue: 0,0:04:35.16,0:04:43.80,Default,,0,0,0,,and the smaller cycle is all of the libc++ developers, libstdc++ developers, boost developers, and anyone has attended more than one iso c++ meeting
+Dialogue: 0,0:04:44.22,0:04:49.71,Default,,0,0,0,,and if I had put a border allying around the cycle you couldn't see the smaller cycle
+Dialogue: 0,0:04:50.37,0:04:54.43,Default,,0,0,0,,actually I had to turn off the line around the cycle otherwise you couldn't see the smaller one 
+Dialogue: 0,0:04:54.57,0:04:57.44,Default,,0,0,0,,btw, can you see it?
+Dialogue: 0,0:04:58.22,0:05:02.82,Default,,0,0,0,,we need to give good guidence to the big cycles.
+Dialogue: 0,0:05:03.48,0:05:11.01,Default,,0,0,0,,while still teaching the advanced tools for people who need advanced code including very advanced code
+Dialogue: 0,0:05:11.62,0:05:14.28,Default,,0,0,0,,but, a, not everyone need to know all of it
+Dialogue: 0,0:05:14.52,0:05:18.04,Default,,0,0,0,,and not everyone who knows it needs to use it all the time
+Dialogue: 0,0:05:18.46,0:05:20.81,Default,,0,0,0,,so that's the theme of this talk
+Dialogue: 0,0:05:20.88,0:05:25.49,Default,,0,0,0,,in fact, if you go back to Bjarne Stroustrup's wonderful keynote on Tuesday
+Dialogue: 0,0:05:25.98,0:05:27.34,Default,,0,0,0,,interesting factory
+Dialogue: 0,0:05:27.52,0:05:33.15,Default,,0,0,0,,if you go through the slides, know how many "&&" presents rvalue references are in his entire talk
+Dialogue: 0,0:05:34.05,0:05:35.14,Default,,0,0,0,,nice round number
+Dialogue: 0,0:05:35.50,0:05:39.88,Default,,0,0,0,,so the value of simple usable defaults is really priceless
+Dialogue: 0,0:05:40.95,0:05:41.68,Default,,0,0,0,,btw
+Dialogue: 0,0:05:41.96,0:05:43.92,Default,,0,0,0,,I mention this some handle on monday night
+Dialogue: 0,0:05:43.92,0:05:51.82,Default,,0,0,0,,the most important c++ book you should go out and buy it on bootstore now is {\i1}a tour of c++{\i0} by Bjarne Stroustrup 
+Dialogue: 0,0:05:51.92,0:05:57.64,Default,,0,0,0,,we have lot... so much thunder so...
+Dialogue: 0,0:05:52.90,0:05:57.17,Default,,0,0,0,,I know it was sold out! I know!
+Dialogue: 0,0:05:58.93,0:06:03.60,Default,,0,0,0,,but the good news is that you can still order it on the book store and they will order and ship it to you, as they have free shipping 
+Dialogue: 0,0:06:03.60,0:06:06.54,Default,,0,0,0,,so go to the book store anyway or amazon or anywhere
+Dialogue: 0,0:06:06.54,0:06:07.79,Default,,0,0,0,,in paticular
+Dialogue: 0,0:06:08.24,0:06:16.01,Default,,0,0,0,,this book is important because it encapsulated in one place what every c++ programers should be expected to know
+Dialogue: 0,0:06:16.97,0:06:18.49,Default,,0,0,0,,that's really important
+Dialogue: 0,0:06:19.24,0:06:25.39,Default,,0,0,0,,somebody is coming new to c++ or they are learnning modern c++ after having knew c++98
+Dialogue: 0,0:06:26.17,0:06:29.69,Default,,0,0,0,,they often ask, ok where? what's all the stuff we need to know
+Dialogue: 0,0:06:29.69,0:06:36.61,Default,,0,0,0,,well, look over here on stackoverflow and Sculter got book bot and Stroustrup's stuff is longer, there's chapters there you ought to know
+Dialogue: 0,0:06:36.64,0:06:44.02,Default,,0,0,0,,here is a 180 pages that some of you will have your time read on your plane home this weekend from cover to cover 
+Dialogue: 0,0:06:44.19,0:06:47.93,Default,,0,0,0,,that tells you the stuff that everyone needs to know about c++
+Dialogue: 0,0:06:47.93,0:06:49.63,Default,,0,0,0,,I recomment this book
+Dialogue: 0,0:06:49.87,0:06:50.98,Default,,0,0,0,,LET PEOPLE KNOW!
+Dialogue: 0,0:06:51.03,0:06:52.15,Default,,0,0,0,,help get the world out
+Dialogue: 0,0:06:52.22,0:06:55.94,Default,,0,0,0,,it's really important and I'm very glad that Bjarne has made that avaliable
+Dialogue: 0,0:06:56.52,0:06:58.42,Default,,0,0,0,,in this talk I want to focus on
+Dialogue: 0,0:06:58.42,0:07:00.82,Default,,0,0,0,,defaults, basic styles and idioms
+Dialogue: 0,0:07:00.84,0:07:01.26,Default,,0,0,0,,now
+Dialogue: 0,0:07:02.47,0:07:04.83,Default,,0,0,0,,some experts have push back me on this
+Dialogue: 0,0:07:05.04,0:07:09.86,Default,,0,0,0,,when I say the word "default" some experts treated it as bad word 
+Dialogue: 0,0:07:09.86,0:07:12.41,Default,,0,0,0,,they say you are damping down the language, no, not.
+Dialogue: 0,0:07:13.39,0:07:15.36,Default,,0,0,0,,a default does not damping down.
+Dialogue: 0,0:07:15.65,0:07:17.92,Default,,0,0,0,,especially
