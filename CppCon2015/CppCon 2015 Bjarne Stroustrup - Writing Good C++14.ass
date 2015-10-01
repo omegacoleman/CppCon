@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 471
-Aegisub Active Line: 487
+Aegisub Scroll Position: 487
+Aegisub Active Line: 503
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 72222
+Aegisub Video Position: 73637
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -511,4 +511,20 @@ Dialogue: 0,0:39:51.09,0:39:55.83,Default,,0,0,0,,and array_view is roughly the 
 Dialogue: 0,0:39:56.13,0:39:59.91,Default,,0,0,0,,but we can use it easier and make few mistakes.
 Dialogue: 0,0:40:00.84,0:40:06.49,Default,,0,0,0,,nullptr. deal with it simply by saying what we mean.
 Dialogue: 0,0:40:06.61,0:40:09.78,Default,,0,0,0,,the problem is , today , we don't say what we mean.
-Dialogue: 0,0:40:09.78,0:40:11.78,Default,,0,0,0,,
+Dialogue: 0,0:40:09.85,0:40:12.21,Default,,0,0,0,,I have f(char*)
+Dialogue: 0,0:40:12.74,0:40:15.60,Default,,0,0,0,,is it alright to call it with nullptr ?
+Dialogue: 0,0:40:16.37,0:40:17.78,Default,,0,0,0,,where does it say so?
+Dialogue: 0,0:40:18.16,0:40:20.58,Default,,0,0,0,,in the documentation, OK.
+Dialogue: 0,0:40:20.84,0:40:26.05,Default,,0,0,0,,compiler don't read document and neither do I  when I hear it
+Dialogue: 0,0:40:26.16,0:40:27.17,Default,,0,0,0,,not a good thing.
+Dialogue: 0,0:40:27.41,0:40:29.21,Default,,0,0,0,,when I implementing f().
+Dialogue: 0,0:40:29.27,0:40:33.08,Default,,0,0,0,,should I turst my users (that they will) follow the rules or not?
+Dialogue: 0,0:40:33.69,0:40:34.95,Default,,0,0,0,,should I test (against parameter)?
+Dialogue: 0,0:40:36.65,0:40:38.04,Default,,0,0,0,,if I test, I test too much
+Dialogue: 0,0:40:38.04,0:40:40.51,Default,,0,0,0,,because that's a waste of resources.
+Dialogue: 0,0:40:40.52,0:40:42.39,Default,,0,0,0,,If I test too little, it'll crash.
+Dialogue: 0,0:40:42.49,0:40:45.09,Default,,0,0,0,,there're all kinds of things about that.
+Dialogue: 0,0:40:45.09,0:40:48.31,Default,,0,0,0,,so, one way to dealing with it is that we use not_null.
+Dialogue: 0,0:40:48.37,0:40:53.11,Default,,0,0,0,,currently that's a class that will test whether it's null or not.
+Dialogue: 0,0:40:53.25,0:40:57.01,Default,,0,0,0,,but a lot of it can be eliminated and can be debug only.
+Dialogue: 0,0:40:57.09,0:41:02.01,Default,,0,0,0,,so if nullptr is an error it toke f(not_null<char*>)
