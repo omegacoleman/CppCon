@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 0
-Aegisub Active Line: 11
+Aegisub Scroll Position: 3
+Aegisub Active Line: 15
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 1920
+Aegisub Video Position: 2832
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -38,11 +38,10 @@ Dialogue: 0,0:00:46.37,0:00:52.47,Default,,0,0,0,,一些人开始觉得自己知
 Dialogue: 0,0:00:52.74,0:00:55.74,Default,,0,0,0,,另外的人就开始追问了，“你知道？快告诉我啊”
 Dialogue: 0,0:00:55.74,0:01:04.02,Default,,0,0,0,,于是今春，我决定开一个项目，告诉大家咋写好c++
 Dialogue: 0,0:01:04.05,0:01:09.46,Default,,0,0,0,,于是发现其他人也有些个想法咯
-Dialogue: 0,0:01:09.61,0:01:13.79,Default,,0,0,0,,so some of us try to provide some useful answer.
-Dialogue: 0,0:01:14.04,0:01:22.28,Default,,0,0,0,,and one of the things that is important here, is that we would like to help many people
-Dialogue: 0,0:01:22.61,0:01:27.32,Default,,0,0,0,,thers is more that 4million c++ programers.
-Dialogue: 0,0:01:27.57,0:01:34.16,Default,,0,0,0,,and if we come up with a solution that can (only) be handled by 200 language experts, we failed.
-Dialogue: 0,0:01:34.47,0:01:42.20,Default,,0,0,0,,so , this is an attempt to be able to help a lot of people.
+Dialogue: 0,0:01:09.61,0:01:13.79,Default,,0,0,0,,于是我们来回答这个问题好了
+Dialogue: 0,0:01:14.04,0:01:27.32,Default,,0,0,0,,且慢，谨记我们在帮助超过4百万的c++程序员
+Dialogue: 0,0:01:27.57,0:01:34.16,Default,,0,0,0,,如果我们的办法仅有200个专家会用是没用的
+Dialogue: 0,0:01:34.47,0:01:42.20,Default,,0,0,0,,所以这个项目的目的是要帮助更多的人
 Dialogue: 0,0:01:42.57,0:01:46.56,Default,,0,0,0,,and a lot of we've seen it, we have a great language now.
 Dialogue: 0,0:01:46.65,0:01:52.74,Default,,0,0,0,,it's a modern language, it can do really nice things that we couldn't do 10-20 years ago.
 Dialogue: 0,0:01:52.79,0:01:59.63,Default,,0,0,0,,c++11 is good. c++14 is better. both are in wide-spread production use.
