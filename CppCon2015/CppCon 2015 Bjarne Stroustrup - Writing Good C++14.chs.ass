@@ -31,7 +31,7 @@ Comment: 0,0:00:05.00,0:00:07.00,Default,,0,0,0,,视频文件请到 http://pan.b
 Dialogue: 0,0:00:00.00,0:00:02.04,Default,,0,0,0,,好， 可以开始了
 Dialogue: 0,0:00:05.41,0:00:10.45,Default,,0,0,0,,欢迎欢迎～看到那么多人我好兴奋啊～
 Dialogue: 0,0:00:10.75,0:00:19.76,Default,,0,0,0,,特别是老朋友都在，还多了不少新朋友，我开心的紧张死了～
-Dialogue: 0,0:00:20.19,0:00:27.90,Default,,0,0,0,,今天，我来818如何写代码，如何写现代C++代码
+Dialogue: 0,0:00:20.19,0:00:27.90,Default,,0,0,0,,今天，我就来谈谈如何优美地写现代C++代码
 Dialogue: 0,0:00:28.23,0:00:39.16,Default,,0,0,0,,我想大家和我一样，都被一个问题困惑，到底什么是好的现代c++代码呢？
 Dialogue: 0,0:00:39.45,0:00:46.18,Default,,0,0,0,,过去的5年里，我们对c++做了不少手术
 Dialogue: 0,0:00:46.37,0:00:52.47,Default,,0,0,0,,一些人开始觉得自己知道咋写好c++了
@@ -42,14 +42,14 @@ Dialogue: 0,0:01:09.61,0:01:13.79,Default,,0,0,0,,于是我们来回答这个问
 Dialogue: 0,0:01:14.04,0:01:27.32,Default,,0,0,0,,且慢，谨记我们在帮助超过4百万的c++程序员
 Dialogue: 0,0:01:27.57,0:01:34.16,Default,,0,0,0,,如果我们的办法仅有200个专家会用是没用的
 Dialogue: 0,0:01:34.47,0:01:42.20,Default,,0,0,0,,所以这个项目的目的是要帮助更多的人
-Dialogue: 0,0:01:42.57,0:01:46.56,Default,,0,0,0,,and a lot of we've seen it, we have a great language now.
-Dialogue: 0,0:01:46.65,0:01:52.74,Default,,0,0,0,,it's a modern language, it can do really nice things that we couldn't do 10-20 years ago.
-Dialogue: 0,0:01:52.79,0:01:59.63,Default,,0,0,0,,c++11 is good. c++14 is better. both are in wide-spread production use.
-Dialogue: 0,0:01:59.63,0:02:02.09,Default,,0,0,0,,These are not toy languages.
-Dialogue: 0,0:02:02.24,0:02:08.61,Default,,0,0,0,,And from I see in the standards commitee, c++17 is even better.
-Dialogue: 0,0:02:08.85,0:02:22.51,Default,,0,0,0,,There is technical specifications like filesystem and concepts and such that are rolling out. Things are happening.
-Dialogue: 0,0:02:22.51,0:02:44.95,Default,,0,0,0,,So, I know from experience, from wide experience from industrial experience, that c++1* is easier to write, easier to maintain, runs faster and can express more that older c++ styles with less code
-Dialogue: 0,0:02:45.54,0:02:47.11,Default,,0,0,0,,This is a fact
+Dialogue: 0,0:01:42.57,0:01:46.56,Default,,0,0,0,,以及面前各位，现在我们有一个伟大的语言
+Dialogue: 0,0:01:46.65,0:01:52.74,Default,,0,0,0,,这是一个现代语言，它能做10~20年前我们做不到的酷事
+Dialogue: 0,0:01:52.79,0:01:59.63,Default,,0,0,0,,C++11非常酷，C++14更好。两者都在广泛的被使用中
+Dialogue: 0,0:01:59.63,0:02:02.09,Default,,0,0,0,,这些都不是玩具语言
+Dialogue: 0,0:02:02.24,0:02:08.61,Default,,0,0,0,,据我所了解的标准委员会正在制定的C++17使其更加完美
+Dialogue: 0,0:02:08.85,0:02:22.51,Default,,0,0,0,,他们正在制定相关规范文件以及退出新的概念
+Dialogue: 0,0:02:22.51,0:02:44.95,Default,,0,0,0,,因此，从我多年来的经验上认为，自从C++11之后将变得更容易实现、更容易维护、效率更高、阅读清晰、更精简
+Dialogue: 0,0:02:45.54,0:02:47.11,Default,,0,0,0,,这是事实
 Dialogue: 0,0:02:47.52,0:02:51.40,Default,,0,0,0,,It's also a fact that very few people do it!
 Dialogue: 0,0:02:53.67,0:02:57.47,Default,,0,0,0,,Maybe you know a thousand people that write such modern code.
 Dialogue: 0,0:02:57.74,0:03:02.86,Default,,0,0,0,,Maybe you know 10 thousand people, but that's only very tiny small fraction of the community.
