@@ -49,36 +49,36 @@ Dialogue: 0,0:01:59.63,0:02:02.09,Default,,0,0,0,,这些都不是玩具语言
 Dialogue: 0,0:02:02.24,0:02:08.61,Default,,0,0,0,,据我所了解的标准委员会正在制定的C++17使其更加完美
 Dialogue: 0,0:02:08.85,0:02:22.51,Default,,0,0,0,,他们正在制定相关规范文件以及退出新的概念
 Dialogue: 0,0:02:22.51,0:02:44.95,Default,,0,0,0,,因此，从我多年来的经验上认为，自从C++11之后将变得更容易实现、更容易维护、效率更高、阅读清晰、更精简
-Dialogue: 0,0:02:45.54,0:02:47.11,Default,,0,0,0,,这是事实
-Dialogue: 0,0:02:47.52,0:02:51.40,Default,,0,0,0,,It's also a fact that very few people do it!
-Dialogue: 0,0:02:53.67,0:02:57.47,Default,,0,0,0,,Maybe you know a thousand people that write such modern code.
-Dialogue: 0,0:02:57.74,0:03:02.86,Default,,0,0,0,,Maybe you know 10 thousand people, but that's only very tiny small fraction of the community.
-Dialogue: 0,0:03:02.86,0:03:04.35,Default,,0,0,0,,We have to do something better.
-Dialogue: 0,0:03:04.35,0:03:10.78,Default,,0,0,0,,People are writting c++ in really archaic and foreign styles
-Dialogue: 0,0:03:11.23,0:03:16.20,Default,,0,0,0,,Also you going to web and you'll see every little so-and-so trying to be language expert.
+Dialogue: 0,0:02:45.54,0:02:47.11,Default,,0,0,0,,这是一个事实
+Dialogue: 0,0:02:47.52,0:02:51.40,Default,,0,0,0,,实际上很少在做这样的事情
+Dialogue: 0,0:02:53.67,0:02:57.47,Default,,0,0,0,,也许你认识一千人在写这样的现代C++代码
+Dialogue: 0,0:02:57.74,0:03:02.86,Default,,0,0,0,,甚至你认识一万人正在写现代C++代码，但是他们始终还是很小的一部分
+Dialogue: 0,0:03:02.86,0:03:04.35,Default,,0,0,0,,我们必须要做的更好
+Dialogue: 0,0:03:04.35,0:03:10.78,Default,,0,0,0,,很多人在用SB的方式写C++
+Dialogue: 0,0:03:11.23,0:03:16.20,Default,,0,0,0,,不信你去网上看，你会看到每个菜鸟都臆想自己是语音专家
 Dialogue: 0,0:03:16.20,0:03:20.40,Default,,0,0,0,,And discussing the sanitates of rvalue references.
-Dialogue: 0,0:03:20.40,0:03:27.65,Default,,0,0,0,,Which does actually matter in most code unless you are writting a high performence library for use of others.
-Dialogue: 0,0:03:27.65,0:03:34.68,Default,,0,0,0,,So, they are all trying to be language lawyers and getting lost in technical details.
-Dialogue: 0,0:03:35.11,0:03:43.55,Default,,0,0,0,,so basicly idea is "Doctor, docker, it hurts when I hit myself on the head with a hammer". The obvious answer is "so don't do it!"
-Dialogue: 0,0:03:43.81,0:03:45.81,Default,,0,0,0,,And that's what we are trying to do.
-Dialogue: 0,0:03:46.93,0:03:49.05,Default,,0,0,0,,There is a quote by me --
-Dialogue: 0,0:03:52.45,0:03:56.77,Default,,0,0,0,,Within c++ language there is a smaller simplier safer language struggling to get out.
-Dialogue: 0,0:03:56.77,0:04:02.50,Default,,0,0,0,,I think I said that in 94, 92... It a long time ago.
-Dialogue: 0,0:04:02.75,0:04:05.78,Default,,0,0,0,,it is even more true today that was there.
-Dialogue: 0,0:04:05.93,0:04:12.63,Default,,0,0,0,,You can simplify the code\n you can maintain the efficiency\nand we don't limit what you can say.
-Dialogue: 0,0:04:12.63,0:04:14.24,Default,,0,0,0,,these are important things.
-Dialogue: 0,0:04:14.24,0:04:16.24,Default,,0,0,0,,This is C++!
-Dialogue: 0,0:04:16.24,0:04:21.11,Default,,0,0,0,,It's not a so specialize language for a paticular application.
-Dialogue: 0,0:04:21.73,0:04:25.34,Default,,0,0,0,,So, lets get it out! lets get it out now!
-Dialogue: 0,0:04:25.57,0:04:30.84,Default,,0,0,0,,Lot of people solution to getting things better and simpler it to invent new languages.
-Dialogue: 0,0:04:30.84,0:04:32.84,Default,,0,0,0,,but that not now.
-Dialogue: 0,0:04:32.84,0:04:42.18,Default,,0,0,0,,If you invent a really good new language now,  large number of people will be able to use it, in 10 years, if you succeed.
-Dialogue: 0,0:04:42.36,0:04:48.97,Default,,0,0,0,,The succee rate for new languages especially general purpose programming languages is very close to zero.
-Dialogue: 0,0:04:48.97,0:04:50.97,Default,,0,0,0,,so, lets do it now!
-Dialogue: 0,0:04:51.20,0:04:53.91,Default,,0,0,0,,And I want to use those compilers.
-Dialogue: 0,0:04:53.91,0:04:59.92,Default,,0,0,0,,I mean, have you seen what compilers can do with your code interms of optimizing it?
-Dialogue: 0,0:04:59.92,0:05:08.69,Default,,0,0,0,,doesn't matter which compiler you are using for a modern compiler and sort of standard hardware. it's amazing.
-Dialogue: 0,0:05:08.90,0:05:15.69,Default,,0,0,0,,I mean, I am not sure what I could have done it if I had 10 years. but they did. this is going on for a long time.
+Dialogue: 0,0:03:20.40,0:03:27.65,Default,,0,0,0,,这种问题存在于大多数代码中，除非你使用高性能库
+Dialogue: 0,0:03:27.65,0:03:34.68,Default,,0,0,0,,所以他们都纠结在语言本身从而迷失在技术细节中
+Dialogue: 0,0:03:35.11,0:03:43.55,Default,,0,0,0,,基本上的想法是"Doctor, docker, it hurts when I hit myself on the head with a hammer".显而易见的答案是"不要这样做!"
+Dialogue: 0,0:03:43.81,0:03:45.81,Default,,0,0,0,,而这正是我们想做的
+Dialogue: 0,0:03:46.93,0:03:49.05,Default,,0,0,0,,这句话是我曾经说过的——
+Dialogue: 0,0:03:52.45,0:03:56.77,Default,,0,0,0,,C++语言有较小的又安全的语言，要努力发扬光大
+Dialogue: 0,0:03:56.77,0:04:02.50,Default,,0,0,0,,我想我当时说这句话的时候似乎是1994年还是1992年甚至更久之前了
+Dialogue: 0,0:04:02.75,0:04:05.78,Default,,0,0,0,,今天看来依然正确
+Dialogue: 0,0:04:05.93,0:04:12.63,Default,,0,0,0,,你可以简化代码你可以维持高效率，我们不限制你能说什么
+Dialogue: 0,0:04:12.63,0:04:14.24,Default,,0,0,0,,这些都是重要的事情
+Dialogue: 0,0:04:14.24,0:04:16.24,Default,,0,0,0,,这就是C Plus Plus！
+Dialogue: 0,0:04:16.24,0:04:21.11,Default,,0,0,0,,它也不是专为特殊应用程序设计的语言
+Dialogue: 0,0:04:21.73,0:04:25.34,Default,,0,0,0,,所以，让我们努力让它变得更好
+Dialogue: 0,0:04:25.57,0:04:30.84,Default,,0,0,0,,很多人用它发明了更好更简单的新编程语言
+Dialogue: 0,0:04:30.84,0:04:32.84,Default,,0,0,0,,但不是现在
+Dialogue: 0,0:04:32.84,0:04:42.18,Default,,0,0,0,,如果你发明的新语言在十年内都有很多人在使用它，那么就算成功了
+Dialogue: 0,0:04:42.36,0:04:48.97,Default,,0,0,0,,新的一般用途的编程语言能够成功收费盈利的可能性非常低
+Dialogue: 0,0:04:48.97,0:04:50.97,Default,,0,0,0,,所以，让我们现在就做！
+Dialogue: 0,0:04:51.20,0:04:53.91,Default,,0,0,0,,我想要使用这些编译器
+Dialogue: 0,0:04:53.91,0:04:59.92,Default,,0,0,0,,我的意思是，你能使用你的编译器使你的代码优化多少？
+Dialogue: 0,0:04:59.92,0:05:08.69,Default,,0,0,0,,doesn't matter which compiler you are using for a modern compiler and sort of standard hardware. 它是令人惊叹的。
+Dialogue: 0,0:05:08.90,0:05:15.69,Default,,0,0,0,,我的意思是我不确定十年内能否完成它，但是他们这样做了很长时间
 Dialogue: 0,0:05:15.69,0:05:23.70,Default,,0,0,0,,this doesn't just happen for a new language unless you can hijack the c++ code generation phase. which is a fair gain.
 Dialogue: 0,0:05:23.94,0:05:32.82,Default,,0,0,0,,So, I'm going to look for coding guidelines, provide guidence to people who wants to write modern c++ what ever that means.
 Dialogue: 0,0:05:33.01,0:05:40.04,Default,,0,0,0,,And, I know that just telling people what to do doesn't quite work.
