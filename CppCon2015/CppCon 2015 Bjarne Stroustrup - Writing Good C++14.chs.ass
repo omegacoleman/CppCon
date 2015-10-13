@@ -56,10 +56,10 @@ Dialogue: 0,0:02:57.74,0:03:02.86,Default,,0,0,0,,甚至你认识一万人正在
 Dialogue: 0,0:03:02.86,0:03:04.35,Default,,0,0,0,,我们必须要做的更好
 Dialogue: 0,0:03:04.35,0:03:10.78,Default,,0,0,0,,很多人在用SB的方式写C++
 Dialogue: 0,0:03:11.23,0:03:16.20,Default,,0,0,0,,不信你去网上看，你会看到每个菜鸟都臆想自己是语音专家
-Dialogue: 0,0:03:16.20,0:03:20.40,Default,,0,0,0,,And discussing the sanitates of rvalue references.
+Dialogue: 0,0:03:16.20,0:03:20.40,Default,,0,0,0,,和谈论各种右值引用的语法问题
 Dialogue: 0,0:03:20.40,0:03:27.65,Default,,0,0,0,,这种问题存在于大多数代码中，除非你使用高性能库
 Dialogue: 0,0:03:27.65,0:03:34.68,Default,,0,0,0,,所以他们都纠结在语言本身从而迷失在技术细节中
-Dialogue: 0,0:03:35.11,0:03:43.55,Default,,0,0,0,,基本上的想法是"Doctor, docker, it hurts when I hit myself on the head with a hammer".显而易见的答案是"不要这样做!"
+Dialogue: 0,0:03:35.11,0:03:43.55,Default,,0,0,0,,基本上的想法是："医生，用锤子砸我的头会伤害到我的".显而易见的答案是"不要这样做!"
 Dialogue: 0,0:03:43.81,0:03:45.81,Default,,0,0,0,,而这正是我们想做的
 Dialogue: 0,0:03:46.93,0:03:49.05,Default,,0,0,0,,这句话是我曾经说过的——
 Dialogue: 0,0:03:52.45,0:03:56.77,Default,,0,0,0,,C++语言有较小的又安全的语言，要努力发扬光大
@@ -80,34 +80,34 @@ Dialogue: 0,0:04:53.91,0:04:59.92,Default,,0,0,0,,我的意思是，你能使用
 Dialogue: 0,0:04:59.92,0:05:08.69,Default,,0,0,0,,doesn't matter which compiler you are using for a modern compiler and sort of standard hardware. 它是令人惊叹的。
 Dialogue: 0,0:05:08.90,0:05:15.69,Default,,0,0,0,,我的意思是我不确定十年内能否完成它，但是他们这样做了很长时间
 Dialogue: 0,0:05:15.69,0:05:23.70,Default,,0,0,0,,this doesn't just happen for a new language unless you can hijack the c++ code generation phase. which is a fair gain.
-Dialogue: 0,0:05:23.94,0:05:32.82,Default,,0,0,0,,So, I'm going to look for coding guidelines, provide guidence to people who wants to write modern c++ what ever that means.
-Dialogue: 0,0:05:33.01,0:05:40.04,Default,,0,0,0,,And, I know that just telling people what to do doesn't quite work.
-Dialogue: 0,0:05:40.04,0:05:43.04,Default,,0,0,0,,so you need support by tools and libraries.
-Dialogue: 0,0:05:43.18,0:05:50.25,Default,,0,0,0,,and again, we want generality, we want performence, we want simple code, and we want portibility.
-Dialogue: 0,0:05:50.25,0:05:54.77,Default,,0,0,0,,I dont want to be tight down by paticular hardware, paticular operation system.
-Dialogue: 0,0:05:55.05,0:05:56.52,Default,,0,0,0,,those all the gameness.
-Dialogue: 0,0:05:56.52,0:06:02.78,Default,,0,0,0,,I think we can do it. And I think we can do it, I know that I can't do it alone.
-Dialogue: 0,0:06:02.78,0:06:06.50,Default,,0,0,0,,I know that well that might be a genius somewhere.
-Dialogue: 0,0:06:06.50,0:06:08.99,Default,,0,0,0,,But I think I know that no individual can do it.
-Dialogue: 0,0:06:09.14,0:06:11.97,Default,,0,0,0,,And, no single company can
-Dialogue: 0,0:06:12.11,0:06:17.39,Default,,0,0,0,,It will be cature
-Dialogue: 0,0:06:17.39,0:06:19.15,Default,,0,0,0,,and you couldn't trust it all time.
-Dialogue: 0,0:06:19.15,0:06:27.14,Default,,0,0,0,,people explained that to me a long time ago to ensure that I took part in the (c++) standardization, so please help.
-Dialogue: 0,0:06:27.14,0:06:33.16,Default,,0,0,0,,I'm going to say a little bit about what help we would like and who we are and things like that.
-Dialogue: 0,0:06:33.16,0:06:36.05,Default,,0,0,0,,so the initial work started
-Dialogue: 0,0:06:36.05,0:06:39.39,Default,,0,0,0,,there was a project out of microsoft by Herb Sutter and friends
-Dialogue: 0,0:06:39.39,0:06:42.01,Default,,0,0,0,,I started something at Morgan Stanley
-Dialogue: 0,0:06:42.01,0:06:45.98,Default,,0,0,0,,CERN has joined and contributed.
-Dialogue: 0,0:06:45.98,0:06:47.98,Default,,0,0,0,,And things are available.
-Dialogue: 0,0:06:47.98,0:06:49.98,Default,,0,0,0,,its there.
-Dialogue: 0,0:06:49.98,0:06:55.06,Default,,0,0,0,,you can find it on github, give you the urls towards the end.
-Dialogue: 0,0:06:55.06,0:06:58.29,Default,,0,0,0,,there is guide lines. a lot of them.
-Dialogue: 0,0:06:58.49,0:07:00.64,Default,,0,0,0,,there is little support library.
-Dialogue: 0,0:07:00.64,0:07:11.48,Default,,0,0,0,,which is some very simple classes that mostly mapping into standard library stuff if not  map straghtly into portable c++.
-Dialogue: 0,0:07:11.48,0:07:16.44,Default,,0,0,0,,portable meaning microsoft, gcc, clang; Windows, Linux, Mac
-Dialogue: 0,0:07:16.53,0:07:17.64,Default,,0,0,0,,and mac yeah.
-Dialogue: 0,0:07:17.97,0:07:25.52,Default,,0,0,0,,there is analyze tool that will be ship by the guy at microsoft that wrote it next month
-Dialogue: 0,0:07:25.53,0:07:38.24,Default,,0,0,0,,and we hope to have port available later. maybe November? I don't know. I mean, you know, software project some time suffer delays.
+Dialogue: 0,0:05:23.94,0:05:32.82,Default,,0,0,0,,因此，我们需要去制定编码准则，为那些想写现代C++代码的人引路
+Dialogue: 0,0:05:33.01,0:05:40.04,Default,,0,0,0,,并且，我应该告诉那些人什么事情不应该做
+Dialogue: 0,0:05:40.04,0:05:43.04,Default,,0,0,0,,所以你需要工具和库的支持
+Dialogue: 0,0:05:43.18,0:05:50.25,Default,,0,0,0,,而且我们想要程序通用、性能高、代码简单、程序轻简
+Dialogue: 0,0:05:50.25,0:05:54.77,Default,,0,0,0,,我目前不想让C++程序运行在特殊的硬件和软件中
+Dialogue: 0,0:05:55.05,0:05:56.52,Default,,0,0,0,,那些所有的捷不认输
+Dialogue: 0,0:05:56.52,0:06:02.78,Default,,0,0,0,,我认为我们能够做到，我们不是孤军奋战
+Dialogue: 0,0:06:02.78,0:06:06.50,Default,,0,0,0,,好吧，我知道确实有天才能办到
+Dialogue: 0,0:06:06.50,0:06:08.99,Default,,0,0,0,,但是我想我可以确定一点，没有任何人可以做到
+Dialogue: 0,0:06:09.14,0:06:11.97,Default,,0,0,0,,并且没有任何一家公司能够做到
+Dialogue: 0,0:06:12.11,0:06:17.39,Default,,0,0,0,,它将让我们认识到某些公司的特殊兴趣
+Dialogue: 0,0:06:17.39,0:06:19.15,Default,,0,0,0,,你完全不能相信这一切
+Dialogue: 0,0:06:19.15,0:06:27.14,Default,,0,0,0,,很久以前我开始就参加了C++标准制定大会，所以请大家帮忙
+Dialogue: 0,0:06:27.14,0:06:33.16,Default,,0,0,0,,我想要说一点关于能够帮助我们以及我们能够做到的事情
+Dialogue: 0,0:06:33.16,0:06:36.05,Default,,0,0,0,,所以应该从最原始的工作开始
+Dialogue: 0,0:06:36.05,0:06:39.39,Default,,0,0,0,,曾经有一个项目是来自于微软的Herb Sutter和他的朋友们
+Dialogue: 0,0:06:39.39,0:06:42.01,Default,,0,0,0,,我开始的时候是在Morgan Stanley
+Dialogue: 0,0:06:42.01,0:06:45.98,Default,,0,0,0,,欧洲核子研究中心（CERN）后来也加入，并作出了贡献
+Dialogue: 0,0:06:45.98,0:06:47.98,Default,,0,0,0,,他们提交的那些代码都可用
+Dialogue: 0,0:06:47.98,0:06:49.98,Default,,0,0,0,,他们的存在
+Dialogue: 0,0:06:49.98,0:06:55.06,Default,,0,0,0,,你能够在github上找到它，给你们一个url
+Dialogue: 0,0:06:55.06,0:06:58.29,Default,,0,0,0,,这里有一些准则，都在这上面
+Dialogue: 0,0:06:58.49,0:07:00.64,Default,,0,0,0,,还有支持一些轻量级的库
+Dialogue: 0,0:07:00.64,0:07:11.48,Default,,0,0,0,,那些大多是一些非常简答的类映射到标准库的东西，如果不直接映射到扩平台Ｃ＋＋
+Dialogue: 0,0:07:11.48,0:07:16.44,Default,,0,0,0,,便携式的意义 Ｍicrosoft, gcc, clang; Windows, Linux
+Dialogue: 0,0:07:16.53,0:07:17.64,Default,,0,0,0,,和mac.
+Dialogue: 0,0:07:17.97,0:07:25.52,Default,,0,0,0,,这是一个分析工具，它是由微软的一个家伙写的
+Dialogue: 0,0:07:25.53,0:07:38.24,Default,,0,0,0,,我们希望以后有可用的port，或许是十一月？我不知道，我的意思你们都明白软件项目时间易遭受延误。
 Dialogue: 0,0:07:38.42,0:07:41.09,Default,,0,0,0,,but we are planning for it.
 Dialogue: 0,0:07:43.13,0:07:46.58,Default,,0,0,0,,it exists. so I am saying anything in this talk that are science fictions.
 Dialogue: 0,0:07:46.93,0:07:50.52,Default,,0,0,0,,and its MIT licensed, so its open and free.
