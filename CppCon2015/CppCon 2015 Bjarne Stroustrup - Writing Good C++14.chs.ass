@@ -85,7 +85,7 @@ Dialogue: 0,0:05:33.01,0:05:40.04,Default,,0,0,0,,并且，我应该告诉那些
 Dialogue: 0,0:05:40.04,0:05:43.04,Default,,0,0,0,,所以你需要工具和库的支持
 Dialogue: 0,0:05:43.18,0:05:50.25,Default,,0,0,0,,而且我们想要程序通用、性能高、代码简单、程序轻简
 Dialogue: 0,0:05:50.25,0:05:54.77,Default,,0,0,0,,我目前不想让C++程序运行在特殊的硬件和软件中
-Dialogue: 0,0:05:55.05,0:05:56.52,Default,,0,0,0,,那些所有的捷不认输
+Dialogue: 0,0:05:55.05,0:05:56.52,Default,,0,0,0,,所有的人都绝不认输
 Dialogue: 0,0:05:56.52,0:06:02.78,Default,,0,0,0,,我认为我们能够做到，我们不是孤军奋战
 Dialogue: 0,0:06:02.78,0:06:06.50,Default,,0,0,0,,好吧，我知道确实有天才能办到
 Dialogue: 0,0:06:06.50,0:06:08.99,Default,,0,0,0,,但是我想我可以确定一点，没有任何人可以做到
@@ -108,92 +108,92 @@ Dialogue: 0,0:07:11.48,0:07:16.44,Default,,0,0,0,,便携式的意义 Ｍicrosoft
 Dialogue: 0,0:07:16.53,0:07:17.64,Default,,0,0,0,,和mac.
 Dialogue: 0,0:07:17.97,0:07:25.52,Default,,0,0,0,,这是一个分析工具，它是由微软的一个家伙写的
 Dialogue: 0,0:07:25.53,0:07:38.24,Default,,0,0,0,,我们希望以后有可用的port，或许是十一月？我不知道，我的意思你们都明白软件项目时间易遭受延误。
-Dialogue: 0,0:07:38.42,0:07:41.09,Default,,0,0,0,,but we are planning for it.
-Dialogue: 0,0:07:43.13,0:07:46.58,Default,,0,0,0,,it exists. so I am saying anything in this talk that are science fictions.
-Dialogue: 0,0:07:46.93,0:07:50.52,Default,,0,0,0,,and its MIT licensed, so its open and free.
-Dialogue: 0,0:07:50.52,0:07:51.44,Default,,0,0,0,,so you can get it.
-Dialogue: 0,0:07:51.88,0:07:54.10,Default,,0,0,0,,and there's more talk about this.
-Dialogue: 0,0:07:55.02,0:08:01.92,Default,,0,0,0,,I am going to explain what we are trying to do with higher level terms with some examples
-Dialogue: 0,0:08:02.17,0:08:04.88,Default,,0,0,0,,Herb Sutter is going to talk more about it.
-Dialogue: 0,0:08:05.23,0:08:13.32,Default,,0,0,0,,Gabriel Dos Reis are going to talk how, er, ties into some of the work been done in the standard commitee for writting better code.
-Dialogue: 0,0:08:13.32,0:08:21.84,Default,,0,0,0,,Neil Macintosh who wrote the tool that we work with, are going to talk about static analysis and some of the classes.
-Dialogue: 0,0:08:21.95,0:08:23.12,Default,,0,0,0,,This is all this weak.
-Dialogue: 0,0:08:23.83,0:08:29.08,Default,,0,0,0,,This is a problem with coding rules, with guide lines.
-Dialogue: 0,0:08:29.33,0:08:30.44,Default,,0,0,0,,which is...
-Dialogue: 0,0:08:30.45,0:08:32.65,Default,,0,0,0,,have you even seen one you really liked?
-Dialogue: 0,0:08:32.92,0:08:37.18,Default,,0,0,0,,that might be necessary. but it's like medicine, doesn't taste good.
-Dialogue: 0,0:08:37.77,0:08:39.63,Default,,0,0,0,,we all hate coding rules.
-Dialogue: 0,0:08:39.79,0:08:44.83,Default,,0,0,0,,Usual caveats and thanks to the people who was made the less usual and paticular cases.
-Dialogue: 0,0:08:44.92,0:08:46.31,Default,,0,0,0,,but basicly we don't like it.
-Dialogue: 0,0:08:46.60,0:08:48.76,Default,,0,0,0,,and one of the reasons is that
-Dialogue: 0,0:08:48.97,0:08:53.48,Default,,0,0,0,,coding guidelines tend to be written to prevent accident
-Dialogue: 0,0:08:53.77,0:08:59.96,Default,,0,0,0,,so to keep novices that are not as smart as us from doing stupid things
-Dialogue: 0,0:09:00.01,0:09:02.87,Default,,0,0,0,,so it's long lists of don't do this and don't do that.
-Dialogue: 0,0:09:02.96,0:09:03.49,Default,,0,0,0,,and
-Dialogue: 0,0:09:03.68,0:09:07.03,Default,,0,0,0,,I don't like such lists and I know most of you don't like neither.
-Dialogue: 0,0:09:07.18,0:09:12.34,Default,,0,0,0,,and it's very often written at the start of an organization
-Dialogue: 0,0:09:12.40,0:09:18.41,Default,,0,0,0,,when people is little bit uncertain about what they want to do and they want to avoid problems.
-Dialogue: 0,0:09:18.41,0:09:21.54,Default,,0,0,0,,and rules tend to focus on low-level things
-Dialogue: 0,0:09:21.54,0:09:22.99,Default,,0,0,0,,I mean, eh
-Dialogue: 0,0:09:23.07,0:09:25.20,Default,,0,0,0,,do use camel case underscores
-Dialogue: 0,0:09:25.20,0:09:27.90,Default,,0,0,0,,how many yea spaces to use to indent
-Dialogue: 0,0:09:28.24,0:09:32.08,Default,,0,0,0,,these are all very interesting, could be in the essential for our organization
-Dialogue: 0,0:09:32.15,0:09:37.34,Default,,0,0,0,,but it has nothing much to do with how you get quality software at the higher level.
-Dialogue: 0,0:09:37.41,0:09:41.36,Default,,0,0,0,,how do you actually recognize a good piece of code when you came to see it?
-Dialogue: 0,0:09:41.76,0:09:46.23,Default,,0,0,0,,a lot of them simply sets restrictions.
-Dialogue: 0,0:09:47.44,0:09:55.96,Default,,0,0,0,,don't use overloading; don't use exceptions; don't use multiple-inheritance; don't use casts.... all kinds of rules like that
-Dialogue: 0,0:09:56.11,0:10:04.36,Default,,0,0,0,,some are good. some are bad. some are good in some paticular environment. some are not.\nAnd really, there is lot of bad advice out there.
-Dialogue: 0,0:10:04.61,0:10:09.77,Default,,0,0,0,,there are guidelines that tell you that you really should trying write java.
-Dialogue: 0,0:10:09.84,0:10:12.90,Default,,0,0,0,,when if you want to write java and you how to do which?
-Dialogue: 0,0:10:12.90,0:10:18.36,Default,,0,0,0,,don't try to stop c++ programmer from writting good c++.
-Dialogue: 0,0:10:18.36,0:10:22.91,Default,,0,0,0,,And "C with classes"? It was really cool in 1986
-Dialogue: 0,0:10:23.04,0:10:25.84,Default,,0,0,0,,that a long time ago. a lot of you weren't born then.
-Dialogue: 0,0:10:25.84,0:10:36.41,Default,,0,0,0,,and there are people think that really the world came to an end in 1978 when K&R came out.
-Dialogue: 0,0:10:36.41,0:10:42.09,Default,,0,0,0,,and they might accept a few things they got from c++ like function prototype and const
-Dialogue: 0,0:10:42.09,0:10:46.50,Default,,0,0,0,,but basically you really should write code as if we do it in C.
-Dialogue: 0,0:10:46.80,0:10:50.35,Default,,0,0,0,,really dumb idea in my opinion, but we'll get to that.
-Dialogue: 0,0:10:50.35,0:10:53.87,Default,,0,0,0,,also, coding rules get outdated.
-Dialogue: 0,0:10:53.87,0:11:08.32,Default,,0,0,0,,I saw a recent year recommendation to use a  coding guideline , a really good guidelines, it describe how to write good code in about 198s. it hasn't been updated, that's a long time ago.
-Dialogue: 0,0:11:08.45,0:11:10.78,Default,,0,0,0,,and so they became a drag.
-Dialogue: 0,0:11:10.78,0:11:23.66,Default,,0,0,0,,a lot of code are specialized for particular application areas like I helped to write a set of guidelines for hard-realtime softwares or flight controlls
-Dialogue: 0,0:11:24.02,0:11:27.25,Default,,0,0,0,,these are very nice guidelines for that.
-Dialogue: 0,0:11:27.25,0:11:30.21,Default,,0,0,0,,but then people try use it in some other areas.
-Dialogue: 0,0:11:30.21,0:11:38.90,Default,,0,0,0,,and you know, one of the guide rules for flight is that you don't use "new" after you take off.
-Dialogue: 0,0:11:38.90,0:11:41.04,Default,,0,0,0,,and you never use "delete"
-Dialogue: 0,0:11:41.30,0:11:45.94,Default,,0,0,0,,maybe these are not the most appropriate guidelines elsewhere.
-Dialogue: 0,0:11:46.19,0:11:51.40,Default,,0,0,0,,other guidelines have similar kind of bias and constraint, and people tend to forget them.
-Dialogue: 0,0:11:51.78,0:11:55.37,Default,,0,0,0,,and a lot of them are very long winded.
-Dialogue: 0,0:11:55.37,0:11:59.73,Default,,0,0,0,,you really need to be a language lawyer to understand them.
-Dialogue: 0,0:11:59.73,0:12:04.41,Default,,0,0,0,,I looked at the rules for how to use pointers in c++
-Dialogue: 0,0:12:04.41,0:12:10.36,Default,,0,0,0,,I mean, I was miserable, I couldn't understand all those rules.
-Dialogue: 0,0:12:10.66,0:12:13.00,Default,,0,0,0,,and you can't follow them, really.
-Dialogue: 0,0:12:13.00,0:12:18.81,Default,,0,0,0,,and a lot of guidelines don't have very good tools
-Dialogue: 0,0:12:19.15,0:12:21.38,Default,,0,0,0,,and they have platform dependencies
+Dialogue: 0,0:07:38.42,0:07:41.09,Default,,0,0,0,,但是我们正在计划做这些事
+Dialogue: 0,0:07:43.13,0:07:46.58,Default,,0,0,0,,它已经存在了，所以你可以说我在胡扯
+Dialogue: 0,0:07:46.93,0:07:50.52,Default,,0,0,0,,它还获得了麻省理工学院授予使用许可，所以它非常开放和自由
+Dialogue: 0,0:07:50.52,0:07:51.44,Default,,0,0,0,,所以你可以轻松地得到它
+Dialogue: 0,0:07:51.88,0:07:54.10,Default,,0,0,0,,或者谈论更多关于此类内容
+Dialogue: 0,0:07:55.02,0:08:01.92,Default,,0,0,0,,我要去解释一下我们正在做的高级别条款和一些具体例子
+Dialogue: 0,0:08:02.17,0:08:04.88,Default,,0,0,0,,Herb Sutter 待会会说这些细节
+Dialogue: 0,0:08:05.23,0:08:13.32,Default,,0,0,0,,Gabriel Dos Reis 打算讨论一下具体怎么做,呃,联系标准委员会讨论编写更好的代码
+Dialogue: 0,0:08:13.32,0:08:21.84,Default,,0,0,0,,Neil Macintosh 写了一个工具，我们接下来会谈论一些关于类的静态分析
+Dialogue: 0,0:08:21.95,0:08:23.12,Default,,0,0,0,,这是所有的弱点
+Dialogue: 0,0:08:23.83,0:08:29.08,Default,,0,0,0,,这是代码准则的问题
+Dialogue: 0,0:08:29.33,0:08:30.44,Default,,0,0,0,,哪一个是...
+Dialogue: 0,0:08:30.45,0:08:32.65,Default,,0,0,0,,你见过一个你真的喜欢的吗？
+Dialogue: 0,0:08:32.92,0:08:37.18,Default,,0,0,0,,这可能是非常必要的，就像药，味道很不好喝
+Dialogue: 0,0:08:37.77,0:08:39.63,Default,,0,0,0,,我们都讨厌编码规则
+Dialogue: 0,0:08:39.79,0:08:44.83,Default,,0,0,0,,常见警告多亏那些菜鸟和SB
+Dialogue: 0,0:08:44.92,0:08:46.31,Default,,0,0,0,,但是基本上我们不喜欢它
+Dialogue: 0,0:08:46.60,0:08:48.76,Default,,0,0,0,,其中一个原因是：
+Dialogue: 0,0:08:48.97,0:08:53.48,Default,,0,0,0,,编码规范更倾向于编写不容易发生事故的代码
+Dialogue: 0,0:08:53.77,0:08:59.96,Default,,0,0,0,,所以要让菜鸟避免犯愚蠢的错
+Dialogue: 0,0:09:00.01,0:09:02.87,Default,,0,0,0,,所以列出了非常多规则列表申明不能那样做
+Dialogue: 0,0:09:02.96,0:09:03.49,Default,,0,0,0,,和
+Dialogue: 0,0:09:03.68,0:09:07.03,Default,,0,0,0,,我不喜欢这种名单，我知道你们绝大多数人也不喜欢这种名单
+Dialogue: 0,0:09:07.18,0:09:12.34,Default,,0,0,0,,很多组织在一开始就制订了这些规则
+Dialogue: 0,0:09:12.40,0:09:18.41,Default,,0,0,0,,他们也不知道到底想要做什么，他们就是想要避免一些问题而已
+Dialogue: 0,0:09:18.41,0:09:21.54,Default,,0,0,0,,还把规则放在很低的位置
+Dialogue: 0,0:09:21.54,0:09:22.99,Default,,0,0,0,,我的意思是.呃...
+Dialogue: 0,0:09:23.07,0:09:25.20,Default,,0,0,0,,是否用下划线？
+Dialogue: 0,0:09:25.20,0:09:27.90,Default,,0,0,0,,用多少空格缩进？
+Dialogue: 0,0:09:28.24,0:09:32.08,Default,,0,0,0,,这些都很有趣，可能在我们的组织中都必不可少
+Dialogue: 0,0:09:32.15,0:09:37.34,Default,,0,0,0,,但是这相对于高质量的软件开发水平来说这不算什么
+Dialogue: 0,0:09:37.41,0:09:41.36,Default,,0,0,0,,当我问你，如何判断一段代码是好代码？
+Dialogue: 0,0:09:41.76,0:09:46.23,Default,,0,0,0,,很多人只是简单的设置了一些限制
+Dialogue: 0,0:09:47.44,0:09:55.96,Default,,0,0,0,,不要使用重载;不要使用异常; 不要使用多重继承; 不要使用运算符重载.... 几乎所有类型的规则都是这样
+Dialogue: 0,0:09:56.11,0:10:04.36,Default,,0,0,0,,有一些是好的. 有一些是垃圾. 有些在某些特殊的情况下是好的. 一些却不是.\n真的还有很多误导人的建议
+Dialogue: 0,0:10:04.61,0:10:09.77,Default,,0,0,0,,有人告诉你，你真的应该去尝试写一下Java
+Dialogue: 0,0:10:09.84,0:10:12.90,Default,,0,0,0,,当你如果真的要写Java，那么你会怎么做？
+Dialogue: 0,0:10:12.90,0:10:18.36,Default,,0,0,0,,不要试图阻止C++程序员写好的C++代码
+Dialogue: 0,0:10:18.36,0:10:22.91,Default,,0,0,0,,还是"C with classes"吗? 那个概念在1986年确实很酷
+Dialogue: 0,0:10:23.04,0:10:25.84,Default,,0,0,0,,但是那是很久以前的事了，大部分人都是之后出生的
+Dialogue: 0,0:10:25.84,0:10:36.41,Default,,0,0,0,,还有人认为它应该在K&r被研发出来之后被淘汰
+Dialogue: 0,0:10:36.41,0:10:42.09,Default,,0,0,0,,他们可能接受一些关于C++函数原型像是const的几件特性
+Dialogue: 0,0:10:42.09,0:10:46.50,Default,,0,0,0,,但是基本上你应该能用C做到
+Dialogue: 0,0:10:46.80,0:10:50.35,Default,,0,0,0,,在我看来那是愚蠢的主意，但是我们依然会去做那些事
+Dialogue: 0,0:10:50.35,0:10:53.87,Default,,0,0,0,,此外，编码规则一直迭代更新
+Dialogue: 0,0:10:53.87,0:11:08.32,Default,,0,0,0,,我看到近几年推荐使用的编码准则，确实真的有很好的准则，它描述如何在约198*年编写好的代码。它还没有被更新，那是很久前的事情了。
+Dialogue: 0,0:11:08.45,0:11:10.78,Default,,0,0,0,,于是，他们变成了累赘
+Dialogue: 0,0:11:10.78,0:11:23.66,Default,,0,0,0,,大量的代码被专门应用于特定应用程序领域，像我帮他写一套硬实时软件或飞行控制系统
+Dialogue: 0,0:11:24.02,0:11:27.25,Default,,0,0,0,,这些都是很好的准则
+Dialogue: 0,0:11:27.25,0:11:30.21,Default,,0,0,0,,但是有些人试图把此规则使用在其它领域
+Dialogue: 0,0:11:30.21,0:11:38.90,Default,,0,0,0,,而且人们都知道知道，飞行规则是不在起飞之后使用new
+Dialogue: 0,0:11:38.90,0:11:41.04,Default,,0,0,0,,和你永远不要使用delete
+Dialogue: 0,0:11:41.30,0:11:45.94,Default,,0,0,0,,也许这些都不是最适当的准则
+Dialogue: 0,0:11:46.19,0:11:51.40,Default,,0,0,0,,其他某些准则有类似的偏见和约束，人们往往容易忘记他们
+Dialogue: 0,0:11:51.78,0:11:55.37,Default,,0,0,0,,也让很多人在很长时间内喘不过气来
+Dialogue: 0,0:11:55.37,0:11:59.73,Default,,0,0,0,,你们真的需要去理解一下团队语言规则制定者
+Dialogue: 0,0:11:59.73,0:12:04.41,Default,,0,0,0,,我看了看如何在C++中使用指针的规则
+Dialogue: 0,0:12:04.41,0:12:10.36,Default,,0,0,0,,我的意思是，看完后当时我很痛苦并不能理解所有这些规则
+Dialogue: 0,0:12:10.66,0:12:13.00,Default,,0,0,0,,你不能跟着他们，真的
+Dialogue: 0,0:12:13.00,0:12:18.81,Default,,0,0,0,,和大量的准则又没有很好的工具
+Dialogue: 0,0:12:19.15,0:12:21.38,Default,,0,0,0,,或者他们有平台依赖性
 Dialogue: 0,0:12:21.38,0:12:21.63,Default,,0,0,0,,{\pos(357,499)}da
 Dialogue: 0,0:12:21.63,0:12:21.81,Default,,0,0,0,,{\pos(276,477)}da
 Dialogue: 0,0:12:21.80,0:12:21.93,Default,,0,0,0,,{\pos(483,425)}da
 Dialogue: 0,0:12:21.93,0:12:22.05,Default,,0,0,0,,{\pos(301,424)}da
 Dialogue: 0,0:12:22.07,0:12:22.59,Default,,0,0,0,,{\pos(373,400)}da~
-Dialogue: 0,0:12:22.77,0:12:24.50,Default,,0,0,0,,and the don't produce guidance.
-Dialogue: 0,0:12:24.70,0:12:33.68,Default,,0,0,0,,I really like to emphasize that telling people what not to do is less helpfull than telling what to do.
-Dialogue: 0,0:12:33.79,0:12:36.30,Default,,0,0,0,,so let's do those good guidelines
-Dialogue: 0,0:12:36.30,0:12:40.49,Default,,0,0,0,,comprehensive, browserable, for modern c++, for the moment
-Dialogue: 0,0:12:40.49,0:12:53.04,Default,,0,0,0,,first of all, let's ignore legacy code, let's ignore old stuff. let's write the rules for what we would like our code to look like in 5 to 10 years
-Dialogue: 0,0:12:53.20,0:12:59.06,Default,,0,0,0,,and then we'll deal with how to do the transition, how to do with  in compatibility when we have to.
-Dialogue: 0,0:13:00.36,0:13:03.16,Default,,0,0,0,,gradual adaption is essential.
-Dialogue: 0,0:13:03.41,0:13:05.26,Default,,0,0,0,,prescriptive teachable
-Dialogue: 0,0:13:05.29,0:13:11.46,Default,,0,0,0,,one of the things that hold c++ back is that there are really a lot of bad teaching materials out there.
-Dialogue: 0,0:13:11.46,0:13:14.22,Default,,0,0,0,,some of it is very old, some of it is backwards-looking
-Dialogue: 0,0:13:14.29,0:13:19.57,Default,,0,0,0,,some of it try to maximize the pill by domain it down
-Dialogue: 0,0:13:19.57,0:13:21.03,Default,,0,0,0,,and things like that.
-Dialogue: 0,0:13:21.18,0:13:26.34,Default,,0,0,0,,so a setup guidelines can also guide teachers to how to teaching.
-Dialogue: 0,0:13:26.54,0:13:29.47,Default,,0,0,0,,Flexiable of course. Because the huge community.
-Dialogue: 0,0:13:29.64,0:13:30.08,Default,,0,0,0,,I mean
-Dialogue: 0,0:13:30.19,0:13:33.98,Default,,0,0,0,,we recover just about everything that's been done on computing
-Dialogue: 0,0:13:34.12,0:13:36.07,Default,,0,0,0,,And of course Non-proprietary.
-Dialogue: 0,0:13:36.07,0:13:39.68,Default,,0,0,0,,We couldn't possibly do this with limits.
-Dialogue: 0,0:13:43.28,0:13:46.51,Default,,0,0,0,,There are some high level rules and there are some low-level rules.
-Dialogue: 0,0:13:46.59,0:13:50.57,Default,,0,0,0,,the high-level rules are there to provide a conceptual framework for everything
+Dialogue: 0,0:12:22.77,0:12:24.50,Default,,0,0,0,,以及没有生产指导性
+Dialogue: 0,0:12:24.70,0:12:33.68,Default,,0,0,0,,我真的很想强调，告诉人们不要做什么不如告诉人们应该做什么
+Dialogue: 0,0:12:33.79,0:12:36.30,Default,,0,0,0,,所以就让我们来做这些很好的编程规范
+Dialogue: 0,0:12:36.30,0:12:40.49,Default,,0,0,0,,全面的浏览一下现代C++, 等一会儿
+Dialogue: 0,0:12:40.49,0:12:53.04,Default,,0,0,0,,首先，让我们忽略遗留的代码，让我们忽略旧的东西，让我们为我们的代码看起来像是5年到10年内写的
+Dialogue: 0,0:12:53.20,0:12:59.06,Default,,0,0,0,,然后我们再来解决如何做好交互，如何做兼容性
+Dialogue: 0,0:13:00.36,0:13:03.16,Default,,0,0,0,,逐渐适应是必不可少的
+Dialogue: 0,0:13:03.41,0:13:05.26,Default,,0,0,0,,规则是可学习的
+Dialogue: 0,0:13:05.29,0:13:11.46,Default,,0,0,0,,C++确实是有一些坏的教学材料
+Dialogue: 0,0:13:11.46,0:13:14.22,Default,,0,0,0,,其中一些是很旧的，顽固不化的
+Dialogue: 0,0:13:14.29,0:13:19.57,Default,,0,0,0,,通过自我阉割让C++看起来不那么令人讨厌
+Dialogue: 0,0:13:19.57,0:13:21.03,Default,,0,0,0,,以及一些类似的事情
+Dialogue: 0,0:13:21.18,0:13:26.34,Default,,0,0,0,,所以设置一些准则还可以让从事教育的教师了解如何教学
+Dialogue: 0,0:13:26.54,0:13:29.47,Default,,0,0,0,,Flexiable课程. 因为是一个巨大的社区
+Dialogue: 0,0:13:29.64,0:13:30.08,Default,,0,0,0,,我的意思是
+Dialogue: 0,0:13:30.19,0:13:33.98,Default,,0,0,0,,我们恢复只做一切计算的事情
+Dialogue: 0,0:13:34.12,0:13:36.07,Default,,0,0,0,,这当然是不专业的
+Dialogue: 0,0:13:36.07,0:13:39.68,Default,,0,0,0,,我们当然不能做这样的限制
+Dialogue: 0,0:13:43.28,0:13:46.51,Default,,0,0,0,,也有一些高层次的规则，也有一些低级别的规则
+Dialogue: 0,0:13:46.59,0:13:50.57,Default,,0,0,0,,高级别规则的目的是提供一个覆盖一切的概念框架
 Dialogue: 0,0:13:50.68,0:13:53.48,Default,,0,0,0,,that sort of philosophical on nature.
 Dialogue: 0,0:13:53.60,0:13:54.79,Default,,0,0,0,,and they are very useful.
 Dialogue: 0,0:13:54.79,0:14:00.43,Default,,0,0,0,,like, you have to expre4ss ideas in code - compilers don't read the comments.
