@@ -194,30 +194,30 @@ Dialogue: 0,0:13:34.12,0:13:36.07,Default,,0,0,0,,这当然是不专业的
 Dialogue: 0,0:13:36.07,0:13:39.68,Default,,0,0,0,,我们当然不能做这样的限制
 Dialogue: 0,0:13:43.28,0:13:46.51,Default,,0,0,0,,也有一些高层次的规则，也有一些低级别的规则
 Dialogue: 0,0:13:46.59,0:13:50.57,Default,,0,0,0,,高级别规则的目的是提供一个覆盖一切的概念框架
-Dialogue: 0,0:13:50.68,0:13:53.48,Default,,0,0,0,,that sort of philosophical on nature.
-Dialogue: 0,0:13:53.60,0:13:54.79,Default,,0,0,0,,and they are very useful.
-Dialogue: 0,0:13:54.79,0:14:00.43,Default,,0,0,0,,like, you have to expre4ss ideas in code - compilers don't read the comments.
-Dialogue: 0,0:14:00.52,0:14:08.12,Default,,0,0,0,,and you use ISO standard c++, yes there are reasons to use extensions as such
-Dialogue: 0,0:14:08.12,0:14:13.54,Default,,0,0,0,,but we are not going to deal with that, that will be for paticular restrictions
-Dialogue: 0,0:14:13.72,0:14:16.36,Default,,0,0,0,,And we want static type safety
-Dialogue: 0,0:14:17.10,0:14:18.14,Default,,0,0,0,,etc.etc
-Dialogue: 0,0:14:18.32,0:14:21.17,Default,,0,0,0,,so there a philosophical framework here
-Dialogue: 0,0:14:21.31,0:14:26.70,Default,,0,0,0,,the problem is that again compilers and programmers don't really get philosophy.
-Dialogue: 0,0:14:26.90,0:14:35.84,Default,,0,0,0,, it means that you have to transfer into something that can be understood in detail in context of a piece of program and use.
-Dialogue: 0,0:14:35.84,0:14:38.54,Default,,0,0,0,,so for that reason there is a whole bunch of low-level rules.
-Dialogue: 0,0:14:38.79,0:14:43.65,Default,,0,0,0,,that basically you guys should threw the massive alternatives and features
-Dialogue: 0,0:14:46.26,0:14:52.70,Default,,0,0,0,,the low-level rules, things like, use T* to designate a single object, not array.
-Dialogue: 0,0:14:52.90,0:14:57.58,Default,,0,0,0,,and prefer initialization to assignment in constructors
-Dialogue: 0,0:14:57.71,0:15:01.08,Default,,0,0,0,,these are easily checkable.
-Dialogue: 0,0:15:01.08,0:15:04.18,Default,,0,0,0,,we have a tool that tells you when you violate it.
-Dialogue: 0,0:15:04.24,0:15:06.00,Default,,0,0,0,,Always initialize an object
-Dialogue: 0,0:15:06.04,0:15:11.96,Default,,0,0,0,,compilers these days do. but it's a good rule and we can do even better with external tools that we have them.
-Dialogue: 0,0:15:12.01,0:15:15.29,Default,,0,0,0,,so basically that sort of shows the way through the world dominance
-Dialogue: 0,0:15:15.66,0:15:22.27,Default,,0,0,0,,and the tools provide feedback for programers, it also helps unify styles.
-Dialogue: 0,0:15:22.58,0:15:27.34,Default,,0,0,0,,if I look at a piece of code and I see a string,
-Dialogue: 0,0:15:27.34,0:15:30.20,Default,,0,0,0,,if I know it's std::string, I know a lot.
-Dialogue: 0,0:15:30.37,0:15:34.28,Default,,0,0,0,,and it helped me, and I don't have to go back and read the manual again.
-Dialogue: 0,0:15:35.51,0:15:47.51,Default,,0,0,0,,so a more unify style helps getting code written quickly, helps me read the code, understand the code
+Dialogue: 0,0:13:50.68,0:13:53.48,Default,,0,0,0,,那些都是非常自然的法则
+Dialogue: 0,0:13:53.60,0:13:54.79,Default,,0,0,0,,以及他们都是非常有用的
+Dialogue: 0,0:13:54.79,0:14:00.43,Default,,0,0,0,,比方像，你必须在代码中注释 - 虽然编译器却从来不会去管那些注释
+Dialogue: 0,0:14:00.52,0:14:08.12,Default,,0,0,0,,你使用ISO 标准 c++, 是的，有理由使用这样的扩展
+Dialogue: 0,0:14:08.12,0:14:13.54,Default,,0,0,0,,但是我们不打算处理特殊限制的情况
+Dialogue: 0,0:14:13.72,0:14:16.36,Default,,0,0,0,,我们想要安全的静态类型
+Dialogue: 0,0:14:17.10,0:14:18.14,Default,,0,0,0,,例如
+Dialogue: 0,0:14:18.32,0:14:21.17,Default,,0,0,0,,就是这样一个哲学框架
+Dialogue: 0,0:14:21.31,0:14:26.70,Default,,0,0,0,,问题是再次编译和程序也不能真正的了解哲学
+Dialogue: 0,0:14:26.90,0:14:35.84,Default,,0,0,0,,它意味着你必须转化为可以在一块程序的上下文中详细地理解和使用的东西
+Dialogue: 0,0:14:35.84,0:14:38.54,Default,,0,0,0,,因此，有理由是一大堆的低级规则
+Dialogue: 0,0:14:38.79,0:14:43.65,Default,,0,0,0,,基本上你们应该的大规模丢弃功能
+Dialogue: 0,0:14:46.26,0:14:52.70,Default,,0,0,0,,低级的规则，比如，使用 T * 来指定单个对象，而不是数组
+Dialogue: 0,0:14:52.90,0:14:57.58,Default,,0,0,0,,和喜欢初始化到构造函数中赋值
+Dialogue: 0,0:14:57.71,0:15:01.08,Default,,0,0,0,,这些都是很容易检查的
+Dialogue: 0,0:15:01.08,0:15:04.18,Default,,0,0,0,,当你违反了规则，那么我们会有工具提示你
+Dialogue: 0,0:15:04.24,0:15:06.00,Default,,0,0,0,,总是初始化对象
+Dialogue: 0,0:15:06.04,0:15:11.96,Default,,0,0,0,,这几天做的编译器。但它是好的规则，我们也可以做得更好，我们有他们的外部工具
+Dialogue: 0,0:15:12.01,0:15:15.29,Default,,0,0,0,,所以基本上，算是体现通过支配世界的方式
+Dialogue: 0,0:15:15.66,0:15:22.27,Default,,0,0,0,,和工具为编程提供反馈，它还有助于统一样式
+Dialogue: 0,0:15:22.58,0:15:27.34,Default,,0,0,0,,如果我看着一段代码，我看到一个字符串，
+Dialogue: 0,0:15:27.34,0:15:30.20,Default,,0,0,0,,如果我知道它的 std::string，我知道很多
+Dialogue: 0,0:15:30.37,0:15:34.28,Default,,0,0,0,,它帮助了我，我没有办法再去读手册
+Dialogue: 0,0:15:35.51,0:15:47.51,Default,,0,0,0,,所以一个更统一风格才有助于让我快速编写代码，可以帮助我读代码，理解代码
 Dialogue: 0,0:15:47.70,0:15:53.94,Default,,0,0,0,,and one thing you should understand is that the rules and not mean to be minimal or orthogonal.
 Dialogue: 0,0:15:54.23,0:16:01.74,Default,,0,0,0,,text book writters spend a lot of time trying to make sure that fix minimal amount of paper.
 Dialogue: 0,0:16:02.54,0:16:03.79,Default,,0,0,0,,this is not we are up to
