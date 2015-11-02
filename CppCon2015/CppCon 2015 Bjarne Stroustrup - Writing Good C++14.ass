@@ -91,7 +91,7 @@ Dialogue: 0,0:05:56.52,0:06:02.78,Default,,0,0,0,,I think we can do it. And I th
 Dialogue: 0,0:06:02.78,0:06:06.50,Default,,0,0,0,,I know that well that might be a genius somewhere.
 Dialogue: 0,0:06:06.50,0:06:08.99,Default,,0,0,0,,But I think I know that no individual can do it.
 Dialogue: 0,0:06:09.14,0:06:11.97,Default,,0,0,0,,And, no single company can
-Dialogue: 0,0:06:12.11,0:06:17.39,Default,,0,0,0,,It will be captured for what that company was paticular interested in
+Dialogue: 0,0:06:12.11,0:06:17.39,Default,,0,0,0,,It will be captured for what that company was particular　interested in
 Dialogue: 0,0:06:17.39,0:06:19.15,Default,,0,0,0,,and you couldn't trust it all time.
 Dialogue: 0,0:06:19.15,0:06:27.14,Default,,0,0,0,,people explained that to me a long time ago to ensure that I took part in the (c++) standardization, so please help.
 Dialogue: 0,0:06:27.14,0:06:33.16,Default,,0,0,0,,I'm going to say a little bit about what help we would like and who we are and things like that.
@@ -104,7 +104,7 @@ Dialogue: 0,0:06:47.98,0:06:49.98,Default,,0,0,0,,its there.
 Dialogue: 0,0:06:49.98,0:06:55.06,Default,,0,0,0,,you can find it on github, give you the urls towards the end.
 Dialogue: 0,0:06:55.06,0:06:58.29,Default,,0,0,0,,there is guide lines. a lot of them.
 Dialogue: 0,0:06:58.49,0:07:00.64,Default,,0,0,0,,there is little support library.
-Dialogue: 0,0:07:00.64,0:07:11.48,Default,,0,0,0,,which is some very simple classes that mostly mapping into standard library stuff if not  map straghtly into portable c++.
+Dialogue: 0,0:07:00.64,0:07:11.48,Default,,0,0,0,,which is some very simple classes that mostly mapping into standard library stuff if not map straightly into portable c++.
 Dialogue: 0,0:07:11.48,0:07:16.44,Default,,0,0,0,,portable meaning microsoft, gcc, clang; Windows, Linux, Mac
 Dialogue: 0,0:07:16.53,0:07:17.64,Default,,0,0,0,,and mac yeah.
 Dialogue: 0,0:07:17.97,0:07:25.52,Default,,0,0,0,,there is analyze tool that will be ship by the guy at microsoft that wrote it next month
