@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 787
-Aegisub Active Line: 795
+Aegisub Scroll Position: 62
+Aegisub Active Line: 65
 Aegisub Video Zoom Percent: 1.000000
 PlayResX: 1920
 PlayResY: 1080
 Audio URI: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Video File: ../../../Videos/CppCon2015/BjarneStroustrupWritingGoodC++14.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 114709
+Aegisub Video Position: 11153
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -91,7 +91,7 @@ Dialogue: 0,0:05:56.52,0:06:02.78,Default,,0,0,0,,I think we can do it. And I th
 Dialogue: 0,0:06:02.78,0:06:06.50,Default,,0,0,0,,I know that well that might be a genius somewhere.
 Dialogue: 0,0:06:06.50,0:06:08.99,Default,,0,0,0,,But I think I know that no individual can do it.
 Dialogue: 0,0:06:09.14,0:06:11.97,Default,,0,0,0,,And, no single company can
-Dialogue: 0,0:06:12.11,0:06:17.39,Default,,0,0,0,,It will be cature
+Dialogue: 0,0:06:12.11,0:06:17.39,Default,,0,0,0,,It will be captured for what that company was paticular interested in
 Dialogue: 0,0:06:17.39,0:06:19.15,Default,,0,0,0,,and you couldn't trust it all time.
 Dialogue: 0,0:06:19.15,0:06:27.14,Default,,0,0,0,,people explained that to me a long time ago to ensure that I took part in the (c++) standardization, so please help.
 Dialogue: 0,0:06:27.14,0:06:33.16,Default,,0,0,0,,I'm going to say a little bit about what help we would like and who we are and things like that.
@@ -350,7 +350,7 @@ Dialogue: 0,0:26:09.18,0:26:12.46,Default,,0,0,0,,here is "g" makes an object, c
 Dialogue: 0,0:26:12.76,0:26:20.62,Default,,0,0,0,,and then it uses q which happens to be the pointing the the object that was deleted in f.
 Dialogue: 0,0:26:20.80,0:26:23.23,Default,,0,0,0,,this is how you scram your memory
 Dialogue: 0,0:26:23.44,0:26:26.78,Default,,0,0,0,,the rules will make sure that you don't do this.
-Dialogue: 0,0:26:26.88,0:26:31.65,Default,,0,0,0,,and it'll take care of some of the most shroud and difficult find bugs 
+Dialogue: 0,0:26:26.88,0:26:31.65,Default,,0,0,0,,and it'll take care of some of the most shroud and difficult find bugs
 Dialogue: 0,0:26:32.18,0:26:39.16,Default,,0,0,0,,and we have to do this because if we don't we can damage type safety.
 Dialogue: 0,0:26:39.33,0:26:41.54,Default,,0,0,0,,I say this object is an integer
 Dialogue: 0,0:26:42.29,0:26:44.16,Default,,0,0,0,,you do this example
@@ -400,7 +400,7 @@ Dialogue: 0,0:30:09.52,0:30:16.06,Default,,0,0,0,,that sort of dynamic module th
 Dialogue: 0,0:30:16.45,0:30:22.78,Default,,0,0,0,,I had modules like that before I put and saying whether it's a const or not , things like that
 Dialogue: 0,0:30:22.88,0:30:24.64,Default,,0,0,0,,the point is it's useless!
 Dialogue: 0,0:30:24.76,0:30:30.41,Default,,0,0,0,,It is very good for thinking about problems but it is useless for actually doing it
-Dialogue: 0,0:30:30.41,0:30:36.89,Default,,0,0,0,,because, well, it cost time|space to have that extra bit, or time&space. 
+Dialogue: 0,0:30:30.41,0:30:36.89,Default,,0,0,0,,because, well, it cost time|space to have that extra bit, or time&space.
 Dialogue: 0,0:30:37.07,0:30:47.47,Default,,0,0,0,,It means that the code that uses such smart pointers flat pointers as such are no longer ABI compatible with the existing code.
 Dialogue: 0,0:30:47.66,0:30:52.16,Default,,0,0,0,,it runs slower than ordinary C or C++.
 Dialogue: 0,0:30:52.28,0:30:53.64,Default,,0,0,0,,that's not acceptable
@@ -415,13 +415,13 @@ Dialogue: 0,0:31:40.43,0:31:44.00,Default,,0,0,0,,humans can read it, tools can 
 Dialogue: 0,0:31:44.45,0:31:46.06,Default,,0,0,0,,but your linker doesn't care.
 Dialogue: 0,0:31:46.19,0:31:49.28,Default,,0,0,0,,so everything is working as before.
 Dialogue: 0,0:31:49.39,0:31:51.00,Default,,0,0,0,,so here is how we can use it.
-Dialogue: 0,0:31:51.00,0:32:02.10,Default,,0,0,0,,we can use an owner to improve our implementations of higher level abstractions, we want to use high level abstractions like vector and static array. 
+Dialogue: 0,0:31:51.00,0:32:02.10,Default,,0,0,0,,we can use an owner to improve our implementations of higher level abstractions, we want to use high level abstractions like vector and static array.
 Dialogue: 0,0:32:02.22,0:32:12.55,Default,,0,0,0,,and we just mark that, in paticuler cases one of the 3 pointers inside the implementation of the vector is an ower and the other two aren't.
 Dialogue: 0,0:32:12.80,0:32:16.76,Default,,0,0,0,,that's the owner, keep it alive, the others just pointing to it
 Dialogue: 0,0:32:16.82,0:32:19.63,Default,,0,0,0,,that sort of the general you should see a lot.
 Dialogue: 0,0:32:19.85,0:32:26.45,Default,,0,0,0,,and only if we are dealing with pointers directly do we use owners
 Dialogue: 0,0:32:26.46,0:32:45.31,Default,,0,0,0,,so there's "f()" that taks an owner, and then trying to call it. I call it with an owner, that'll transfer ownership; I call it with non-owner,that's bad. I delete one of the owners, that's good; delete something that's not an owner, that't bad, we can catch.
-Dialogue: 0,0:32:45.56,0:32:54.34,Default,,0,0,0,,and this is just marking, the static analysis tool will tell you when you did something that wasn't good. 
+Dialogue: 0,0:32:45.56,0:32:54.34,Default,,0,0,0,,and this is just marking, the static analysis tool will tell you when you did something that wasn't good.
 Dialogue: 0,0:32:54.34,0:32:58.59,Default,,0,0,0,,an owner has to transfer to someone else or delete it.
 Dialogue: 0,0:32:59.69,0:33:04.03,Default,,0,0,0,,the code will check whether you do it (or not) that's it.
 Dialogue: 0,0:33:04.82,0:33:06.73,Default,,0,0,0,,and owners are low-leve mechanism.
@@ -451,7 +451,7 @@ Dialogue: 0,0:34:41.41,0:34:44.84,Default,,0,0,0,,then obviously I can give it b
 Dialogue: 0,0:34:45.14,0:34:48.89,Default,,0,0,0,,those are roughly only 3 cases we can handle that.
 Dialogue: 0,0:34:49.18,0:34:56.46,Default,,0,0,0,,we can stop pointers from escaping down to the bottom of the stack and out live the owner.
 Dialogue: 0,0:34:56.99,0:35:06.44,Default,,0,0,0,,so catches all kinds of the things , pointers references etc and that's so fine
-Dialogue: 0,0:35:06.49,0:35:13.69,Default,,0,0,0,,so, we need to classify acording to owner ship to work here. 
+Dialogue: 0,0:35:06.49,0:35:13.69,Default,,0,0,0,,so, we need to classify acording to owner ship to work here.
 Dialogue: 0,0:35:13.76,0:35:17.21,Default,,0,0,0,,because, look at the f() there.
 Dialogue: 0,0:35:17.52,0:35:21.30,Default,,0,0,0,,it returns a vector of integers
 Dialogue: 0,0:35:21.53,0:35:35.44,Default,,0,0,0,,and inside that vector of integers we put something that's an owner, something that's a pointer to a local and something we got from our caller
@@ -668,7 +668,7 @@ Dialogue: 0,0:49:43.75,0:49:43.90,Default,,0,0,0,,{\pos(69,423)}da
 Dialogue: 0,0:49:43.90,0:49:44.16,Default,,0,0,0,,{\pos(100,437)}da
 Dialogue: 0,0:49:45.27,0:49:48.50,Default,,0,0,0,, there's supporting sections, naming and layout
 Dialogue: 0,0:49:48.50,0:49:53.89,Default,,0,0,0,,that's where every body goes and they say they don't like the rules we wrote that's fine.
-Dialogue: 0,0:49:53.89,0:49:57.44,Default,,0,0,0,,never made anybody that the whole set of rules 
+Dialogue: 0,0:49:53.89,0:49:57.44,Default,,0,0,0,,never made anybody that the whole set of rules
 Dialogue: 0,0:49:57.56,0:49:59.66,Default,,0,0,0,,people say that they want camel case.
 Dialogue: 0,0:49:59.82,0:50:01.95,Default,,0,0,0,,sure, I hate camel case
 Dialogue: 0,0:50:02.07,0:50:03.17,Default,,0,0,0,,apart from that.
@@ -719,7 +719,7 @@ Dialogue: 0,0:53:05.15,0:53:15.01,Default,,0,0,0,,I really don't want work under
 Dialogue: 0,0:53:15.19,0:53:19.16,Default,,0,0,0,,on the other hand there'll be discussion about what is common and what isn't.
 Dialogue: 0,0:53:19.28,0:53:24.69,Default,,0,0,0,,if you look at the rules you'll find that some of them are some what controversial.
 Dialogue: 0,0:53:24.95,0:53:26.56,Default,,0,0,0,,and that's fine.
-Dialogue: 0,0:53:27.66,0:53:29.22,Default,,0,0,0,,I just choose what I'm presume right answer. 
+Dialogue: 0,0:53:27.66,0:53:29.22,Default,,0,0,0,,I just choose what I'm presume right answer.
 Dialogue: 0,0:53:29.36,0:53:32.38,Default,,0,0,0,,if you don't agree, I'll willing to argue with you.
 Dialogue: 0,0:53:32.53,0:53:34.54,Default,,0,0,0,,so that's going to be fun!
 Dialogue: 0,0:53:34.91,0:53:36.85,Default,,0,0,0,,and help wanted
@@ -818,7 +818,7 @@ Dialogue: 0,1:01:13.67,1:01:18.52,观众提问,,0,0,0,,I'm guessing
 Dialogue: 0,1:02:44.90,1:03:03.57,观众提问,,0,0,0,,总结起来就一句话： do you have guidelines for makeing C api safer in c++?
 Dialogue: 0,1:03:04.37,1:03:10.58,演讲回答,,0,0,0,,I have no plans of dealing with foreign systems.
 Dialogue: 0,1:03:10.67,1:03:14.77,演讲回答,,0,0,0,,that will not be in the core guidelines
-Dialogue: 0,1:03:15.17,1:03:34.76,演讲回答,,0,0,0,,but I wouldn't be at all surprised and I'll be very happy if somebody would write a section asist how to interact with *, how to interact java, how to interact with python, I really hope to see somebody write those sections. 
+Dialogue: 0,1:03:15.17,1:03:34.76,演讲回答,,0,0,0,,but I wouldn't be at all surprised and I'll be very happy if somebody would write a section asist how to interact with *, how to interact java, how to interact with python, I really hope to see somebody write those sections.
 Dialogue: 0,1:03:34.87,1:03:41.56,演讲回答,,0,0,0,,quiet likely they will be of the form that you can do this the static analysis to make it simpler
 Dialogue: 0,1:03:41.67,1:03:47.44,演讲回答,,0,0,0,,you can have this tiny tiny little setup classes for doing the transmission
 Dialogue: 0,1:03:47.61,1:03:49.84,演讲回答,,0,0,0,,

@@ -7,15 +7,15 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Last Style Storage: Default
-Aegisub Scroll Position: 76
-Aegisub Active Line: 102
+Aegisub Scroll Position: 184
+Aegisub Active Line: 206
 Aegisub Video Zoom Percent: 1.000000
 Audio URI: ../../../Videos/CppCon2014/CPPBasicsSutter_high.mp4
 PlayResX: 1280
 PlayResY: 720
 Video File: ../../../Videos/CppCon2014/CPPBasicsSutter_high.mp4
 Aegisub Video Aspect Ratio: c1.777778
-Aegisub Video Position: 13048
+Aegisub Video Position: 30079
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -72,7 +72,7 @@ Dialogue: 0,0:03:36.55,0:03:38.93,Default,,0,0,0,,gnu world in the last roughly 
 Dialogue: 0,0:03:40.02,0:03:41.38,Default,,0,0,0,,How many of you use clang?
 Dialogue: 0,0:03:42.62,0:03:45.65,Default,,0,0,0,, if you're using XCode, that's also clang, so put up your hand
 Dialogue: 0,0:03:46.42,0:03:47.09,Default,,0,0,0,,ok
-Dialogue: 0,0:03:48.51,0:03:54.21,Default,,0,0,0,,you know how many people are developers of the standard c++ library that shipes with clang - libc++ 
+Dialogue: 0,0:03:48.51,0:03:54.21,Default,,0,0,0,,you know how many people are developers of the standard c++ library that shipes with clang - libc++
 Dialogue: 0,0:03:54.82,0:03:56.70,Default,,0,0,0,,the answer till 20 month ago is two.
 Dialogue: 0,0:03:58.09,0:03:59.82,Default,,0,0,0,,they are both here at this week
 Dialogue: 0,0:03:59.82,0:04:02.58,Default,,0,0,0,,one is now getting on a plane, the others still here in the audience
@@ -88,7 +88,7 @@ Dialogue: 0,0:04:31.50,0:04:33.02,Default,,0,0,0,,so here is a diagram
 Dialogue: 0,0:04:33.02,0:04:35.16,Default,,0,0,0,,all the c++ developers in the world
 Dialogue: 0,0:04:35.16,0:04:43.80,Default,,0,0,0,,and the smaller cycle is all of the libc++ developers, libstdc++ developers, boost developers, and anyone has attended more than one iso c++ meeting
 Dialogue: 0,0:04:44.22,0:04:49.71,Default,,0,0,0,,and if I had put a border allying around the cycle you couldn't see the smaller cycle
-Dialogue: 0,0:04:50.37,0:04:54.43,Default,,0,0,0,,actually I had to turn off the line around the cycle otherwise you couldn't see the smaller one 
+Dialogue: 0,0:04:50.37,0:04:54.43,Default,,0,0,0,,actually I had to turn off the line around the cycle otherwise you couldn't see the smaller one
 Dialogue: 0,0:04:54.57,0:04:57.44,Default,,0,0,0,,btw, can you see it?
 Dialogue: 0,0:04:58.22,0:05:02.82,Default,,0,0,0,,we need to give good guidence to the big cycles.
 Dialogue: 0,0:05:03.48,0:05:11.01,Default,,0,0,0,,while still teaching the advanced tools for people who need advanced code including very advanced code
@@ -102,10 +102,10 @@ Dialogue: 0,0:05:34.05,0:05:35.14,Default,,0,0,0,,nice round number
 Dialogue: 0,0:05:35.50,0:05:39.88,Default,,0,0,0,,so the value of simple usable defaults is really priceless
 Dialogue: 0,0:05:40.95,0:05:41.68,Default,,0,0,0,,btw
 Dialogue: 0,0:05:41.96,0:05:43.92,Default,,0,0,0,,I mention this some handle on monday night
-Dialogue: 0,0:05:43.92,0:05:51.82,Default,,0,0,0,,the most important c++ book you should go out and buy it on bootstore now is {\i1}a tour of c++{\i0} by Bjarne Stroustrup 
+Dialogue: 0,0:05:43.92,0:05:51.82,Default,,0,0,0,,the most important c++ book you should go out and buy it on bootstore now is {\i1}a tour of c++{\i0} by Bjarne Stroustrup
 Dialogue: 0,0:05:51.92,0:05:57.64,Default,,0,0,0,,we have lot... so much thunder so...
 Dialogue: 0,0:05:52.90,0:05:57.17,Default,,0,0,0,,I know it was sold out! I know!
-Dialogue: 0,0:05:58.93,0:06:03.60,Default,,0,0,0,,but the good news is that you can still order it on the book store and they will order and ship it to you, as they have free shipping 
+Dialogue: 0,0:05:58.93,0:06:03.60,Default,,0,0,0,,but the good news is that you can still order it on the book store and they will order and ship it to you, as they have free shipping
 Dialogue: 0,0:06:03.60,0:06:06.54,Default,,0,0,0,,so go to the book store anyway or amazon or anywhere
 Dialogue: 0,0:06:06.54,0:06:07.79,Default,,0,0,0,,in paticular
 Dialogue: 0,0:06:08.24,0:06:16.01,Default,,0,0,0,,this book is important because it encapsulated in one place what every c++ programers should be expected to know
@@ -113,7 +113,7 @@ Dialogue: 0,0:06:16.97,0:06:18.49,Default,,0,0,0,,that's really important
 Dialogue: 0,0:06:19.24,0:06:25.39,Default,,0,0,0,,somebody is coming new to c++ or they are learnning modern c++ after having knew c++98
 Dialogue: 0,0:06:26.17,0:06:29.69,Default,,0,0,0,,they often ask, ok where? what's all the stuff we need to know
 Dialogue: 0,0:06:29.69,0:06:36.61,Default,,0,0,0,,well, look over here on stackoverflow and Sculter got book bot and Stroustrup's stuff is longer, there's chapters there you ought to know
-Dialogue: 0,0:06:36.64,0:06:44.02,Default,,0,0,0,,here is a 180 pages that some of you will have your time read on your plane home this weekend from cover to cover 
+Dialogue: 0,0:06:36.64,0:06:44.02,Default,,0,0,0,,here is a 180 pages that some of you will have your time read on your plane home this weekend from cover to cover
 Dialogue: 0,0:06:44.19,0:06:47.93,Default,,0,0,0,,that tells you the stuff that everyone needs to know about c++
 Dialogue: 0,0:06:47.93,0:06:49.63,Default,,0,0,0,,I recomment this book
 Dialogue: 0,0:06:49.87,0:06:50.98,Default,,0,0,0,,LET PEOPLE KNOW!
@@ -123,7 +123,111 @@ Dialogue: 0,0:06:56.52,0:06:58.42,Default,,0,0,0,,in this talk I want to focus o
 Dialogue: 0,0:06:58.42,0:07:00.82,Default,,0,0,0,,defaults, basic styles and idioms
 Dialogue: 0,0:07:00.84,0:07:01.26,Default,,0,0,0,,now
 Dialogue: 0,0:07:02.47,0:07:04.83,Default,,0,0,0,,some experts have push back me on this
-Dialogue: 0,0:07:05.04,0:07:09.86,Default,,0,0,0,,when I say the word "default" some experts treated it as bad word 
+Dialogue: 0,0:07:05.04,0:07:09.86,Default,,0,0,0,,when I say the word "default" some experts treated it as bad word
 Dialogue: 0,0:07:09.86,0:07:12.41,Default,,0,0,0,,they say you are damping down the language, no, not.
 Dialogue: 0,0:07:13.39,0:07:15.36,Default,,0,0,0,,a default does not damping down.
-Dialogue: 0,0:07:15.65,0:07:17.92,Default,,0,0,0,,especially
+Dialogue: 0,0:07:15.65,0:07:17.92,Default,,0,0,0,,especially a default does not mean
+Dialogue: 0,0:07:17.92,0:07:20.16,Default,,0,0,0,,"Oh~~ just do this blindly and donot think about it"
+Dialogue: 0,0:07:20.16,0:07:21.41,Default,,0,0,0,,That's not what it is about
+Dialogue: 0,0:07:21.84,0:07:24.98,Default,,0,0,0,,you should know your other options too.
+Dialogue: 0,0:07:25.00,0:07:27.09,Default,,0,0,0,,but, a default is about
+Dialogue: 0,0:07:27.09,0:07:31.85,Default,,0,0,0,,unless you have a good reasons to do something else (which does involve thinking) don't over thinking
+Dialogue: 0,0:07:32.05,0:07:35.76,Default,,0,0,0,,Just do this unless you have reasons to do something more complex.
+Dialogue: 0,0:07:35.88,0:07:49.71,Default,,0,0,0,,In paticular, this goes right in line with general good advice including these three idoms at the bottom of the screen which was the titles of 3 of the first 8/9 idoms in c++ coding standart not coincidentally.
+Dialogue: 0,0:07:49.82,0:07:53.84,Default,,0,0,0,,write for clarity and correctness first\Navoid premature optimization
+Dialogue: 0,0:07:53.84,0:07:57.69,Default,,0,0,0,,in patirular, prefer clear code over optimal code
+Dialogue: 0,0:07:57.76,0:08:00.69,Default,,0,0,0,,and that's almost a swear in c++ audience.
+Dialogue: 0,0:08:01.07,0:08:05.34,Default,,0,0,0,,like, "we should be optimal by default". no you should not. you should have good performance by default.
+Dialogue: 0,0:08:05.92,0:08:11.21,Default,,0,0,0,,and if anyone tries to tell you that C++ has been about writting optimal code by default
+Dialogue: 0,0:08:11.21,0:08:13.63,Default,,0,0,0,,correct them gentally, because it has not.
+Dialogue: 0,0:08:13.73,0:08:23.32,Default,,0,0,0,,c++ has always been about writting efficient code {\i1} not perfectly efficient or optimally efficient but good efficient code {\i0} by default.
+Dialogue: 0,0:08:23.38,0:08:26.39,Default,,0,0,0,,and always been able to open the hood to take control
+Dialogue: 0,0:08:26.58,0:08:32.98,Default,,0,0,0,,over memory layout, over the actual ... {\i1}even down to the instructions (level) that get down {\i0} {\b1}when you need to.{\b0}
+Dialogue: 0,0:08:33.27,0:08:34.93,Default,,0,0,0,,YOU DON'T ALWAYS NEED TO OPEN THE HOOD!
+Dialogue: 0,0:08:34.93,0:08:38.45,Default,,0,0,0,,so, this talk is not about - don't think.
+Dialogue: 0,0:08:38.66,0:08:41.01,Default,,0,0,0,,it's about, let's not over think
+Dialogue: 0,0:08:41.06,0:08:43.79,Default,,0,0,0,,because it isn't a true we revel in complexity.
+Dialogue: 0,0:08:43.92,0:08:54.91,Default,,0,0,0,,how many of you -- we're not gona put a camera on you, so non of your friends can tell you -- how many of you would say, ya, revel in complexity has discreeted me at least some point in my coding career.
+Dialogue: 0,0:08:55.39,0:08:58.59,Default,,0,0,0,,I see all the speakers have their hands up, that's good.
+Dialogue: 0,0:08:59.08,0:09:07.11,Default,,0,0,0,,so, this is good, we're acknowledging our problem then we can start to deal with it. we overcome denial, step one.
+Dialogue: 0,0:09:08.40,0:09:10.88,Default,,0,0,0,,let's talk about range-for based loops.
+Dialogue: 0,0:09:10.88,0:09:14.40,Default,,0,0,0,,you know, we can overthink range-for based loops.
+Dialogue: 0,0:09:14.79,0:09:21.44,Default,,0,0,0,,I think that everything I want to say about range based for loops pretty much fits on one simple slide, and here it is.
+Dialogue: 0,0:09:21.76,0:09:25.72,Default,,0,0,0,,WHY DO THIS WHEN YOU CAN DO THIS?
+Dialogue: 0,0:09:26.91,0:09:28.68,Default,,0,0,0,,Any questions?
+Dialogue: 0,0:09:29.23,0:09:34.77,Default,,0,0,0,, Now, some of you maybe saying, shouldn't I be writting "auto &&" there ? Maybe, but ...
+Dialogue: 0,0:09:35.22,0:09:39.06,Default,,0,0,0,,wait-for, we'll talk more about "auto&&" at the end.
+Dialogue: 0,0:09:39.17,0:09:56.69,Default,,0,0,0,,but, this is perfectly good, in fact, no matter whether "C" is a const or not, these code does the right thing because "auto&" also go through the iterators, if you get const iterator back that dereferenced to const T, it'll be deduced to the right thing so it'll be read-only for read-only collection. This is simple code!
+Dialogue: 0,0:09:56.77,0:10:02.58,Default,,0,0,0,,if you are traversing every element of a collection, prefer to write range-for.
+Dialogue: 0,0:10:02.64,0:10:12.98,Default,,0,0,0,,if you need early break, range-for does not support that yet. but the ranges proposal comming form the november meeting that I think will address that, even enable that.
+Dialogue: 0,0:10:13.03,0:10:23.68,Default,,0,0,0,,Certenly if you're writting a for loop that reaches every element of the collection, just write range-for with auto& unless you want to modify in place.
+Dialogue: 0,0:10:24.00,0:10:32.06,Default,,0,0,0,,soon, thanks to Stephan Lavavej, Stephan are you here? Wave if you're here. "喵～"
+Dialogue: 0,0:10:32.66,0:10:38.53,Default,,0,0,0,,if I see one more solid coding examples checked in with kity, I will scream.
+Dialogue: 0,0:10:40.48,0:10:45.35,Default,,0,0,0,,for ( e : c ) is going to be a short hand, that the standard commitee is seriously considering
+Dialogue: 0,0:10:45.40,0:10:54.13,Default,,0,0,0,,and there are for some compilers once the commitee, will beless it hopefuly at the next meeting for c++17. are already start implementing it so you don't have to wait 3-years to start using this.
+Dialogue: 0,0:10:54.14,0:11:01.56,Default,,0,0,0,,that basically sayes, you know what, we are gonna declare variable "e" for you and it will be of type  deduced what ever, so the constness will flow though.
+Dialogue: 0,0:11:01.57,0:11:08.25,Default,,0,0,0,,and the nice thing about it, the first thing you might thinking is, how can c++ doing that? isn't that a breaking change?
+Dialogue: 0,0:11:08.81,0:11:15.64,Default,,0,0,0,,haven't you suspect that the last line maybe a breaking change can change the meaning of existng c++14 code today?
+Dialogue: 0,0:11:17.37,0:11:18.96,Default,,0,0,0,,Oh, you're scared.
+Dialogue: 0,0:11:19.81,0:11:27.67,Default,,0,0,0,,I thought it was.  and then Stephan kept reminding me, "no, no. you can't actually write that today, you can't use existing variable you have to declare new one"
+Dialogue: 0,0:11:28.21,0:11:29.33,Default,,0,0,0,,so we distract the type.
+Dialogue: 0,0:11:29.37,0:11:38.25,Default,,0,0,0,,the default, the sensible default, will be essentially the same as before, auto && or auto&, which will do the right thing.
+Dialogue: 0,0:11:38.40,0:11:50.35,Default,,0,0,0,,this desn't mean that you cann't lift the hood and write yourself if you want a certain type, or even write the naked iterator-based for loop if you want to do something more, like break, part-way thought or skip elements, that's all fine!
+Dialogue: 0,0:11:50.35,0:11:52.35,Default,,0,0,0,,But defaults matter!
+Dialogue: 0,0:11:52.64,0:12:02.88,Default,,0,0,0,,you are offen influences of people in your companies, of people who ask questions on stackoverflow, who participate in community.
+Dialogue: 0,0:12:03.30,0:12:08.47,Default,,0,0,0,,so, please,  you teach starting from the bottom of the screen up, not the other way around.
+Dialogue: 0,0:12:09.61,0:12:12.02,Default,,0,0,0,,now let's talk about smart pointers!
+Dialogue: 0,0:12:12.74,0:12:14.55,Default,,0,0,0,,use smart pointers effectively!
+Dialogue: 0,0:12:14.74,0:12:21.54,Default,,0,0,0,,But I still want you to use lots and lots and lots of raw pointers and references, they're great!
+Dialogue: 0,0:12:22.85,0:12:24.66,Default,,0,0,0,,yeah, stern silence.
+Dialogue: 0,0:12:25.28,0:12:37.01,Default,,0,0,0,,so, we hate pointers and references as raw pointers ... why do we recommend those? Those should be your default  parameter types and return types still! let's talk about that.
+Dialogue: 0,0:12:37.76,0:12:49.73,Default,,0,0,0,,now, clearly, the code on the left hand side of the screen, was perfectly good code in books some time ago. but we tell people DON'T WRITE THAT ANY MORE!
+Dialogue: 0,0:12:49.73,0:12:54.18,Default,,0,0,0,,in fact basically all the red stuff shouldn't pass  checking  anymore, in new code.
+Dialogue: 0,0:12:54.77,0:13:00.22,Default,,0,0,0,,so, don't use owning pointers, don't use explicit new, don't use delete.
+Dialogue: 0,0:13:00.97,0:13:07.74,Default,,0,0,0,,except, if you have real performance need and encapsulated down deep inside some low-level data structure maybe.
+Dialogue: 0,0:13:07.76,0:13:15.71,Default,,0,0,0,,but FYI, I beleve even the entire STL can be implemented with no lost of performance using unique_ptr and no using new and delete.
+Dialogue: 0,0:13:16.18,0:13:17.72,Default,,0,0,0,,we're about to try that!
+Dialogue: 0,0:13:17.88,0:13:18.80,Default,,0,0,0,,and so
+Dialogue: 0,0:13:19.65,0:13:24.67,Default,,0,0,0,,that "exception" might be even smaller than that you might think.
+Dialogue: 0,0:13:25.46,0:13:30.18,Default,,0,0,0,,'cause unique_ptr is roughly free... is very thin overhead
+Dialogue: 0,0:13:30.45,0:13:32.66,Default,,0,0,0,,often non at all over raw pointer.
+Dialogue: 0,0:13:33.08,0:13:38.96,Default,,0,0,0,,modern c++ says: use unique_ptr, use a share_ptr, use make_unique
+Dialogue: 0,0:13:39.26,0:13:43.96,Default,,0,0,0,,so, if you want to write new to allocate new object, use make_unique by default
+Dialogue: 0,0:13:44.06,0:13:50.86,Default,,0,0,0,,if you know -- again, it's a default -- if you know this object is going to be shared, definitally use make_shared by default
+Dialogue: 0,0:13:51.32,0:14:00.29,Default,,0,0,0,,if you don't know you are creating an object, hanging it out, you don't know it's gonna be shared stuff, use make_unique. cause you can always move that into shared_ptr
+Dialogue: 0,0:14:00.61,0:14:03.15,Default,,0,0,0,,but if you know it's going to be shared, use make_shared
+Dialogue: 0,0:14:03.92,0:14:06.28,Default,,0,0,0,,for delete, don't write anything
+Dialogue: 0,0:14:06.00,0:14:07.85,Default,,0,0,0,,this is advice giving to people
+Dialogue: 0,0:14:08.13,0:14:12.50,Default,,0,0,0,,how many of you follow that advice already in your codebase today? at least to your new code ?
+Dialogue: 0,0:14:13.36,0:14:15.62,Default,,0,0,0,,looks like about half~~~ ok ~~~
+Dialogue: 0,0:14:16.13,0:14:24.65,Default,,0,0,0,,how many of you try to follow this advice and found ... still found some dangling pointers problems with reference counted smart pointers ?
+Dialogue: 0,0:14:24.66,0:14:26.42,Default,,0,0,0,,a few ! I have a slide for you!
+Dialogue: 0,0:14:26.42,0:14:28.85,Default,,0,0,0,,I know the problem is, there is a cure.\
+Dialogue: 0,0:14:29.17,0:14:30.79,Default,,0,0,0,,wait a few slides.
+Dialogue: 0,0:14:31.52,0:14:39.33,Default,,0,0,0,,a very important qulifier on this: this slide says, don't use {\b1}ownning{\b0} raw pointers and references.
+Dialogue: 0,0:14:42.05,0:14:43.14,Default,,0,0,0,,what does that mean?
+Dialogue: 0,0:14:43.49,0:14:47.76,Default,,0,0,0,,really a pointer you should be calling delete on it at some point
+Dialogue: 0,0:14:48.01,0:14:56.10,Default,,0,0,0,,Non-Owning pointers/references are awesome! keep writting them ! especially for parameters and return values
+Dialogue: 0,0:14:56.26,0:15:12.77,Default,,0,0,0,,when you talk about structure lifetimes, where one function calls another funcion and that callee executes entirely within the scope of the caller because then you return/resume the caller, anything a calling function is keeping alive stay alive for as long as the caller function
+Dialogue: 0,0:15:12.77,0:15:15.01,Default,,0,0,0,,now there is a reentrance case we'll talk about that.
+Dialogue: 0,0:15:15.06,0:15:20.25,Default,,0,0,0,,but gentally this is nice as rushed all the way down where the lifetime nasted perfectly
+Dialogue: 0,0:15:20.34,0:15:23.81,Default,,0,0,0,,you don't need owner ship transfer down the call stack.  \
+Dialogue: 0,0:15:24.13,0:15:26.73,Default,,0,0,0,,unless you're gonna take something out of the call stack
+Dialogue: 0,0:15:26.73,0:15:28.73,Default,,0,0,0,,you don't need to care about the owner ship
+Dialogue: 0,0:15:28.88,0:15:39.50,Default,,0,0,0,,so in c++98 class we could say, hey if you need to look at the widget and say it's aquired parameter (ignoring const, we'll come to that later), pass by reference!
+Dialogue: 0,0:15:39.70,0:15:41.75,Default,,0,0,0,,or, if it's optional, pass by pointer.
+Dialogue: 0,0:15:42.11,0:15:44.55,Default,,0,0,0,,are you ready for the modern c++ advice ?
+Dialogue: 0,0:15:45.89,0:15:47.62,Default,,0,0,0,,IT'S THE SAME !
+Dialogue: 0,0:15:45.87,0:15:47.62,Default,,0,0,0,,{\pos(275,483)}IT'S THE SAME !
+Dialogue: 0,0:15:48.25,0:15:49.81,Default,,0,0,0,,it's the same advice
+Dialogue: 0,0:15:49.86,0:15:59.97,Default,,0,0,0,,now if you have a unique_ptr, a shared_ptr, then you want to dereference it, or call ".get()" to pass & or *
+Dialogue: 0,0:16:00.28,0:16:03.62,Default,,0,0,0,,but raw & and raw* for the win!
+Dialogue: 0,0:16:03.61,0:16:06.66,Default,,0,0,0,,they still are the prefered parameter type.
+Dialogue: 0,0:16:06.65,0:16:11.68,Default,,0,0,0,,think about this way, if you are not convinced about that, if you feel uncomfortable, think about this way:
+Dialogue: 0,0:16:11.70,0:16:19.31,Default,,0,0,0,,unless you're talking about ownership transfering , in which case is perfectly valid to pass smart pointers, and I'll show that in just a second
+Dialogue: 0,0:16:19.74,0:16:24.56,Default,,0,0,0,,unless the caller function is going to participate the ownership somehow.
+Dialogue: 0,0:16:25.49,0:16:27.21,Default,,0,0,0,,if you just once look at the widget, why 
+Dialogue: 0,0:16:27.21,0:16:27.20,Default,,0,0,0,,why on earth as the callee care if they
+Dialogue: 0,0:16:27.21,0:16:38.45,Default,,0,0,0,,why on earth does the callee care if you managing that lifetime by unique_ptr by shared_ptr by ... whether it's global whether it's global, he should be ignorant to that and this is how to write that.
+Dialogue: 0,0:16:38.96,0:16:43.62,Default,,0,0,0,,very simple and the classic advice is still true.
+Dialogue: 0,0:16:43.62,0:16:45.62,Default,,0,0,0,,
