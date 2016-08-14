@@ -218,48 +218,48 @@ Dialogue: 0,0:15:22.58,0:15:27.34,Default,,0,0,0,,如果我看着一段代码，
 Dialogue: 0,0:15:27.34,0:15:30.20,Default,,0,0,0,,如果我知道它的 std::string，我知道很多
 Dialogue: 0,0:15:30.37,0:15:34.28,Default,,0,0,0,,它帮助了我，我没有办法再去读手册
 Dialogue: 0,0:15:35.51,0:15:47.51,Default,,0,0,0,,所以一个更统一风格才有助于让我快速编写代码，可以帮助我读代码，理解代码
-Dialogue: 0,0:15:47.70,0:15:53.94,Default,,0,0,0,,and one thing you should understand is that the rules and not mean to be minimal or orthogonal.
-Dialogue: 0,0:15:54.23,0:16:01.74,Default,,0,0,0,,text book writters spend a lot of time trying to make sure that fix minimal amount of paper.
-Dialogue: 0,0:16:02.54,0:16:03.79,Default,,0,0,0,,this is not we are up to
-Dialogue: 0,0:16:04.06,0:16:12.33,Default,,0,0,0,,we try to have the most helpful, and have a large set tool to tell you when you fall over the edge.
-Dialogue: 0,0:16:12.88,0:16:16.58,Default,,0,0,0,,so the structure of a rule is simple and structured.
-Dialogue: 0,0:16:18.24,0:16:21.46,Default,,0,0,0,,"No naked new" for instance, it's a rule.
-Dialogue: 0,0:16:21.46,0:16:24.65,Default,,0,0,0,,and Reference numbers - people love reference numbers
-Dialogue: 0,0:16:24.65,0:16:27.15,Default,,0,0,0,,It also means that you can search for them.
-Dialogue: 0,0:16:27.26,0:16:31.62,Default,,0,0,0,,I mean you can refer to them in error messages. things like that.
-Dialogue: 0,0:16:32.01,0:16:38.49,Default,,0,0,0,,and NEVER NEVER tell people what not to do without giving a reason or what to do without giving a reason
-Dialogue: 0,0:16:38.53,0:16:44.15,Default,,0,0,0,,so every rule with the first thing that comes up with the rule itself is that rational a reason.
-Dialogue: 0,0:16:44.50,0:16:46.32,Default,,0,0,0,,and then it comes with an example.
-Dialogue: 0,0:16:46.40,0:16:53.05,Default,,0,0,0,,because by and large we don't understand abstract text, we need a concrete example or more
-Dialogue: 0,0:16:53.38,0:16:57.70,Default,,0,0,0,,if it's a "don't do this" rule, there should be alternatives.
-Dialogue: 0,0:16:57.81,0:17:01.12,Default,,0,0,0,,never tell people what not to do unless you give them alternatives.
-Dialogue: 0,0:17:01.84,0:17:03.54,Default,,0,0,0,,fairly simple to say.
-Dialogue: 0,0:17:03.79,0:17:05.64,Default,,0,0,0,,little bit hard to do sometimes.
-Dialogue: 0,0:17:05.70,0:17:10.83,Default,,0,0,0,,these rules are variable and value for a long time.
-Dialogue: 0,0:17:11.23,0:17:13.55,Default,,0,0,0,,There's references to other things.
-Dialogue: 0,0:17:13.55,0:17:18.34,Default,,0,0,0,,There's notes, things that we just felt was useful to say
-Dialogue: 0,0:17:18.44,0:17:26.99,Default,,0,0,0,,and then, there suppose to be long discussion at the end where you discuss a set of rules, set of reasons as such.
-Dialogue: 0,0:17:27.12,0:17:28.84,Default,,0,0,0,,it's bit weak just now.
-Dialogue: 0,0:17:28.91,0:17:30.62,Default,,0,0,0,,but that's the idea.
-Dialogue: 0,0:17:30.73,0:17:40.05,Default,,0,0,0,,some time you need more. as an explanation,  that what fits on above this many lines, fit right on your screen when you look at them.
-Dialogue: 0,0:17:40.30,0:17:42.53,Default,,0,0,0,,so that's structure.
-Dialogue: 0,0:17:42.87,0:17:52.28,Default,,0,0,0,,the general idea is that people who have tryed to subset language have by and large failed.
-Dialogue: 0,0:17:52.81,0:18:02.73,Default,,0,0,0,,the thing that you really want to get rid of, like bad uses of pointers, bad interactions between inheritance and arrays and things like that
-Dialogue: 0,0:18:02.73,0:18:08.96,Default,,0,0,0,,if you just ban everything to get rid of problems, you can't write decent code anymore
-Dialogue: 0,0:18:08.96,0:18:11.77,Default,,0,0,0,,Yes! I want to write high-level code!
-Dialogue: 0,0:18:11.95,0:18:19.79,Default,,0,0,0,,But how do I do that? I do that by having libraries that allow me to write high-level code, and they implemented it using low-level code.
-Dialogue: 0,0:18:19.79,0:18:24.22,Default,,0,0,0,,because otherwise you can't get the efficiency and portability out of that.
-Dialogue: 0,0:18:24.22,0:18:27.55,Default,,0,0,0,,So, the general idea is not just the subset.
-Dialogue: 0,0:18:27.55,0:18:30.20,Default,,0,0,0,,First, we provide a superset.
-Dialogue: 0,0:18:30.20,0:18:33.52,Default,,0,0,0,,we have ISO standard C++
-Dialogue: 0,0:18:33.60,0:18:38.99,Default,,0,0,0,,we have parts of the standard library that we recommend and that's you can use when you want to.
-Dialogue: 0,0:18:39.18,0:18:52.81,Default,,0,0,0,,and we have something called the guidelines support libraries which is small set - small as less than 2 dozen little classes and really that smaill - that's added.
-Dialogue: 0,0:18:53.04,0:18:54.76,Default,,0,0,0,,And that way, we can say:
-Dialogue: 0,0:18:54.76,0:18:57.52,Default,,0,0,0,,the messy dangerous bits, don't use them.
-Dialogue: 0,0:18:57.71,0:19:08.54,Default,,0,0,0,,we have provided abstractions that are elegent and efficient to allow you to not go there most of the time, for most people, all of the time.
-Dialogue: 0,0:19:08.54,0:19:13.36,Default,,0,0,0,,once you build that superset - the language + libraries.
-Dialogue: 0,0:19:13.52,0:19:17.04,Default,,0,0,0,,the you subset, and you can get rid of a lot of the crack.
-Dialogue: 0,0:19:17.18,0:19:24.43,Default,,0,0,0,,this is not a brand new idea I wrote a paper about it sometime more than ten years ago.
+Dialogue: 0,0:15:47.70,0:15:53.94,Default,,0,0,0,,还有一件事你要理解就是规则不一定非要短小或者直白(orthogonal)
+Dialogue: 0,0:15:54.23,0:16:01.74,Default,,0,0,0,,作家写作时要花很多时间来缩减文字好省纸
+Dialogue: 0,0:16:02.54,0:16:03.79,Default,,0,0,0,,我们不是干这个的
+Dialogue: 0,0:16:04.06,0:16:12.33,Default,,0,0,0,,我们是要变得更有帮助，而且有一大套工具来在你越界的时候提示你
+Dialogue: 0,0:16:12.88,0:16:16.58,Default,,0,0,0,,单条规则的结构都很简单且有组织
+Dialogue: 0,0:16:18.24,0:16:21.46,Default,,0,0,0,,比如"拒绝naked new", 这就是一条规则.
+Dialogue: 0,0:16:21.46,0:16:24.65,Default,,0,0,0,,还有引用计数——人们爱引用计数
+Dialogue: 0,0:16:24.65,0:16:27.15,Default,,0,0,0,,你也应该可以找到它们
+Dialogue: 0,0:16:27.26,0:16:31.62,Default,,0,0,0,,我的意思是你们可以在报错之类的里看到他们
+Dialogue: 0,0:16:32.01,0:16:38.49,Default,,0,0,0,,并且永远永远不要毫无理由的禁止或者鼓励人们做某件事
+Dialogue: 0,0:16:38.53,0:16:44.15,Default,,0,0,0,,所以一切规则构筑的根基都应该是有理有据的
+Dialogue: 0,0:16:44.50,0:16:46.32,Default,,0,0,0,,然后我来举个栗子吧
+Dialogue: 0,0:16:46.40,0:16:53.05,Default,,0,0,0,,因为说了这么多抽象的话你们估计也听不懂，得靠举例子
+Dialogue: 0,0:16:53.38,0:16:57.70,Default,,0,0,0,,如果你禁止人们做某件事，那你一定要给他们另外的选择
+Dialogue: 0,0:16:57.81,0:17:01.12,Default,,0,0,0,,绝不要不给就禁止
+Dialogue: 0,0:17:01.84,0:17:03.54,Default,,0,0,0,,说着容易
+Dialogue: 0,0:17:03.79,0:17:05.64,Default,,0,0,0,,做着难
+Dialogue: 0,0:17:05.70,0:17:10.83,Default,,0,0,0,,这样的规则才有着经历时间考验的价值：
+Dialogue: 0,0:17:11.23,0:17:13.55,Default,,0,0,0,,要联系其他事物
+Dialogue: 0,0:17:13.55,0:17:18.34,Default,,0,0,0,,要记下我们觉得有用的东西
+Dialogue: 0,0:17:18.44,0:17:26.99,Default,,0,0,0,,然后，我们经过长长的讨论来定下上述规则
+Dialogue: 0,0:17:27.12,0:17:28.84,Default,,0,0,0,,这样讨论出的产物还很幼稚
+Dialogue: 0,0:17:28.91,0:17:30.62,Default,,0,0,0,,但是就是这个概念
+Dialogue: 0,0:17:30.73,0:17:40.05,Default,,0,0,0,,有时候你需要更多长篇累牍的解释，需要它们在你的屏幕上显示出来
+Dialogue: 0,0:17:40.30,0:17:42.53,Default,,0,0,0,,——所以这就是结构
+Dialogue: 0,0:17:42.87,0:17:52.28,Default,,0,0,0,,一个普及的观点是，这个语言的很多子集都失败了
+Dialogue: 0,0:17:52.81,0:18:02.73,Default,,0,0,0,,你真正想摆脱的东西，比如指针的误用，还有对继承啦数组啦的不当应用
+Dialogue: 0,0:18:02.73,0:18:08.96,Default,,0,0,0,,但如果你一心不让这些问题出现……你也就写不出像样的代码了
+Dialogue: 0,0:18:08.96,0:18:11.77,Default,,0,0,0,,没错！老子也想写高质量代码！
+Dialogue: 0,0:18:11.95,0:18:19.79,Default,,0,0,0,,但我代码怎么写得这么好呢？？ 我用了厉害的库帮我实现，这些库本身写了底层的代码
+Dialogue: 0,0:18:19.79,0:18:24.22,Default,,0,0,0,,因为用其他方法不可能写的高效还可重用
+Dialogue: 0,0:18:24.22,0:18:27.55,Default,,0,0,0,,所以，作为子集的语言根本不够用
+Dialogue: 0,0:18:27.55,0:18:30.20,Default,,0,0,0,,第一步，我们要有个超集语言
+Dialogue: 0,0:18:30.20,0:18:33.52,Default,,0,0,0,,我们有 ISO 规范的 C++
+Dialogue: 0,0:18:33.60,0:18:38.99,Default,,0,0,0,,我们有随时可用，也建议使用的标准库
+Dialogue: 0,0:18:39.18,0:18:52.81,Default,,0,0,0,,我们还有一种叫规范支持库（gsl.h）的东西，可小了，就两小打类——就这么小！
+Dialogue: 0,0:18:53.04,0:18:54.76,Default,,0,0,0,,这么一来，我们就可以说：
+Dialogue: 0,0:18:54.76,0:18:57.52,Default,,0,0,0,,乱七八糟的危险的犄角旮旯，不要用
+Dialogue: 0,0:18:57.71,0:19:08.54,Default,,0,0,0,,我们已经提供了优雅高效的抽象来不让你走到那一步——对多数人来说，一直都是
+Dialogue: 0,0:19:08.54,0:19:13.36,Default,,0,0,0,,一旦你完成那个超集——语言+库
+Dialogue: 0,0:19:13.52,0:19:17.04,Default,,0,0,0,,然后你再取子集为己用，趋利避害
+Dialogue: 0,0:19:17.18,0:19:24.43,Default,,0,0,0,,这也不是什么新概念，我十年前就写过这方面的文章
 Dialogue: 0,0:19:24.60,0:19:32.12,Default,,0,0,0,,so, really what we want is not neutered subset of c++ which is a lot of people that tryed.
 Dialogue: 0,0:19:32.12,0:19:35.16,Default,,0,0,0,,we want c++ on steroids on the other hand.
 Dialogue: 0,0:19:35.16,0:19:36.97,Default,,0,0,0,,so more of a good stuff.
